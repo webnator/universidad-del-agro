@@ -1,0 +1,122 @@
+[
+  {
+    "asset": "references/01-desktop.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/01-articulos-reales-r5-desktop.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Cartas editoriales en el campus",
+    "device": "desktop",
+    "originalSize": [
+      1440,
+      960
+    ]
+  },
+  {
+    "asset": "references/01-mobile.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/01-articulos-reales-r5-mobile.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Cartas editoriales en el campus",
+    "device": "mobile",
+    "originalSize": [
+      390,
+      993
+    ]
+  },
+  {
+    "asset": "references/02-desktop.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/02-campus-alrededor-desktop.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Campus alrededor",
+    "device": "desktop",
+    "originalSize": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "asset": "references/02-mobile.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/02-campus-alrededor-mobile.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Campus alrededor",
+    "device": "mobile",
+    "originalSize": [
+      862,
+      1825
+    ]
+  },
+  {
+    "asset": "references/03-desktop.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/03-galeria-del-claustro-desktop.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Galería de publicaciones",
+    "device": "desktop",
+    "originalSize": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "asset": "references/03-mobile.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/03-galeria-del-claustro-mobile.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Galería de publicaciones",
+    "device": "mobile",
+    "originalSize": [
+      852,
+      1846
+    ]
+  },
+  {
+    "asset": "references/04-desktop.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/04-campus-arriba-desktop.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Campus arriba, contenido debajo",
+    "device": "desktop",
+    "originalSize": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "asset": "references/04-mobile.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/04-campus-arriba-mobile.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Campus arriba, contenido debajo",
+    "device": "mobile",
+    "originalSize": [
+      863,
+      1823
+    ]
+  },
+  {
+    "asset": "references/05-desktop.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/05-mesa-en-el-campus-desktop.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Mesa de lectura en el campus",
+    "device": "desktop",
+    "originalSize": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "asset": "references/05-mobile.webp",
+    "method": "Preserved pre-existing visual reference; format conversion only",
+    "source": "design/campus-layouts-v1/assets/05-mesa-en-el-campus-mobile.png",
+    "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+    "proposal": "Mesa de lectura en el campus",
+    "device": "mobile",
+    "originalSize": [
+      911,
+      1727
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "method": "Built-in image_gen",
+  "created": "2026-11-20",
+  "reference": "../campus-layouts-v1/assets/03-galeria-del-claustro-desktop.png",
+  "purpose": "Return proposal3 to the approved reference: slim muted timber/metal frames and patinated copper title plaque; preserve real editorial photography.",
+  "assets": {
+    "frame": {
+      "file": "assets/gallery-frame-reference.webp",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-51b838e1-179a-4680-9a67-3b3b5ad8f9bb.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: MATERIAL PLATE ONLY for the slim wooden notice-board frames in this exact approved university reference image. The image is the identity/material reference, NOT a UI to reproduce. Produce one perfectly square front-on EMPTY frame with no background or margins. Match the reference's THIN DARK WEATHERED TIMBER FRAME with small aged gunmetal corner brackets and screw heads: muted brown walnut/chestnut, matte worn grain and subtle highlights, understated and realistic. NOT glossy orange oak, NOT thick ornamental moulding, NOT cork, NOT a golden picture frame. Outer wooden rails occupy the outer6 percent of the square on each edge, grain horizontal on horizontal rails and vertical on uprights, simple butt joints/metal corner plates like the reference. Inside is empty warm ivory uncoated paper, subtle natural paper fibers, gentle recessed edge shadow. Square frame fills the full image edge to edge, straight parallel sides, orthographic frontal asset for CSS nine-slice. Keep lighting from upper left consistent with the physical cloister. No text, no headlines, no photograph, no icons, no interface, no legs, no exterior background, no posters inside, no watermark. Focus only on the restrained thin dark timber/metal/paper material of the reference.",
+      "size": {
+        "width": 1254,
+        "height": 1254
+      },
+      "workspacePath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/gallery-frame-reference.webp"
+    },
+    "plaque": {
+      "file": "assets/gallery-plaque-reference.webp",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-3cb65e24-9ac3-4447-a716-c65fd731a375.png",
+      "prompt": "Use case: precise-object-edit. Asset type: blank hanging gallery-title plaque material for the exact university reference. Reference is the identity/material guide. Generate ONLY a very wide horizontal rectangular plaque, aspect about5:1, front-on, filling the output with no external background. Match the reference's dark muted copper-brown hanging sign: aged brown copper/patinated metal with restrained natural mottling, thin dark edge, tiny gunmetal screw heads near each corner. Matte, weathered, subtle edge highlights, not glossy orange wood, not gold, not ornamental. Completely BLANK central face ready for live HTML ivory serif title; absolutely no letters, icons, text or logo. Upper-left soft daylight. Perfectly straight horizontal/vertical edges, no perspective distortion, no drop shadow outside the plaque, no hanging wires, no surrounding scene, no margins. The plaque itself only, same refined restrained tone and physical character as the sign in the reference.",
+      "size": {
+        "width": 2172,
+        "height": 724
+      },
+      "workspacePath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/gallery-plaque-reference.webp"
+    }
+  }
+}

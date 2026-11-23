@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cartas.html",
+    "id": "cards",
+    "name": "Cartas editoriales en el campus",
+    "description": "Una lectura cada vez sobre el campus. Pasa entre artículos y guarda los que quieras consultar."
+  },
+  {
+    "file": "02-campus-alrededor.html",
+    "id": "island",
+    "name": "Campus alrededor",
+    "description": "Una publicación en primer plano, con el campus visible alrededor de las lecturas."
+  },
+  {
+    "file": "03-galeria.html",
+    "id": "gallery",
+    "name": "Galería de publicaciones",
+    "description": "Artículos expuestos dentro del claustro. En móvil, una galería que se recorre verticalmente."
+  },
+  {
+    "file": "04-campus-arriba.html",
+    "id": "panorama",
+    "name": "Campus arriba, contenido debajo",
+    "description": "Un panorama de la universidad abre paso a una superficie amplia para consultar publicaciones."
+  },
+  {
+    "file": "05-mesa.html",
+    "id": "desk",
+    "name": "Mesa de lectura en el campus",
+    "description": "Un índice y una lectura abierta sobre la mesa de la biblioteca, con el campus al fondo."
+  }
+]

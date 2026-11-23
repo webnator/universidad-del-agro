@@ -1,0 +1,133 @@
+/* Reference-led gallery: modest, thin-framed posters below a clear view of the campus. */
+.gallery-world{--gallery-head:clamp(155px,27dvh,280px);--board-height:min(580px,calc((100dvh - var(--header)) * .58),calc((100vw - 136px) / 2.1),calc(100dvh - var(--header) - var(--gallery-head) - 36px));container-type:size;display:grid;grid-template-rows:var(--gallery-head) minmax(0,1fr);padding:0 28px 20px;gap:0}
+.gallery-world::before{position:absolute;inset:0;background-size:cover;background-position:center top}
+.gallery-heading{position:relative;width:100%;height:100%;margin:0;min-width:0}
+.gallery-world .gallery-title{position:absolute;top:clamp(20px,4dvh,40px);left:7.8cqw;display:inline-flex;gap:12px;align-items:center;margin:0;padding:10px 22px;border:7px solid transparent;border-image:url('assets/gallery-plaque-reference.webp') 70 fill / 7px / 0 stretch;background:transparent;color:#fff4e2;font-size:clamp(24px,2.25vw,32px);line-height:1.15;font-weight:700;box-shadow:2px 5px 10px #2c1c1338;white-space:nowrap}
+.gallery-title svg{width:28px;height:28px;stroke-width:1.3;flex:none}
+/* Building labels share the background image coordinates, outside the article scroll. */
+.gallery-world .gallery-wayfinding{--scene-width:max(100vw,calc((100dvh - var(--header)) * 1.5));--scene-height:calc(var(--scene-width) * 2 / 3);position:absolute;inset:0;transform:none;width:100%;height:100%;min-height:0;max-height:none;display:block;margin:0;z-index:3;pointer-events:none}
+.gallery-wayfinding .destination{position:absolute;left:clamp(62px,calc((100vw - var(--scene-width)) / 2 + var(--place-x) * var(--scene-width)),calc(100vw - 62px));top:calc(var(--place-y) * var(--scene-height));transform:translate(-50%,-50%);min-height:40px;font-size:14px;gap:7px;padding:8px 10px;border-radius:6px;justify-content:center;white-space:nowrap;pointer-events:auto}
+.gallery-wayfinding .library{--place-x:.05;--place-y:.36}
+.gallery-wayfinding .soil{--place-x:.30;--place-y:.25}
+.gallery-wayfinding .auditorium{--place-x:.81;--place-y:.25}
+.gallery-wayfinding .cafe{--place-x:.95;--place-y:.355}
+.gallery-wayfinding .destination svg{width:18px;height:18px}
+.gallery-world .gallery-scroll{--gallery-floor:16px;min-height:0;padding:max(8px,calc(100cqh - var(--gallery-head) - var(--board-height) - var(--gallery-floor))) 12px var(--gallery-floor);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain}
+.gallery-world .poster-gallery{width:min(1160px,calc(var(--board-height) * 2.1 + 56px),100%);height:auto;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:stretch}
+.gallery-world .exhibition-poster{height:var(--board-height);min-height:0;min-width:0;padding:0;border:0;background:transparent;box-shadow:none;display:flex;flex-direction:column}
+.gallery-world .exhibition-poster::before,.gallery-world .exhibition-poster::after{display:none}
+.board-frame{container-type:size;min-height:0;min-width:0;display:flex;flex:1;padding:1px;border:7px solid transparent;border-image:url('assets/gallery-frame-reference.webp') 56 fill / 7px / 0 stretch;box-shadow:3px 7px 13px #28180e3d}
+.gallery-world .poster-sheet{--poster-title:clamp(18px,7.4cqw,25px);position:relative;min-height:0;min-width:0;width:100%;display:grid;grid-template-rows:calc(var(--poster-title) * 3.3) minmax(64px,1fr) 60px 12px 28px;gap:7px;padding:12px 14px;background:transparent;box-shadow:none}
+.poster-sheet::before,.poster-sheet::after{display:none}
+.gallery-world .poster-sheet .article-title{margin:0;font-size:var(--poster-title);line-height:1.1;letter-spacing:-.02em;align-self:start;text-wrap:balance;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.gallery-world .poster-sheet .article-image{height:100%;min-height:0;width:100%;margin:0;align-self:stretch;display:block}
+.gallery-world .poster-sheet .article-image a{display:block;width:100%;height:100%}
+.gallery-world .poster-sheet .article-image img{width:100%;height:100%;max-height:none;max-width:100%;object-fit:cover;border-radius:2px}
+.gallery-world .poster-sheet .excerpt{margin:0;padding:0;font-size:14px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;max-height:4.2em}
+.gallery-world .poster-sheet .byline{font-size:9px;line-height:1.3;margin:0;align-self:end;white-space:nowrap}
+.gallery-world .poster-bottom{padding:0;margin:0;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.gallery-world .poster-bottom .read-more{padding:5px 7px;border-radius:3px;background:var(--copper);color:var(--paper);font-size:11px;font-weight:400;line-height:18px;gap:5px;white-space:nowrap}
+.gallery-world .poster-bottom .read-more:hover{background:#803f2b;text-decoration:none}
+.gallery-world .poster-bottom .read-more svg{width:14px;height:14px}
+.gallery-world .poster-bottom .utilities{margin:0;width:auto;flex:none}
+.gallery-world .poster-bottom .utilities button{width:24px;height:28px}
+.gallery-world .poster-bottom .utilities svg{width:10px;height:10px}
+.board-stand{height:32px;position:relative;flex:none}
+.board-leg{position:absolute;top:0;bottom:3px;width:8px;background:#70513a url('assets/gallery-frame-reference.webp') left center / 228px 228px;box-shadow:2px 4px 5px #2c1d1538}
+.board-leg.leg-left{left:4px}
+.board-leg.leg-right{right:4px}
+.board-leg::after{content:'';position:absolute;bottom:-3px;left:-6px;width:20px;height:4px;background:#514d40;border-radius:1px;box-shadow:2px 4px 7px #291b1440}
+.gallery-world .gallery-bottom{display:none}
+@media(max-width:900px){
+ .gallery-world{--gallery-head:clamp(142px,20dvh,200px);--single-width:min(340px,78vw);--board-height:min(calc(var(--single-width) / .76),calc(100dvh - var(--header) - var(--gallery-head) - 32px));padding-bottom:14px}
+ .gallery-world .gallery-title{left:50%;transform:translateX(-50%);top:14px;font-size:24px;gap:10px;padding:8px 18px}
+ .gallery-title svg{width:23px;height:23px}
+ .gallery-wayfinding .destination{font-size:13px;padding:8px;gap:6px}
+ .gallery-world .poster-gallery{display:flex;flex-direction:column;width:var(--single-width);max-width:100%;gap:28px}
+ .gallery-world .poster-sheet{grid-template-rows:calc(var(--poster-title) * 3.3) minmax(64px,1fr) 60px 12px 28px}
+}
+@media(max-width:600px){
+ .gallery-world{padding:0 14px 12px}
+ .gallery-world::before{background-position:44% top}
+ .gallery-world .gallery-title{font-size:20px;padding:8px 12px;gap:8px;border-width:6px;border-image-width:6px}
+ .gallery-title svg{width:21px;height:21px}
+ .gallery-wayfinding .destination{min-height:32px;font-size:12px;padding:6px 8px}
+ .gallery-wayfinding .destination svg{width:16px;height:16px}
+ .gallery-world .gallery-scroll{--gallery-floor:12px;padding-left:5px;padding-right:5px}
+ .gallery-world .poster-sheet{padding:12px 12px;gap:6px}
+}
+@media(max-width:600px) and (max-height:650px){
+ .gallery-world .gallery-title{top:12px;font-size:18px;padding:5px 10px;border-width:5px;border-image-width:5px;gap:7px}
+ .gallery-title svg{width:18px;height:18px}
+}
+/* Short windows keep the frame and actions intact instead of growing the posters. */
+@container (max-height:300px){
+ .gallery-world .poster-sheet{--poster-title:clamp(17px,7cqw,20px);grid-template-rows:calc(var(--poster-title) * 3.3) minmax(40px,1fr) 40px 11px 26px;gap:5px;padding:9px 12px}
+ .gallery-world .poster-sheet .excerpt{-webkit-line-clamp:2;max-height:2.8em}
+ .gallery-world .poster-sheet .byline{font-size:8.5px}
+ .gallery-world .poster-bottom .read-more{font-size:10.5px;padding:4px 6px}
+ .gallery-world .poster-bottom .utilities button{height:26px}
+}
+@media(max-height:650px){
+ .gallery-world{--board-height:max(280px,min(580px,calc((100dvh - var(--header)) * .58),calc((100vw - 136px) / 2.1),calc(100dvh - var(--header) - var(--gallery-head) - 36px)));padding-bottom:0}
+ .gallery-world .gallery-scroll{--gallery-floor:8px;padding-top:max(6px,calc(100cqh - var(--gallery-head) - var(--board-height) - var(--gallery-floor)))}
+}
+@media(max-width:900px) and (max-height:650px){
+ .gallery-world{--board-height:max(280px,min(calc(var(--single-width) / .76),calc(100dvh - var(--header) - var(--gallery-head) - 32px)))}
+}
+
+@media(min-width:901px) and (max-width:1240px){
+ .gallery-wayfinding .library{--place-x:.14;--place-y:.29}
+ .gallery-wayfinding .soil{--place-x:.38;--place-y:.27}
+ .gallery-wayfinding .auditorium{--place-x:.75;--place-y:.255}
+ .gallery-wayfinding .cafe{--place-x:.91;--place-y:.32}
+}
+
+/* Portrait framing reveals both wings; a second paving layer fills short windows. */
+@media(max-width:900px){
+ .gallery-world{--portrait-scene-height:min(calc(100dvh - var(--header)),calc((100dvh - var(--header) - var(--board-height) - 28px) * 2));}
+ .gallery-world::before{background-image:url('assets/cloister-mobile-spatial.webp'),url('assets/cloister-mobile-spatial.webp');background-size:100% var(--portrait-scene-height),200% 400%;background-position:center top,center bottom;background-repeat:no-repeat}
+ .gallery-world .gallery-wayfinding{--scene-width:100vw;--scene-height:var(--portrait-scene-height)}
+ .gallery-wayfinding .library{--place-x:.23;--place-y:.32}
+ .gallery-wayfinding .soil{--place-x:.23;--place-y:.43}
+ .gallery-wayfinding .auditorium{--place-x:.77;--place-y:.32}
+ .gallery-wayfinding .cafe{--place-x:.77;--place-y:.43}
+}
+
+@media(min-width:901px){
+ .gallery-wayfinding .soil,.gallery-wayfinding .auditorium{top:min(calc(var(--place-y) * var(--scene-height)),calc(100dvh - var(--header) - var(--board-height) - 60px))}
+}
+@media(min-width:901px) and (max-height:650px){
+ .gallery-wayfinding .soil,.gallery-wayfinding .auditorium{top:min(calc(var(--place-y) * var(--scene-height)),calc(100dvh - var(--header) - var(--board-height) - 32px))}
+}
+
+/* The exhibition moves horizontally; architecture and poster proportions stay put. */
+.gallery-world .poster-gallery{position:relative;display:block;touch-action:pan-y}
+.gallery-window{overflow:hidden;margin:-12px;padding:12px}
+.gallery-track{display:flex;gap:28px;width:100%;transition:transform 440ms cubic-bezier(.22,.68,.25,1)}
+.gallery-track .exhibition-poster{flex:0 0 calc((100% - 56px) / 3)}
+.gallery-arrow{position:absolute;top:calc((var(--board-height) - 32px) / 2);transform:translateY(-50%);width:38px;height:44px;display:grid;place-items:center;padding:0;border:1px solid #bda58a;border-radius:5px;background:#fff8ebf5;color:var(--brown);box-shadow:2px 4px 8px #28180e26;z-index:4}
+.gallery-arrow svg{width:19px;height:19px}
+.gallery-previous{left:-46px}
+.gallery-next{right:-46px}
+.gallery-arrow:hover:not(:disabled){background:var(--paper);border-color:var(--copper);color:var(--copper)}
+.gallery-arrow:disabled{opacity:.3;cursor:default}
+.gallery-announcement{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.gallery-world .gallery-library .poster-sheet{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;padding:20px 16px;text-align:center}
+.gallery-world .gallery-library .article-title{font-size:clamp(20px,8cqw,28px);display:block;overflow:visible;align-self:center}
+.library-shelf{display:flex;justify-content:center;gap:7px;height:clamp(60px,26cqh,120px);width:100%}
+.library-shelf img{display:block;min-width:0;width:calc((100% - 14px) / 3);height:100%;object-fit:cover;border-radius:2px}
+.gallery-world .gallery-library .excerpt{display:block;font-size:14px;line-height:1.4;max-height:none;overflow:visible}
+.gallery-world .gallery-library .read-more{flex:none;font-size:12px;padding:6px 10px;border:0;border-radius:3px;background:var(--copper);color:var(--paper)}
+@media(max-width:900px){
+ .gallery-track .exhibition-poster{flex-basis:100%}
+ .gallery-arrow{width:30px;height:42px}
+}
+@media(max-width:1240px){.gallery-previous{left:-12px}.gallery-next{right:-12px}}
+@container(max-height:300px){
+ .gallery-world .gallery-library .poster-sheet{gap:8px;padding:12px}
+ .gallery-world .gallery-library .article-title{font-size:20px}
+ .gallery-world .gallery-library .excerpt{font-size:12px}
+ .library-shelf{height:56px}
+}
+@media(prefers-reduced-motion:reduce){.gallery-track{transition:none}}

@@ -1,0 +1,11 @@
+{
+  "method": "Built-in image_gen",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-ea62abc9-beb0-4d36-a1b0-283bb911739b.png",
+  "reference": "/Users/unalaptop/Work/clientes/agro-university/design/campus-layouts-v1/assets/05-mesa-en-el-campus-mobile.png",
+  "prompt": "Use case: precise-object-edit. Asset type: transparent empty single reading page/folio for mobile HTML, material matched to reference. Produce ONLY an isolated blank warm cream PAPER PAGE with a slim brown/copper leather cover below it and thin realistic stacked page edges around its perimeter. Single broad portrait page, about 3:4 width/height; a straight overhead view with NO perspective and NO tilt, HTML supplies perspective. Same photographic paper/leather material as the mobile reference, subtly rounded/curved corners and natural tiny perimeter shadow. No center fold or vertical spine crossing the page: one continuous blank reading surface. No text, images, lines, tabs, icons, UI, objects, table or scene. Fill canvas almost edge to edge with the page, minimal transparent margin; fully transparent outside the paper/cover/shadow. It must read as a physical book page, not a flat web card or thick wooden picture frame.",
+  "transparent": true,
+  "size": [
+    1086,
+    1448
+  ]
+}

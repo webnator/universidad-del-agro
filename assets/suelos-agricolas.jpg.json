@@ -1,0 +1,11 @@
+{
+  "prompt": "Origin: {\"source\": \"https://universidadagricola.com/wp-content/uploads/2017/02/ecolgica-300x197-1.jpg\", \"article\": \"https://universidadagricola.com/suelos-agricolas/\", \"authors\": \"Hernán Laurentin\", \"method\": \"Original image downloaded from the client publication, unchanged.\", \"sha256\": \"af9bb7c10bf7da2631d3a5572d20e63316dbef01f2fd1ebe13eefff360a5c940\"}",
+  "provenance": {
+    "source": "https://universidadagricola.com/wp-content/uploads/2017/02/ecolgica-300x197-1.jpg",
+    "article": "https://universidadagricola.com/suelos-agricolas/",
+    "authors": "Hernán Laurentin",
+    "method": "Original image downloaded from the client publication, unchanged.",
+    "sha256": "af9bb7c10bf7da2631d3a5572d20e63316dbef01f2fd1ebe13eefff360a5c940"
+  },
+  "note": "Sidecar preserves raster bytes, including original client-photo hashes."
+}

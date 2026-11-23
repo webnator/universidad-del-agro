@@ -1,0 +1,15 @@
+{
+  "method": "Built-in image_gen",
+  "created": "2026-11-20",
+  "purpose": "Photographic oak/cork material for the physical notice boards of proposal3; no article photos modified.",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-84f98123-b236-4e42-bffd-f8a3879639f7.png",
+  "reference": "assets/cloister.webp",
+  "file": "../campus-layouts-v1/proposal-3-before-reference/assets/noticeboard-oak-cork.webp",
+  "prompt": "Use case: photorealistic-natural. Asset type: material plate for a physical university notice-board frame, to be used as a CSS nine-slice border with cork center. Input reference image provides ONLY the warm timber and daylight material identity of the agricultural university cloister. Generate ONE perfectly frontal, axis-aligned SQUARE EMPTY CORK NOTICE BOARD, filling the image exactly to the outside edges with no margins/background. Square image 1024x1024. Wooden frame occupies precisely about the outer 6.25 percent (64px of1024) on all four sides, consistent thickness. Frame material: warm oiled honey-brown oak/timber matching the reference pergola, visible fine grain and slight natural variation, crisply joined mitred corners, shallow bevels and a convincing inner recessed edge. Grain runs horizontally on top/bottom rails and vertically on left/right uprights. One tiny round dark brass recessed screw in each of the FOUR outer corners, wholly inside that64px frame zone. Inside: EMPTY NATURAL LIGHT TAN CORK with recognisable irregular fine cork granules, muted warm tone, quiet enough to surround cream editorial paper. No cards or paper in it. Physical lighting from upper left: subtle realistic frame edge highlights, the frame casts a narrow soft contact shadow onto the recessed cork. Keep cork texture evenly lit away from the inner frame edge, avoid large marks or distracting patches. This is a front-on material photograph, NOT a scene, NOT perspective or isometric. Straight parallel outer/inner rectangular edges. NO lettering, symbols, logos, paper, UI, clips, pushpins, feet, hanging wires, external shadows/background or watermarks. Only timber frame, four corner screws and natural cork interior. High fidelity wood and cork microtexture, genuine physical joinery and recess.",
+  "size": {
+    "width": 1254,
+    "height": 1254
+  },
+  "workspacePath": "/Users/unalaptop/Work/clientes/agro-university/design/campus-layouts-v1/proposal-3-before-reference/assets/noticeboard-oak-cork.webp",
+  "status": "Superseded: rejected heavy oak/cork treatment. See gallery-reference-materials.json."
+}

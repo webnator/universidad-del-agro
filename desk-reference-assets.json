@@ -1,0 +1,87 @@
+{
+  "method": "Built-in image_gen",
+  "purpose": "Physical desk/folio retained; original sharper campus restored through separate photographic planes.",
+  "jobs": [
+    {
+      "id": "desk-scene-desktop",
+      "asset": "desk-terrace-reference-v2.webp",
+      "transparent": false,
+      "ref": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-54efb07e-f6f3-4b57-82a4-df2e2403990d.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied already-clean university terrace photograph. The CURRENT far tabletop edge is at image y510px. Move ONLY that far tabletop edge UP to y468px (45.7% of the1024px image height), exactly matching the original approved composition. Extend the foreground wood tabletop upward over the42px strip y468..510, leaving the tops of both wicker chairs exactly where they are (around y408px) and letting their lower portions naturally be occluded by the raised table edge. Thus chair backs remain visible from y408 to468. Keep the new stone-floor/column separation and distinct thin tabletop edge, but compress the exposed paving strip behind the table accordingly. Preserve ALL OTHER PIXELS/COMPOSITION: same canvas size, camera, entire university, roof beams, lighting, mountains, plant and coffee positions. DO NOT redesign or reframe. This is one precise table-height correction. Still NO book, paper, UI, text, labels or people. Output same full-bleed photograph and aspect ratio.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-3dbdcfbb-61c1-493f-b061-82e9ff310878.png",
+      "history": [
+        {
+          "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-54efb07e-f6f3-4b57-82a4-df2e2403990d.png",
+          "prompt": "Use case: precise-object-edit. Asset type: clean photorealistic university terrace backdrop for a pixel-faithful HTML reproduction. EDIT TARGET is this approved empty terrace photograph. Preserve EXACT overall framing, camera, building shapes and positions, mountain landscape, canopy, chairs and all material colors. Preserve the two wicker chair backs at approximately x38% and x73%, y40–46%, the far edge of the timber table at y46%, the coffee mug, potted plant and small books on the far left, books at lower right. The bottom half must remain an EMPTY continuous warm timber tabletop for a separate HTML open folio. Make ONLY this physical correction: distinguish the freestanding TABLE from the STONE FLOOR and from the timber COLUMN at left. The terrace columns stand on stone paving BEHIND the table; they must not flow into the horizontal tabletop or look like table legs emerging through its surface. Keep the tabletop's far edge a clean thin horizontal wood edge with a subtle under-edge/contact shadow and a small visible recess between the left stone walkway/column base and tabletop. Table is foreground furniture, stone terrace behind it. Keep chairs exposed above the far edge. Do not add any foreground paper, book, reading panel, text, UI, label, sign, logo, person, border or new objects. No change in camera height, crop, table height, background composition or lighting. Output one landscape 3:2 photograph, same composition and coordinates as input.",
+          "ref": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/reading-terrace.webp"
+        }
+      ],
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-terrace-reference-v2.webp"
+    },
+    {
+      "id": "desk-scene-mobile",
+      "asset": "desk-terrace-reference-mobile-v2.webp",
+      "transparent": false,
+      "ref": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-0f21520f-e85f-4f0a-ac21-27b2af5f2c8a.png",
+      "prompt": "Use case: precise-object-edit. Edit target is the supplied already-clean university terrace photograph. The CURRENT far tabletop edge is at image y441px. Move ONLY that far tabletop edge UP to y425px (24.6% of1727px image height), matching the original reference. Extend foreground wood tabletop up over that16px strip, keeping the top of the wicker chair exactly where it is and naturally occluding a little more of its lower part. Keep clear stone-floor/column separation and distinct thin tabletop edge. Preserve ALL OTHER PIXELS/COMPOSITION: same canvas size, camera, entire university, roof beams, lighting, mountains, plant and coffee positions. DO NOT redesign or reframe. This is one precise table-height correction. Still NO book, paper, UI, text, labels or people. Output same full-bleed photograph and aspect ratio.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-f5176a01-a758-4e00-9e34-29fd46550b64.png",
+      "history": [
+        {
+          "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-0f21520f-e85f-4f0a-ac21-27b2af5f2c8a.png",
+          "prompt": "Use case: precise-object-edit. Asset type: clean portrait backdrop behind real HTML for the approved university reading desk, matching the provided reference pixel composition. EDIT TARGET is this exact mobile reference. Remove ALL interface and ALL paper/book: top blue masthead, its text/icons, Explorar campus button, all tabs and ALL open book including leather cover, page edges, paper, article text, photos and navigation buttons. Reconstruct an EMPTY warm wood tabletop where the book was; no replacement book or paper. Preserve the SAME camera framing and proportions: full university vista in the UPPER QUARTER; timber roof and lamp upper left, glass library left, copper-roof lab/library/auditorium/cafe, gardens and mountain landscape; a wicker chair back near center at y21–24%; clear far edge of the tabletop at y24.5%; coffee mug at far left around x3–16%, y25–31%. Keep empty table across the lower 75%. Replace the removed masthead band at the top with natural continuation of existing roof/sky, without shifting anything below. Fix the physical geometry so timber columns stand on STONE terrace behind a distinct tabletop edge, not continuous tabletop/floor; same scene, not a new university. No extra furniture or props. No people, text, labels, papers, book, mockup, UI, watermark or border. One portrait image matching the reference proportions, approximately 911:1728. Do not move the table edge, chair, university buildings or coffee to different coordinates.",
+          "ref": "/Users/unalaptop/Work/clientes/agro-university/design/campus-layouts-v1/assets/05-mesa-en-el-campus-mobile.png"
+        }
+      ],
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-terrace-reference-mobile-v2.webp"
+    },
+    {
+      "id": "desk-folio-material",
+      "asset": "desk-folio-material.png",
+      "transparent": true,
+      "ref": "/Users/unalaptop/Work/clientes/agro-university/design/campus-layouts-v1/assets/05-mesa-en-el-campus-desktop.png",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent physical paper/leather material for a live HTML reading folio. Reference is visual/material reference ONLY. Produce ONLY the EMPTY OPEN READING FOLIO as a clean photographic cutout. No background, no table, no text, no images, no tabs, no ink, no icons or UI. Straight OVERHEAD FLAT view, no perspective taper and no rotation: HTML will supply the perspective. Wide landscape object, roughly 2.25:1 width/height. It is a custom asymmetric library portfolio with a NARROW left index flap occupying 34.5% of total width and a broad right reading page occupying65.5%; subtle real binding/vertical spine exactly at34.5% of width, not center. Cream warm matte paper like the reference, lightly tactile but unobtrusive, softly curved page corners and gently curved paper near the binding. Brown/copper leather underneath, several thin visible stacked paper edges at the perimeter, natural small contact shadow. Both paper surfaces blank and unobstructed, nearly flat for readable HTML text. Outer shape mostly rectangular, soft physical corners, slim leather outline; not a chunky picture frame. The object fills the canvas with minimal transparent margin, fully transparent outside the folio and its small natural shadow. One isolated object, no text/letters, no illustration, no duplicate views, no decorative ruling or printed patterns.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-abeaee84-f1c4-4377-8cd5-8a1325bacd95.png",
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-folio-material.png"
+    },
+    {
+      "id": "desk-page-material",
+      "asset": "desk-page-material.png",
+      "transparent": true,
+      "ref": "/Users/unalaptop/Work/clientes/agro-university/design/campus-layouts-v1/assets/05-mesa-en-el-campus-mobile.png",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent empty single reading page/folio for mobile HTML, material matched to reference. Produce ONLY an isolated blank warm cream PAPER PAGE with a slim brown/copper leather cover below it and thin realistic stacked page edges around its perimeter. Single broad portrait page, about 3:4 width/height; a straight overhead view with NO perspective and NO tilt, HTML supplies perspective. Same photographic paper/leather material as the mobile reference, subtly rounded/curved corners and natural tiny perimeter shadow. No center fold or vertical spine crossing the page: one continuous blank reading surface. No text, images, lines, tabs, icons, UI, objects, table or scene. Fill canvas almost edge to edge with the page, minimal transparent margin; fully transparent outside the paper/cover/shadow. It must read as a physical book page, not a flat web card or thick wooden picture frame.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-ea62abc9-beb0-4d36-a1b0-283bb911739b.png",
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-page-material.png"
+    },
+    {
+      "id": "desk-foreground-mask",
+      "asset": "desk-foreground-mask.png",
+      "transparent": false,
+      "ref": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-terrace-reference-v2.webp",
+      "prompt": "Use case: background-extraction. Asset type: exact grayscale SEGMENTATION MATTE for CSS compositing of the provided university terrace photograph. Output a MASK ONLY, NOT a photograph. Same exact landscape1536x1024canvas and object coordinates as input. White pixels mean KEEP original foreground; black pixels mean REVEAL a separate sharper campus background. Paint SOLID WHITE for the timber roof/canopy/beams, vertical structural columns, library interior/window frame at far left, the whole potted plant including every leaf, table and ALL objects on it, chairs. Paint SOLID BLACK for the outdoor vista seen through the timber opening: sky, mountains, university buildings and gardens, but only ABOVE image y400. Everything below y410 is entirely SOLID WHITE, even garden between chairs, to preserve the approved entire lower foreground. Between y390 and410 blend the black opening smoothly to white over that horizontal lower transition. Trace actual photographic architectural edges and plant leaves precisely, do not approximate with a generic rectangle/polygon. Foreground boundaries should be crisp with1–2px natural antialias, no wide feather except that lower horizontal transition. White across the top canopy and left foreground, black only in the real outdoor opening. No text, no labels, no colors, no simulated material, no borders or extra margins. One precise black/white/grayscale mask, preserve dimensions/camera. No scene redesign.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-bebe9c46-1dd1-4461-bc99-01017f8daa11.png",
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-foreground-mask.png",
+      "usage": "Luminance matte; CSS guards keep approved foreground below opening unchanged"
+    },
+    {
+      "id": "desk-foreground-mask-mobile",
+      "asset": "desk-foreground-mask-mobile.png",
+      "transparent": false,
+      "ref": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-terrace-reference-mobile-v2.webp",
+      "prompt": "Use case: background-extraction. Asset type: exact grayscale SEGMENTATION MATTE for CSS compositing of the provided PORTRAIT university terrace photograph. Output a MASK ONLY, NOT a photograph. Keep the exact911x1727portrait canvas and object coordinates. White pixels mean KEEP original foreground; black pixels mean REVEAL a separate sharper original campus photograph. Paint SOLID WHITE for timber roof/canopy/beams/vertical columns, library interior at far left, hanging lamp, entire potted plant including leaves, chairs, cup and whole tabletop. Paint SOLID BLACK ONLY for the outdoor vista sky/mountains/university buildings/garden ABOVE image y342, excluding foreground objects and their precise edges. Everything BELOW y354 is entirely solid white, even gardens, so a button from a background reference at y360..415 can NEVER show through. Blend the lower opening edge smoothly from black to white across y342..354. Also keep the top y0..72 strip entirely WHITE to occlude any header in the backplate. Trace the real canopy/column/leaf boundaries accurately, 1–2px antialias on those edges, not a generic rectangle/polygon. No colors, text, pictures, UI, borders or margins. One grayscale mask only, preserve original proportions and all coordinates.",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-d922c41b-0aef-4ff7-bd89-3522d94765c2.png",
+      "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/desk-foreground-mask-mobile.png",
+      "usage": "Luminance matte; CSS guards keep approved foreground below opening unchanged"
+    }
+  ],
+  "advertPhoto": {
+    "source": "references/05-desktop.webp",
+    "method": "CSS viewport of original seedling-photo subregion only; no source UI is reused."
+  },
+  "campusLayering": {
+    "desktopBackplate": "assets/reading-terrace.webp",
+    "mobileBackplate": "references/05-mobile.webp",
+    "foreground": "Existing approved v2 terrace RGB, unchanged files. Only luminance masks generated.",
+    "guard": "CSS white mask union preserves all foreground at and below40% desktop /20.5% portrait and top4.2% portrait. Original mobile reference UI is always occluded.",
+    "tabs": "HTML siblings of material within transformed folio; behind separate material ::before, with page texture and inset/contact shadows."
+  }
+}

@@ -1,0 +1,84 @@
+/* Proposal 2: side wings frame the approved publication. Paper geometry is independent of the new image crop. */
+.island-world{
+  container-type:size;
+  padding:0;
+  --layout-scene-height:max(100cqh,calc(100cqw * 992 / 1586));
+  --scene-width:max(100cqw,calc(100cqh * 1585 / 992));
+  --scene-height:max(100cqh,calc(100cqw * 992 / 1585));
+  --paper-bottom:20px;
+  --paper-height:calc(100cqh - .25 * var(--layout-scene-height) - 35px - var(--paper-bottom));
+}
+.island-world::before{position:absolute;inset:0;background-image:url('assets/island-campus-lateral.webp');background-size:cover;background-position:center top}
+.island-world .campus-navigation{position:absolute;inset:0;height:100%;min-height:0;max-height:none}
+.island-world .destination{
+  left:clamp(85px,calc((100cqw - var(--scene-width)) / 2 + var(--place-x) * var(--scene-width)),calc(100cqw - 84px));
+  top:min(calc(var(--place-y) * var(--scene-height)),calc(100cqh - 36px));
+  font-size:20px;
+}
+.island-world .destination svg{width:22px;height:22px}
+.island-world .soil{--place-x:.06;--place-y:.51}
+.island-world .library{--place-x:.11;--place-y:.20}
+.island-world .auditorium{--place-x:.89;--place-y:.20}
+.island-world .cafe{--place-x:.96;--place-y:.51}
+.island-world .editorial-island{
+  position:absolute;
+  left:50%;
+  bottom:var(--paper-bottom);
+  transform:translateX(-50%);
+  width:min(1040px,calc(100% - 320px));
+  height:var(--paper-height);
+  flex:none;
+  margin:0;
+  padding:24px 26px 28px;
+}
+.island-world .section-heading{gap:15px;margin-bottom:20px}
+.island-world .section-heading h1{font-size:26px}
+.island-world .editorial-lead{grid-template-columns:34% minmax(0,1fr);gap:23px}
+.island-world .editorial-lead .article-image{height:280px}
+.island-world .editorial-lead .article-image img{max-height:280px}
+.island-world .editorial-lead .article-title{font-size:28px}
+
+@media(max-width:1200px){
+  .island-world{--paper-height:calc(100cqh - .32 * var(--layout-scene-height) - 35px - var(--paper-bottom))}
+  .island-world .soil{--place-y:.31}
+  .island-world .cafe{--place-y:.32}
+  .island-world .editorial-island{width:calc(100% - 48px)}
+}
+
+@media(max-width:900px){
+  .island-world{
+    --layout-scene-height:max(100cqh,calc(100cqw * 1586 / 992));
+    --scene-width:max(100cqw,calc(100cqh * 1008 / 1561));
+    --scene-height:max(100cqh,calc(100cqw * 1561 / 1008));
+    --paper-bottom:18px;
+    --paper-height:calc(100cqh - .275 * var(--layout-scene-height) - 40px - var(--paper-bottom));
+  }
+  .island-world::before{background-image:url('assets/island-campus-lateral-mobile.webp')}
+  .island-world .soil{--place-x:.18;--place-y:.275}
+  .island-world .library{--place-x:.21;--place-y:.19}
+  .island-world .auditorium{--place-x:.79;--place-y:.19}
+  .island-world .cafe{--place-x:.83;--place-y:.275}
+  .island-world .editorial-island{width:calc(100% - 32px)}
+}
+@media(max-width:760px){
+  .island-world{--paper-bottom:14px}
+  .island-world .destination{font-size:16px;min-height:40px;padding:7px 10px;gap:6px;left:clamp(61px,calc((100cqw - var(--scene-width)) / 2 + var(--place-x) * var(--scene-width)),calc(100cqw - 68px))}
+  .island-world .destination svg{width:18px;height:18px}
+  .island-world .editorial-island{width:calc(100% - 24px);padding:20px 19px 24px}
+  .island-world .section-heading{margin-bottom:20px}
+  .island-world .section-heading h1{font-size:25px}
+  .island-world .editorial-lead{display:block}
+  .island-world .editorial-lead::after{content:'';display:block;clear:both}
+  .island-world .editorial-lead>div{display:contents}
+  .island-world .editorial-lead .article-image{float:right;width:82px;height:112px;margin:0 0 12px 14px}
+  .island-world .editorial-lead .article-image img{max-height:112px}
+  .island-world .editorial-lead .article-title{font-size:23px}
+  .island-world .editorial-lead .excerpt{clear:both;padding-top:6px}
+}
+@media(max-width:370px){
+  .island-world{--paper-bottom:12px}
+  .island-world .destination{font-size:14px;min-height:38px;padding-inline:8px;gap:5px;left:clamp(54px,calc((100cqw - var(--scene-width)) / 2 + var(--place-x) * var(--scene-width)),calc(100cqw - 60px))}
+  .island-world .destination svg{width:17px;height:17px}
+  .island-world .editorial-island{width:calc(100% - 24px);padding-inline:17px}
+  .island-world .section-heading h1{font-size:24px}
+}

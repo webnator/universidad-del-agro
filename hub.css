@@ -1,0 +1,40 @@
+@font-face{font-family:Public;src:url('assets/public-sans-latin-400-normal.woff2');font-weight:400;font-display:swap}@font-face{font-family:Public;src:url('assets/public-sans-latin-700-normal.woff2');font-weight:700;font-display:swap}@font-face{font-family:Editorial;src:url('assets/source-serif-4-latin-700-normal.woff2');font-weight:700;font-display:swap}*{box-sizing:border-box}body{margin:0;background:#eff2ef;color:#15344c;font:15px/1.6 Public,Arial,sans-serif}::selection{background:#c4d8e7;color:#15344c}a{color:inherit;text-underline-offset:4px}a:focus-visible{outline:2px solid #a8583c;outline-offset:5px}.hub-header,.proposal-grid,.hub-footer{max-width:1520px;margin:auto;padding:35px 40px}.hub-header{padding-top:50px;padding-bottom:20px}.hub-header h1{font:700 42px/1.1 Editorial,Georgia,serif;letter-spacing:-.025em;max-width:900px;margin:0 0 20px}.hub-header p{max-width:850px;font-size:17px;margin:0 0 20px}.hub-header nav{display:flex;flex-wrap:wrap;align-items:center;gap:15px 30px;font-size:12px;color:#48616e}.proposal-grid{padding-top:0;display:grid;grid-template-columns:1fr 1fr;gap:35px 30px}.proposal-preview{padding-top:23px;border-top:1px solid #b8c8cd;min-width:0}.preview-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:18px}.preview-heading h2{font:700 23px/1.25 Public,sans-serif;letter-spacing:-.02em;margin:0}.preview-heading h2 a{text-decoration:none}.open-proposal{font-size:11px;white-space:nowrap;margin-top:5px}.preview-images{display:grid;grid-template-columns:minmax(0,3.1fr) minmax(0,1fr);align-items:start;gap:12px;text-decoration:none}.preview-images img{display:block;width:100%;height:auto;background:#c9d6d9}.proposal-preview p{font-size:13px;color:#48616e;margin:16px 0 0;max-width:640px}.hub-footer{font-size:11px;color:#48616e;display:flex;justify-content:space-between;gap:25px;padding-top:10px}.sources-page{max-width:920px;padding:45px 35px 70px;margin:auto}.sources-page h1{font:700 40px/1.2 Editorial,Georgia,serif;letter-spacing:-.025em;margin:25px 0 20px}.sources-page>p{font-size:17px}.sources-page article{border-top:1px solid #b8c8cd;padding-top:25px;margin-top:30px}.sources-page h2{font:700 26px/1.2 Editorial,Georgia,serif}.sources-page article p{font-size:14px}.sources-page article>a{font-size:13px}@media(max-width:1000px){.preview-heading{display:block}.open-proposal{display:inline-block;margin-top:12px}}@media(max-width:700px){.hub-header,.proposal-grid,.hub-footer{padding:25px 22px}.hub-header{padding-top:32px;padding-bottom:25px}.hub-header h1{font-size:33px}.hub-header p{font-size:16px}.proposal-grid{grid-template-columns:1fr;padding-top:0;gap:30px}.preview-heading{display:block}.preview-heading h2{font-size:23px}.open-proposal{font-size:12px}.hub-footer{display:block}.sources-page{padding:30px 22px 50px}.sources-page h1{font-size:32px}.sources-page>p{font-size:15px}}
+.proposal-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.proposal-actions a{font-size:12px;font-weight:700}
+.proposal-actions .open-proposal{display:inline-flex;align-items:center;gap:9px;background:#15344c;color:#fff8eb;padding:9px 13px;border-radius:5px;text-decoration:none;margin:0}
+.open-proposal svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.proposal-preview .preview-caption{font-size:10px;color:#48616e;margin:0 0 9px}
+#reference-viewer{width:calc(100% - 64px);max-width:1580px;height:calc(100dvh - 48px);max-height:1100px;padding:0;border:0;border-radius:10px;background:#eff2ef;color:#15344c;box-shadow:0 20px 65px #132c4555;overflow:hidden}
+#reference-viewer[open]{display:flex;flex-direction:column}
+#reference-viewer::backdrop{background:#132c45a6}
+.reference-toolbar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 24px;background:#c4d8e7;flex:none}
+.reference-toolbar h2{font-size:18px;line-height:1.3;margin:0}
+.reference-toolbar button{display:flex;align-items:center;gap:8px;border:0;background:none;color:inherit;padding:8px 0;font:inherit;font-size:12px;cursor:pointer}
+.reference-toolbar svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}
+.reference-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 24px;flex:none;border-bottom:1px solid #b8c8cd}
+.reference-controls [role="group"]{display:flex;gap:6px}
+.reference-controls button{font:inherit;font-size:12px;padding:7px 13px;border:1px solid #a4b7bf;border-radius:4px;background:transparent;color:inherit;cursor:pointer}
+.reference-controls button[aria-pressed="true"]{background:#15344c;border-color:#15344c;color:#fff8eb}
+.reference-original{font-size:11px}
+.reference-canvas{overflow:auto;min-height:0;flex:1;padding:20px;scrollbar-width:thin;scrollbar-color:#9eafbb #eff2ef}
+.reference-image{display:block;width:100%;height:auto;margin:0 auto}
+.reference-image.is-mobile{width:min(460px,100%)}
+#reference-viewer button:focus-visible,.reference-canvas:focus-visible{outline:2px solid #a8583c;outline-offset:3px}
+@media(max-width:700px){
+ #reference-viewer{width:calc(100% - 16px);height:calc(100dvh - 20px)}
+ .reference-toolbar{padding:15px 16px;gap:12px;align-items:flex-start}
+ .reference-toolbar h2{font-size:15px}
+ .reference-controls{padding:10px 14px;gap:12px;flex-wrap:wrap}
+ .reference-controls button{padding:7px 12px}
+ .reference-canvas{padding:12px}
+ .proposal-actions{gap:12px}
+ .proposal-actions a{font-size:11px}
+}
+
+/* Client-facing comparison: explain the choices beside their visual evidence. */
+.hub-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;margin-bottom:8px}
+.hub-intro p{font-size:16px;line-height:1.65;max-width:68ch;margin:0 0 18px}
+.hub-intro strong{font-weight:700}
+.proposal-preview .concept-summary{font-size:15px;line-height:1.65;color:#15344c;margin:0 0 20px;max-width:68ch}
+.proposal-preview .concept-detail{font-size:14px;line-height:1.7;max-width:68ch;margin:16px 0 0}
+@media(max-width:900px){.hub-intro{grid-template-columns:1fr;gap:0}.hub-intro p{max-width:75ch}}

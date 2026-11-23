@@ -1,0 +1,74 @@
+/* The campus occupies one stable viewport; each composition scrolls its own content. */
+body[data-proposal]{height:100dvh;min-height:0;overflow:hidden;display:grid;grid-template-rows:var(--header) minmax(0,1fr)}
+body[data-proposal] .site-header{position:relative;top:auto}
+body[data-proposal]>.proposal-note{display:none}
+body[data-proposal]>.world{height:100%;min-height:0;overflow:hidden}
+[data-content-scroll]{overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#bca68e var(--paper);scroll-padding-top:24px}
+[data-content-scroll]:focus-visible{outline:2px solid var(--copper);outline-offset:-3px}
+
+/* 2: the publication scrolls as one sheet; the four campus signs never move. */
+.island-world{display:flex;flex-direction:column;padding:295px 0 32px}
+.island-world .campus-navigation{position:absolute;inset:0 0 auto;height:295px}
+.island-world .editorial-island{min-height:0;overflow-y:auto;flex:1;scroll-behavior:smooth}
+.feed-demo-note{font-size:10px;line-height:1.5;color:var(--muted);margin:-9px 0 23px}
+.editorial-group+.editorial-group{margin-top:32px;padding-top:30px;border-top:1px solid var(--rule)}
+.advertising+.editorial-group{margin-top:30px}
+.editorial-end{margin-top:32px;padding-top:24px;border-top:1px solid var(--rule);display:flex;gap:20px;justify-content:space-between;align-items:center}
+.editorial-end p{margin:0;font-size:12px;color:var(--muted)}
+.editorial-end button{border:0;background:transparent;color:var(--copper);display:flex;align-items:center;gap:9px;padding:9px 0;font-size:12px}
+.editorial-end button:hover{text-decoration:underline}
+.editorial-end svg{width:17px;height:17px;transform:rotate(90deg)}
+
+/* 3: the exhibition scrolls below its fixed physical wayfinding. */
+.gallery-world{display:flex;flex-direction:column;padding-bottom:24px}
+.gallery-title{align-self:flex-start;flex:none}
+.gallery-wayfinding{flex:none}
+.gallery-scroll{min-height:0;overflow-y:auto;flex:1;padding:0 7px 32px}
+.gallery-scroll .gallery-bottom{margin-top:53px}
+
+/* 4: the panorama and threshold remain above the scrolling publication floor. */
+.panorama-world{display:flex;flex-direction:column}
+.campus-panorama{height:clamp(220px,42dvh,405px);flex:none}
+.publication-threshold{flex:none}
+.publication-floor{min-height:0;overflow-y:auto;flex:1}
+
+/* 5: the folio scrolls on the desk while the terrace remains in place. */
+.desk-world{display:flex;flex-direction:column;padding-bottom:28px}
+.terrace-window{height:clamp(230px,37dvh,350px);flex:none}
+.terrace-window .soil{top:50%}
+.terrace-window .library{top:43%}
+.terrace-window .auditorium{top:36%}
+.desk-shell{min-height:0;flex:1;display:flex;flex-direction:column}
+.desk-tabs{flex:none}
+.desk-shell .folio{min-height:0;overflow-y:auto;flex:1;align-items:start}
+.desk-shell .folio-index{min-height:100%}
+
+@media(max-width:760px){
+  .island-world{padding-top:275px;padding-bottom:18px}
+  .island-world .campus-navigation{height:275px}
+  .feed-demo-note{margin:-6px 0 20px;font-size:10px}
+  .editorial-group+.editorial-group{margin-top:27px;padding-top:25px}
+  .editorial-end{align-items:flex-start;flex-direction:column;gap:8px}
+  .gallery-world{padding-bottom:15px}
+  .gallery-scroll{padding:0 4px 30px}
+  .gallery-scroll .gallery-bottom{margin-top:48px}
+  .campus-panorama{height:clamp(200px,35dvh,290px)}
+  .desk-world{padding-bottom:18px}
+  .terrace-window{height:clamp(205px,34dvh,290px)}
+  .terrace-window .soil{top:76%}
+  .terrace-window .library{top:55%}
+  .terrace-window .auditorium{top:37%}
+  .desk-shell .folio{display:block;flex:1}
+  .desk-shell .folio-index{min-height:0}
+}
+@media(max-height:650px){
+  .island-world{padding-top:clamp(170px,34dvh,220px)}
+  .island-world .campus-navigation{height:clamp(170px,34dvh,220px)}
+  .island-world .soil,.island-world .cafe{top:82%}
+  .island-world .library{top:55%}
+  .island-world .auditorium{top:30%}
+  .gallery-wayfinding{margin-top:35px;margin-bottom:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  .island-world .editorial-island{scroll-behavior:auto}
+}

@@ -1,0 +1,11 @@
+{
+  "method": "Preserved pre-existing visual reference; format conversion only",
+  "source": "design/campus-layouts-v1/assets/04-campus-arriba-mobile.png",
+  "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+  "proposal": "Campus arriba, contenido debajo",
+  "device": "mobile",
+  "originalSize": [
+    863,
+    1823
+  ]
+}

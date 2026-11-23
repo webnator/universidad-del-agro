@@ -1,0 +1,11 @@
+{
+  "method": "Preserved pre-existing visual reference; format conversion only",
+  "source": "design/campus-layouts-v1/assets/05-mesa-en-el-campus-desktop.png",
+  "sourceRecord": "design/campus-layouts-v1/gallery-data.json",
+  "proposal": "Mesa de lectura en el campus",
+  "device": "desktop",
+  "originalSize": [
+    1536,
+    1024
+  ]
+}

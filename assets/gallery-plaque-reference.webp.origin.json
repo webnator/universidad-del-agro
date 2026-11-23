@@ -1,0 +1,12 @@
+{
+  "method": "Built-in image_gen",
+  "reference": "../campus-layouts-v1/assets/03-galeria-del-claustro-desktop.png",
+  "file": "assets/gallery-plaque-reference.webp",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-3cb65e24-9ac3-4447-a716-c65fd731a375.png",
+  "prompt": "Use case: precise-object-edit. Asset type: blank hanging gallery-title plaque material for the exact university reference. Reference is the identity/material guide. Generate ONLY a very wide horizontal rectangular plaque, aspect about5:1, front-on, filling the output with no external background. Match the reference's dark muted copper-brown hanging sign: aged brown copper/patinated metal with restrained natural mottling, thin dark edge, tiny gunmetal screw heads near each corner. Matte, weathered, subtle edge highlights, not glossy orange wood, not gold, not ornamental. Completely BLANK central face ready for live HTML ivory serif title; absolutely no letters, icons, text or logo. Upper-left soft daylight. Perfectly straight horizontal/vertical edges, no perspective distortion, no drop shadow outside the plaque, no hanging wires, no surrounding scene, no margins. The plaque itself only, same refined restrained tone and physical character as the sign in the reference.",
+  "size": {
+    "width": 2172,
+    "height": 724
+  },
+  "workspacePath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/gallery-plaque-reference.webp"
+}
