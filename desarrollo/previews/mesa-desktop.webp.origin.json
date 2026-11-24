@@ -1,7 +1,7 @@
 {
-  "method": "Browser capture of static HTML prototype, not generated UI",
-  "source": "/Users/unalaptop/Work/clientes/agro-university/.impeccable/review/html-proposals/desarrollo/final/mesa-desktop.png",
-  "route": "desarrollo/campus.html",
-  "view": "mesa",
-  "viewport": "1440x960"
+  "method": "Browser capture, local prototype only",
+  "source": "/Users/unalaptop/Work/clientes/agro-university/.impeccable/review/html-proposals/mesa-campus-transition/final/desktop-mesa.png",
+  "route": "desarrollo/campus.html?rev=journey-local2#mesa",
+  "viewport": "1440x960",
+  "revision": "Original sharper photographic terrace; ad restored; transparent explore cue; reversible desk/campus journey"
 }

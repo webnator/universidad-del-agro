@@ -1,0 +1,34 @@
+{
+  "purpose": "Local-only reversible table/campus transition; older photographic RGB reused, only segmentation masks generated.",
+  "method": "Built-in image_gen for grayscale masks; original photographs untouched except mobile WebP format conversion.",
+  "desktopTerrace": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/reading-terrace.webp",
+  "campus": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/campus.webp",
+  "campusMobile": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/campus-mobile.webp",
+  "jobs": [
+    {
+      "asset": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/mesa-foreground-desktop.png",
+      "prompt": "Use case: background-extraction. Output ONLY a precise black/white grayscale SEGMENTATION MASK of the provided1536x1024 photograph, same exact canvas and object coordinates. White keeps moving FOREGROUND FURNITURE, black removes static UNIVERSITY/ARCHITECTURE. SOLID WHITE: entire wooden TABLETOP and its edge (starting abouty468 through bottom), coffee mug, stacked books at farleft and bottomright, potted plant at left including ALL its leaves from abouty300, both wicker chair backs at aboutx38% and73% y400..470. SOLID BLACK: ALL sky, university buildings, garden, distant landscape, terrace roof/pergola/beams/vertical structural wooden columns, left glass library and lamp, stone floor. The columns and canopy are NOT furniture, must be black. Trace actual plant leaves/chair contours/table edge precisely with1–2px antialias. Everything belowy535 should be purewhite without outlines as the tabletop fills the photograph. No photo, colors, text, contours drawn on white objects, border or margin. Mask ONLY. No scene redesign; exactinputcoordinates.",
+      "provenance": {
+        "method": "Built-in image_gen; segmentation matte only, original photographic RGB reused unchanged",
+        "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-03d5f0f1-4afc-4c29-bcc5-edbcebc58959.png",
+        "reference": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/assets/reading-terrace.webp",
+        "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/mesa-foreground-desktop.png"
+      }
+    },
+    {
+      "asset": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/mesa-foreground-mobile.png",
+      "prompt": "Use case: background-extraction. Output ONLY a precise black/white grayscale SEGMENTATION MASK of the provided portrait911x1727 photograph, exact same canvas and object coordinates. White keeps moving FOREGROUND FURNITURE, black removes static UNIVERSITY/ARCHITECTURE. SOLID WHITE: the entire wooden TABLETOP from abouty442 tobottom, the coffee mug left at y430..545, entire potted plant left including allleaves fromabouty260, single wicker chair back aroundx40% y370..445. SOLID BLACK: ALL sky, mountains, university pavilions, garden, terrace roof/pergola/beams/vertical structural wood columns, left glass library and lamp, stone floor. Structuralcolumns/canopy areNOT furniture mustbeblack. Trace actualplantleaves/chair/tableedges accurately with1–2px antialias. Everything belowy550 purewhite without outlines, since tabletopfillsthecanvas. No photograph/colors/text/borders/extra margins. ONEgrayscale mask only, preserve camera/inputdimensions, no redrawscene.",
+      "provenance": {
+        "method": "Built-in image_gen; segmentation matte only, original photographic RGB reused unchanged",
+        "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-72598214-fa5b-45e1-9166-bc82f34439c5.png",
+        "reference": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-0f21520f-e85f-4f0a-ac21-27b2af5f2c8a.png",
+        "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/mesa-foreground-mobile.png"
+      }
+    },
+    {
+      "asset": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/terraza-original-mobile.webp",
+      "prompt": "Origin: {\"method\": \"Reuse of earlier clean portrait terrace, WebP conversion only; no new scene generation\", \"source\": \"/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-0f21520f-e85f-4f0a-ac21-27b2af5f2c8a.png\", \"reference\": \"Original proposal5 mobile scene before two subsequent generative edits\", \"savedPath\": \"/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/terraza-original-mobile.webp\"}",
+      "createdAt": "2026-11-24T09:51:39.315Z"
+    }
+  ]
+}

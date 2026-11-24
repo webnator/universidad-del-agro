@@ -1,0 +1,11 @@
+{
+  "asset": "assets/interior-departamento.webp",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-d55e91fe-9158-4e16-a1cb-1146bae4057c.png",
+  "prompt": "Use case: architectural interior compositing. Image1 is the existing university's academic interior reference, Image2 is its exterior architecture and garden-world reference. Create a photorealistic16:10 interior seen JUST AFTER ENTERING one of these timber/glass academic pavilions. Same building language, wooden exposed gabled ceiling beams, slim dark window frames, stone/concrete floor, mountain garden through glazing, natural daylight and warm realistic materials. This is a departmental reception/subject corridor. Composition for HTML navigation: LEFT about35% is a broad warm wood wall with an EMPTY LARGE inset notice-board surface, no text, no drawn UI. RIGHT about65% shows TWO separate full-height OPEN DOORS with frames at roughly x53% and83%: leftdoor opens into a classroom with desks and dark teaching screen; rightdoor opens into a library reading room with bookshelves. Clear floor approach, believable architectural depth, doorways not blocked. A modest side counter with soil/seed specimen jars and a plant at farleft bottom ties it to agriculture but does not hide wall. Preserve same feeling as image1 but give room for the departmental subject directory on left and both physical doors clearly visible on right. No people, no words, no signs, no UI, no gradients/blank white panels, no watermark. Photograph16:10, fullbleed, detailed coherent plants/materials.",
+  "references": [
+    "/Users/unalaptop/Work/clientes/agro-university/public/scenes/suelos.webp",
+    "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/campus-pabellones-perspectiva.webp"
+  ],
+  "tool": "Built-in ImageGen",
+  "conversion": "WebP quality95 format conversion only"
+}

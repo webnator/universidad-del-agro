@@ -1,0 +1,10 @@
+{
+  "asset": "assets/interior-deportes.webp",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-92f17f3e-3797-4f87-8bb2-ea58a766485a.png",
+  "prompt": "Use case: architectural interior compositing. Reference image is the AUTHORITATIVE exterior of this exact university. Create the photorealistic16:10 INSIDE view of its specified pavilion, recognizable continuity with timber gabled beams, copper-roof geometry, slim dark metal full-height glazing, stone/concrete floor and the same lush mountain garden outside. Human eye-level viewpoint, natural daylight, warm material detail, coherent sharp plants and believable architectural dimensions. Keep the room clearly visible and use some calm wall/floor space for later HTML options; NO UI, text, labels, logos, people, watermark or giant blank white rectangles. This is INSIDE the large glazed SPORTS pavilion at farleft in the reference. A real substantial indoor multi-sport court with basketball markings and hoop atback, wood/softblue floor, tall timber gable, glass windows along one side showing campus. Camera just inside reception side of the gym, looking obliquely along court. Include a modest timber wall/information board and bench atnearleft for sport navigation; keep wholecourt and hoop legible centre/right. Not an outdoor court or different concrete arena. Space for four sports resources to be added later by software. Fullbleed16:10.",
+  "references": [
+    "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/campus-pabellones-perspectiva.webp"
+  ],
+  "tool": "Built-in ImageGen",
+  "conversion": "WebP quality95 format conversion only"
+}

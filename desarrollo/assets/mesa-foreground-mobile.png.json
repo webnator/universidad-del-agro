@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: background-extraction. Output ONLY a precise black/white grayscale SEGMENTATION MASK of the provided portrait911x1727 photograph, exact same canvas and object coordinates. White keeps moving FOREGROUND FURNITURE, black removes static UNIVERSITY/ARCHITECTURE. SOLID WHITE: the entire wooden TABLETOP from abouty442 tobottom, the coffee mug left at y430..545, entire potted plant left including allleaves fromabouty260, single wicker chair back aroundx40% y370..445. SOLID BLACK: ALL sky, mountains, university pavilions, garden, terrace roof/pergola/beams/vertical structural wood columns, left glass library and lamp, stone floor. Structuralcolumns/canopy areNOT furniture mustbeblack. Trace actualplantleaves/chair/tableedges accurately with1–2px antialias. Everything belowy550 purewhite without outlines, since tabletopfillsthecanvas. No photograph/colors/text/borders/extra margins. ONEgrayscale mask only, preserve camera/inputdimensions, no redrawscene.",
+  "provenance": {
+    "method": "Built-in image_gen; segmentation matte only, original photographic RGB reused unchanged",
+    "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-72598214-fa5b-45e1-9166-bc82f34439c5.png",
+    "reference": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-0f21520f-e85f-4f0a-ac21-27b2af5f2c8a.png",
+    "savedPath": "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/mesa-foreground-mobile.png"
+  }
+}

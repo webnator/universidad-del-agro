@@ -1,0 +1,10 @@
+{
+  "asset": "assets/interior-servicios.webp",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-2e5b8130-f583-4639-acd1-d53f7ccb15eb.png",
+  "prompt": "Use case: architectural interior compositing. Reference image is the AUTHORITATIVE exterior of this exact university. Create the photorealistic16:10 INSIDE view of its specified pavilion, recognizable continuity with timber gabled beams, copper-roof geometry, slim dark metal full-height glazing, stone/concrete floor and the same lush mountain garden outside. Human eye-level viewpoint, natural daylight, warm material detail, coherent sharp plants and believable architectural dimensions. Keep the room clearly visible and use some calm wall/floor space for later HTML options; NO UI, text, labels, logos, people, watermark or giant blank white rectangles. This is INSIDE the lower glazed SERVICES consultation pavilion atx66% in reference, with the same lower gable and sidewindows. Welcoming academic/agricultural professional service office: maps of farmland without labels onbackwall, reception timbercounter and a plant, two modest consultation desks with chairs and computer/tablet, sample/material shelves. Camera atentry looking diagonally toward consultation area; broad glasswall gives a recognizable view toward the campus paths/gardens. No hospital, no callcentre, no corporate lobby. Leave calmnoticeboard surface onleft wall, desks and maps visiblecentre/right. Fullbleed16:10.",
+  "references": [
+    "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/campus-pabellones-perspectiva.webp"
+  ],
+  "tool": "Built-in ImageGen",
+  "conversion": "WebP quality95 format conversion only"
+}

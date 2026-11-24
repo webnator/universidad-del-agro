@@ -1,0 +1,10 @@
+{
+  "asset": "assets/interior-cultura.webp",
+  "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-6b03922e-7e4e-401b-89cd-8c1fb405e3b0.png",
+  "prompt": "Use case: architectural interior compositing. Reference image is the AUTHORITATIVE exterior of this exact university. Create the photorealistic16:10 INSIDE view of its specified pavilion, recognizable continuity with timber gabled beams, copper-roof geometry, slim dark metal full-height glazing, stone/concrete floor and the same lush mountain garden outside. Human eye-level viewpoint, natural daylight, warm material detail, coherent sharp plants and believable architectural dimensions. Keep the room clearly visible and use some calm wall/floor space for later HTML options; NO UI, text, labels, logos, people, watermark or giant blank white rectangles. This is INSIDE the standalone CULTURE gallery atx23% in reference. A bright intimate university arts pavilion. Natural warmwood pitched roof, gallery walls with restrained paintings, one freestanding abstract bronze/stone sculpture echoing the sculpture visible outside, glazed sidewall looking into gardens. Small reading/discussion corner with chairs and books, arts display/smallstage area. Camera nearentry looking obliquely across gallery, eachfunction recognizable without clutter. A quiet woodsurface atnearleft may receive later software text. Fullbleed16:10.",
+  "references": [
+    "/Users/unalaptop/Work/clientes/agro-university/design/html-proposals/desarrollo/assets/campus-pabellones-perspectiva.webp"
+  ],
+  "tool": "Built-in ImageGen",
+  "conversion": "WebP quality95 format conversion only"
+}
