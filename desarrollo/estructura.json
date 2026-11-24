@@ -1,0 +1,172 @@
+{
+  "source": "webuniversidadvirtualdelagro2.pdf, esquema de Hernán recibido el 24/11/2026",
+  "primary": [
+    "Dirección Académica",
+    "Dirección Deportiva",
+    "Dirección de Cultura",
+    "Dirección de Servicios",
+    "Librería",
+    "Auditorio",
+    "Cafetería"
+  ],
+  "departments": [
+    {
+      "id": "biologicas",
+      "name": "Ciencias Biológicas",
+      "description": "Los seres vivos, sus procesos y su relación con la producción agrícola.",
+      "subjects": [
+        "Anatomía animal",
+        "Anatomía vegetal",
+        "Biología celular",
+        "Ecología",
+        "Entomología",
+        "Fisiología animal",
+        "Fisiología vegetal",
+        "Fitopatología",
+        "Genética",
+        "Malezas",
+        "Nutrición animal",
+        "Nutrición vegetal",
+        "Patología animal",
+        "Zoología agrícola"
+      ]
+    },
+    {
+      "id": "ingenieria",
+      "name": "Ingeniería Agrícola",
+      "description": "Herramientas, infraestructura y tecnología para el trabajo en el campo.",
+      "subjects": [
+        "Agricultura de precisión",
+        "Análisis espacial",
+        "Climatología",
+        "Estadística",
+        "Infraestructura agrícola",
+        "Maquinaria e implementos agrícolas",
+        "Riego"
+      ]
+    },
+    {
+      "id": "sociales",
+      "name": "Ciencias Sociales",
+      "description": "La actividad agrícola desde la gestión, la economía y el territorio.",
+      "subjects": [
+        "Administración de empresas agrícolas",
+        "Comercialización y mercadeo agrícola",
+        "Desarrollo rural",
+        "Economía Agrícola"
+      ]
+    },
+    {
+      "id": "suelos",
+      "name": "Suelos",
+      "description": "Comprender el terreno para interpretar sus posibilidades y sus límites.",
+      "subjects": [
+        "Química de Suelos",
+        "Física de Suelos",
+        "Biología de Suelos",
+        "Fertilidad de Suelos",
+        "Evaluación de Tierras",
+        "Génesis y Clasificación",
+        "Manejo de Suelos",
+        "Conservación de Suelos"
+      ]
+    },
+    {
+      "id": "basicas",
+      "name": "Ciencias Básicas",
+      "description": "Fundamentos para interpretar los procesos del agro.",
+      "subjects": [
+        "Matemáticas",
+        "Física",
+        "Química"
+      ]
+    },
+    {
+      "id": "sistemas",
+      "name": "Sistemas Productivos",
+      "description": "Producción vegetal y animal, con acceso a cada grupo de cultivos y crianzas.",
+      "subjects": {
+        "Producción Vegetal": {
+          "Cultivos": [
+            "Cereales",
+            "Oleaginosas",
+            "Leguminosas",
+            "Hortalizas",
+            "Frutales",
+            "Raíces y tubérculos",
+            "Cultivos tropicales tradicionales",
+            "Pastos",
+            "Medicinales"
+          ]
+        },
+        "Producción Animal": {
+          "Avicultura": [
+            "Pollos de engorde",
+            "Gallinas ponedoras",
+            "Otros"
+          ],
+          "Otras producciones": [
+            "Ganadería bovina",
+            "Ganadería ovina",
+            "Ganadería caprina",
+            "Ganadería porcina",
+            "Apicultura",
+            "Acuicultura"
+          ]
+        }
+      }
+    },
+    {
+      "id": "agroindustria",
+      "name": "Agroindustria o transformación",
+      "description": "El recorrido de los productos vegetales y animales después de la producción.",
+      "subjects": [
+        "Productos vegetales",
+        "Productos animales"
+      ]
+    },
+    {
+      "id": "biblioteca",
+      "name": "Biblioteca",
+      "description": "Una entrada común a los materiales de todos los departamentos.",
+      "subjects": []
+    }
+  ],
+  "sports": [
+    "Fútbol",
+    "Béisbol",
+    "Basketball",
+    "Atletismo"
+  ],
+  "sportResources": [
+    "Reglas",
+    "Organismos rectores",
+    "Estadísticas mundiales",
+    "Apps"
+  ],
+  "culture": [
+    "Club de lectores",
+    "Artes plásticas",
+    "Artes escénicas"
+  ],
+  "classroom": [
+    "Cursos gratuitos",
+    "Cursos de pago",
+    "Conferencias en vivo",
+    "Conferencias asíncronas"
+  ],
+  "libraryResources": [
+    "Notas técnicas",
+    "Manuales",
+    "Libros",
+    "Vídeos",
+    "Glosario"
+  ],
+  "interpretation": [
+    "La rama azul Biblioteca se conserva como agregador académico, no se inventan materias debajo.",
+    "Sistemas Productivos conserva sus agrupaciones intermedias y la subdivisión de Avicultura.",
+    "Se normalizan acentos y concordancias de los rótulos sin cambiar sus categorías.",
+    "La pareja Aula/Biblioteca se aplica a las materias siguiendo el texto del cliente; el PDF no dibuja sus hijos en todas las ramas.",
+    "Todo el contenido ajeno a los tres artículos existentes se identifica como muestra visual, sin autores, eventos o servicios reales inventados."
+  ]
+}
