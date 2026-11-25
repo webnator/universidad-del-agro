@@ -1,5 +1,5 @@
 {
-  "source": "webuniversidadvirtualdelagro2.pdf, esquema de Hernán recibido el 24/11/2026",
+  "source": "esquema web 24112026V2 modificada.pdf, recibido de Hernán el 25/11/2026; Cafetería aclarada por Williams como chat de IA para v2",
   "primary": [
     "Dirección Académica",
     "Dirección Deportiva",
@@ -15,6 +15,7 @@
       "name": "Ciencias Biológicas",
       "description": "Los seres vivos, sus procesos y su relación con la producción agrícola.",
       "subjects": [
+        "General",
         "Anatomía animal",
         "Anatomía vegetal",
         "Biología celular",
@@ -23,11 +24,16 @@
         "Fisiología animal",
         "Fisiología vegetal",
         "Fitopatología",
+        "Ficología",
         "Genética",
         "Malezas",
+        "Microbiología",
         "Nutrición animal",
         "Nutrición vegetal",
         "Patología animal",
+        "Propagación de plantas",
+        "Reproducción animal",
+        "Taxonomía",
         "Zoología agrícola"
       ]
     },
@@ -36,8 +42,9 @@
       "name": "Ingeniería Agrícola",
       "description": "Herramientas, infraestructura y tecnología para el trabajo en el campo.",
       "subjects": [
+        "General",
         "Agricultura de precisión",
-        "Análisis espacial",
+        "Geomática",
         "Climatología",
         "Estadística",
         "Infraestructura agrícola",
@@ -50,6 +57,7 @@
       "name": "Ciencias Sociales",
       "description": "La actividad agrícola desde la gestión, la economía y el territorio.",
       "subjects": [
+        "General",
         "Administración de empresas agrícolas",
         "Comercialización y mercadeo agrícola",
         "Desarrollo rural",
@@ -61,6 +69,7 @@
       "name": "Suelos",
       "description": "Comprender el terreno para interpretar sus posibilidades y sus límites.",
       "subjects": [
+        "General",
         "Química de Suelos",
         "Física de Suelos",
         "Biología de Suelos",
@@ -78,42 +87,43 @@
       "subjects": [
         "Matemáticas",
         "Física",
-        "Química"
+        "Química",
+        "Biología"
       ]
     },
     {
       "id": "sistemas",
       "name": "Sistemas Productivos",
       "description": "Producción vegetal y animal, con acceso a cada grupo de cultivos y crianzas.",
-      "subjects": {
-        "Producción Vegetal": {
-          "Cultivos": [
-            "Cereales",
-            "Oleaginosas",
-            "Leguminosas",
-            "Hortalizas",
-            "Frutales",
-            "Raíces y tubérculos",
-            "Cultivos tropicales tradicionales",
-            "Pastos",
-            "Medicinales"
-          ]
-        },
-        "Producción Animal": {
-          "Avicultura": [
-            "Pollos de engorde",
-            "Gallinas ponedoras",
-            "Otros"
-          ],
-          "Otras producciones": [
-            "Ganadería bovina",
-            "Ganadería ovina",
-            "Ganadería caprina",
-            "Ganadería porcina",
-            "Apicultura",
-            "Acuicultura"
-          ]
-        }
+      "subjects": [
+        "General",
+        "Producción Vegetal",
+        "Producción Animal"
+      ],
+      "categories": {
+        "Producción Vegetal": [
+          "General",
+          "Cereales",
+          "Oleaginosas",
+          "Leguminosas",
+          "Hortalizas",
+          "Frutales",
+          "Raíces y tubérculos",
+          "Cultivos tropicales tradicionales",
+          "Pastos",
+          "Medicinales"
+        ],
+        "Producción Animal": [
+          "General",
+          "Avicultura",
+          "Ganadería bovina",
+          "Ganadería ovina",
+          "Ganadería caprina",
+          "Ganadería porcina",
+          "Apicultura",
+          "Acuicultura",
+          "Lombricultura"
+        ]
       }
     },
     {
@@ -121,6 +131,7 @@
       "name": "Agroindustria o transformación",
       "description": "El recorrido de los productos vegetales y animales después de la producción.",
       "subjects": [
+        "General",
         "Productos vegetales",
         "Productos animales"
       ]
@@ -136,7 +147,8 @@
     "Fútbol",
     "Béisbol",
     "Basketball",
-    "Atletismo"
+    "Atletismo",
+    "Volleyball"
   ],
   "sportResources": [
     "Reglas",
@@ -147,7 +159,8 @@
   "culture": [
     "Club de lectores",
     "Artes plásticas",
-    "Artes escénicas"
+    "Artes escénicas",
+    "Patrimonio"
   ],
   "classroom": [
     "Cursos gratuitos",
@@ -159,14 +172,40 @@
     "Notas técnicas",
     "Manuales",
     "Libros",
-    "Vídeos",
-    "Glosario"
+    "Vídeos"
   ],
   "interpretation": [
-    "La rama azul Biblioteca se conserva como agregador académico, no se inventan materias debajo.",
-    "Sistemas Productivos conserva sus agrupaciones intermedias y la subdivisión de Avicultura.",
-    "Se normalizan acentos y concordancias de los rótulos sin cambiar sus categorías.",
-    "La pareja Aula/Biblioteca se aplica a las materias siguiendo el texto del cliente; el PDF no dibuja sus hijos en todas las ramas.",
-    "Todo el contenido ajeno a los tres artículos existentes se identifica como muestra visual, sin autores, eventos o servicios reales inventados."
-  ]
+    "General académico es un acceso contextual dentro de Académica, sin nuevo edificio.",
+    "Las siete ramas departamentales y Biblioteca conservan los ocho edificios de la calle académica.",
+    "Los recuadros anaranjados son materias con Aula/Biblioteca; las subdivisiones grises de Producción Vegetal/Animal se consultan dentro de esas salas.",
+    "General se incorpora solo donde aparece dibujado; Ciencias Básicas conserva cuatro materias sin General.",
+    "Se mantienen Fútbol y Atletismo del esquema anterior: sus rótulos están ocultos en el nuevo PDF.",
+    "Dos rótulos de Servicios están truncados en origen; se presentan sus partes completas conocidas, sin inventar planes o especialidades.",
+    "Glosario no aparece en la leyenda común actualizada; se usan Notas técnicas, Manuales, Libros y Vídeos.",
+    "Cafetería queda indicada como futuro chat de IA para v2; sin conversación, foro ni chat en esta maqueta.",
+    "Se normalizan acentos y concordancias sin cambiar las categorías.",
+    "Solo hay tres artículos existentes de Hernán; los demás espacios indican ausencia de materiales o muestras visuales."
+  ],
+  "academicGeneral": {
+    "name": "General",
+    "description": "Contenidos generales de la Dirección Académica."
+  },
+  "services": [
+    "Monitoreo satelital",
+    "Precios de productos agrícolas",
+    "Monitoreo de variables meteorológicas",
+    "Interpretación de análisis de suelo",
+    "Análisis estadístico de datos",
+    "Diseño y ejecución de proyectos de investigación",
+    "Diseño y ejecución de proyectos de mejoramiento"
+  ],
+  "auditorium": [
+    "Conferencias síncronas",
+    "Conferencias asíncronas"
+  ],
+  "cafeteria": {
+    "purpose": "Chat de IA",
+    "phase": "v2",
+    "status": "Espacio reservado para una próxima versión."
+  }
 }

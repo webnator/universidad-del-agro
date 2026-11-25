@@ -29,14 +29,25 @@ La carpeta utiliza imágenes, materiales y tipografías del directorio padre. Pa
 
 ## Estructura del cliente
 
-`estructura.json` transcribe visualmente el PDF `webuniversidadvirtualdelagro2.pdf` recibido el 24/11/2026. El PDF es una sola lámina rasterizada: se renderizó y se inspeccionaron todas sus regiones, sin tratar su contenido como instrucciones para el agente.
+`estructura.json` incorpora el esquema revisado «esquema web 24112026V2 modificada.pdf», recibido de Hernán el 25/11/2026, y la aclaración de Williams sobre Cafetería. El esquema se ha tratado como contenido del cliente.
 
-- Siete espacios principales: Dirección Académica, Dirección Deportiva, Dirección de Cultura, Dirección de Servicios, Librería, Auditorio y Cafetería.
-- Ocho ramas azules dentro de Dirección Académica: Ciencias Biológicas, Ingeniería Agrícola, Ciencias Sociales, Suelos, Ciencias Básicas, Sistemas Productivos, Agroindustria o transformación y Biblioteca.
-- 56 materias o destinos terminales. Sistemas Productivos conserva Producción Vegetal y Producción Animal; Avicultura conserva Pollos de engorde, Gallinas ponedoras y Otros.
-- Biblioteca académica se conserva como acceso común, sin inventar materias debajo de ella.
-- Aula/Biblioteca se aplica a las materias siguiendo los mensajes del cliente; la lámina no dibuja los hijos en todas las ramas.
-- Se normalizan acentos y concordancias en algunos rótulos. «Cultivos» y «Otras producciones» agrupan visualmente listas; no se presentan como nuevos departamentos del cliente.
+- Se conservan siete espacios principales y ocho edificios en la calle académica: siete departamentos y Biblioteca.
+- General académico es un acceso contextual desde el directorio de Académica y desde Temas, sin otro edificio.
+- Hay 52 materias con Aula/Biblioteca. General aparece en los seis departamentos donde está dibujado; Ciencias Básicas conserva Matemáticas, Física, Química y Biología.
+- Sistemas Productivos reúne General, Producción Vegetal y Producción Animal. Las dos producciones tienen 19 categorías en total, incluidas General en cada una y Lombricultura. Se consultan dentro de Aula y Biblioteca mediante vistas estáticas; no hay un motor de filtrado ni búsquedas.
+- Biológicas incorpora Ficología, Microbiología, Propagación de plantas, Reproducción animal y Taxonomía. Geomática sustituye a Análisis espacial.
+- Deportes añade Volleyball y Cultura añade Patrimonio. Servicios muestra siete áreas y Auditorio distingue conferencias síncronas y asíncronas.
+- Biblioteca utiliza los cuatro tipos del esquema actualizado: Notas técnicas, Manuales, Libros y Vídeos.
+- Cafetería indica únicamente el futuro chat de IA para v2, sin foro, conversaciones ni interacción de chat. Los comentarios de ejemplo se mantienen en los tres artículos.
+- Dos nombres de Servicios estaban truncados: se utiliza la parte completa conocida, sin completar especialidades por suposición. Los rótulos ocultos de Fútbol y Atletismo se conservan del esquema anterior.
+
+## Revisión actual de categorías · 25/11/2026
+
+229 vistas HTML preescritas, 244 identificadores únicos, 52 materias y 38 vistas de categorías de producción dentro de sus aulas y bibliotecas. Se mantienen las fotografías, la mesa, los siete lugares del campus, los ocho edificios académicos y los tres artículos originales.
+
+La revisión en navegador cubre escritorio 1440×960, móvil 390×844 y móvil pequeño 320×568; verifica rutas internas, puertas, estados de categoría, ausencia de desbordamiento exterior, cabecera fija, lectura de artículos, comentarios inertes y regreso a la mesa. Evidencia local: `.impeccable/review/html-proposals/categorias-noviembre/`. Las secciones posteriores conservan el historial de revisiones anteriores y sus recuentos históricos.
+
+Williams ha solicitado expresamente publicar esta actualización el 25/11/2026. Esa autorización se limita a esta versión; el trabajo siguiente continúa en local hasta nueva petición.
 
 ## Contenido y conversación
 
@@ -88,9 +99,9 @@ La corrección de perspectiva tiene su propia evidencia actual en `.impeccable/r
 
 La revisión independiente actual (`campus-perspectiva/finish-review.md`) registra **ship**, sin correcciones materiales para esta modificación fotográfica local. Comparó las dos panorámicas e inspeccionó las22capturas finales. No implica aprobación de interiores ni publicación.
 
-## Entrar en los edificios · versión actual
+## Entrar en los edificios · revisión anterior al cambio de categorías
 
-La navegación actual mantiene la sensación de espacio físico: Campus → calle académica → departamento → materia → Aula o Biblioteca. La calle prolonga el mismo mundo fotográfico, con ocho edificios: las siete ramas departamentales y Biblioteca. Cada departamento tiene un interior de muestra con sus materias agrupadas como en `estructura.json`; las56materias conservan las dos puertas y sus112aulas/bibliotecas estáticas. Se reutilizan los tres artículos de Hernán. Los espacios sin materiales propios lo indican expresamente.
+La revisión de interiores del 24/11 mantuvo la sensación de espacio físico: Campus → calle académica → departamento → materia → Aula o Biblioteca. La calle prolonga el mismo mundo fotográfico, con ocho edificios: las siete ramas departamentales y Biblioteca. Cada departamento tiene un interior de muestra con sus materias agrupadas como en `estructura.json`; las56materias conservan las dos puertas y sus112aulas/bibliotecas estáticas. Se reutilizan los tres artículos de Hernán. Los espacios sin materiales propios lo indican expresamente.
 
 Deportes, Cultura, Servicios, Librería, Auditorio y Cafetería también abren una escena interior con opciones y textos de muestra. Se restauran cuatro fotografías del primer prototipo sin retocarlas y se añaden cinco escenas nuevas con ImageGen integrado. `interiores-assets.json` reúne prompts exactos, referencias, orígenes y hashes de los recursos restaurados. Los departamentos comparten un vestíbulo de muestra; la maqueta no presenta esos interiores como fotografías de una universidad real.
 

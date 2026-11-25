@@ -297,6 +297,18 @@ La evidencia actual está en `.impeccable/review/html-proposals/campus-interiore
 
 `behavior.json` registra todas las parejas de las 56 materias, las ocho ramas y siete departamentos, recorridos/retornos, comentarios, regreso sticky y controles inertes en escritorio y móvil. `entry-motion.json` conserva cuatro puntos intermedios, teclado Inicio/Fin y 12 rutas con movimiento reducido. Se mantienen **202 vistas, 183 físicas, 219 identificadores únicos, 56 materias, 112 salas y tres artículos originales**. La procedencia registra **19 rásteres y ningún origen ausente**; los 43 avisos del detector comparan tipografía, paleta y radios con el sistema global heredado y siguen siendo orientativos. Este cierre permite la revisión local de la extensión, sin afirmar aprobación del cliente, aprobación de su arquitectura de información, publicación o certificación exhaustiva de accesibilidad/rendimiento.
 
+## Actualización de categorías · 25/11/2026
+
+Se integra la revisión del esquema de Hernán sin cambiar la dirección visual ni los rásteres. Siguen los siete pabellones principales y los ocho edificios académicos. General académico es un acceso contextual en el directorio de la calle y en Temas; los seis General departamentales tienen sus dos puertas, con el nombre del departamento como contexto.
+
+Sistemas Productivos muestra General, Producción Vegetal y Producción Animal como materias. Las categorías grises de las dos producciones se consultan dentro de Aula/Biblioteca: 19 categorías y 38 vistas estáticas adicionales. La selección se muestra con enlaces subrayados, tinta cobre y aria-current; cambiar de sala conserva la categoría. No se añade lógica de contenido o de datos. El directorio permite desplegar las categorías y saltar directamente a sus lecturas.
+
+Cafetería conserva su fotografía y solo indica «Chat de IA · Espacio reservado para la v2». Se elimina la conversación de muestra de Cafetería, incluidos sus enlaces desde Cultura; los comentarios siguen exclusivamente en el detalle de los tres artículos. Servicios incorpora las siete áreas del esquema; Deportes añade Volleyball, Cultura Patrimonio y Auditorio las dos modalidades de conferencia. El catálogo común usa los cuatro tipos de recurso del nuevo esquema.
+
+Resultado: 229 vistas, 244 identificadores únicos y 52 materias. Evidencia de esta actualización en `.impeccable/review/html-proposals/categorias-noviembre/`: 29 capturas de salas en 1440×960, 390×844 y 320×568, comprobaciones de navegación/puertas y recorridos reales desde Producción Vegetal hasta artículo, comentarios, mesa y campus en escritorio/móvil. No se presenta como revisión exhaustiva de todas las vistas o de accesibilidad. El detector se ejecutó una vez con parser degradado; sus avisos de tipografía/paleta heredados y el comp-gate de la aplicación Next/LMS del 19/11 no son defectos nuevos de este cambio HTML. No se modifica aquel flujo histórico.
+
+Publicación autorizada expresamente por Williams para esta versión. Las futuras modificaciones siguen siendo locales por defecto.
+
 ## Do's and Don'ts
 
 ### Do:

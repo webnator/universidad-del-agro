@@ -47,3 +47,12 @@
 @media(max-width:700px){.directory-hint{display:none}.library-room .room-photo,.bookshop-room .room-photo{background-position:28% center}.culture-room .room-photo{background-position:40% center}.cafe-room .room-photo{background-position:20% center}}
 
 .walk-building span{min-width:0;overflow-wrap:anywhere}
+.subject-categories{margin:0 0 14px;padding-left:12px}
+.subject-categories>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;font-size:12px;line-height:1.5;padding:8px 0;color:var(--copper);list-style:none}
+.subject-categories>summary::-webkit-details-marker{display:none}
+.subject-categories>summary svg{width:15px;height:15px;flex:none}
+.production-filters{display:flex;flex-wrap:wrap;gap:8px 15px;margin:16px 0 22px;padding-bottom:18px;border-bottom:1px solid var(--rule)}
+.production-filters a{font-size:12px;line-height:1.6;color:var(--brown);text-decoration:underline;text-underline-offset:4px}
+.production-filters a[aria-current]{font-weight:600;color:var(--copper);text-decoration-thickness:2px}
+.production-filters a:focus-visible,.subject-categories summary:focus-visible{outline:2px solid var(--copper);outline-offset:4px}
+.activity-board summary,.subject-categories summary{overflow-wrap:anywhere}
