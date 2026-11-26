@@ -1,0 +1,50 @@
+[
+  {
+    "id": "datos",
+    "title": "Análisis estadístico de datos",
+    "short": "Análisis de datos",
+    "photo": "salita-asesora",
+    "claim": "Datos que ayudan a decidir.",
+    "summary": "Análisis univariado y multivariado, interpretación e informe de resultados.",
+    "monogram": "DA",
+    "x": 13,
+    "y": 58,
+    "bodyFile": "services/datos.html",
+    "sourceFile": "servicio-1/Servicio de análisis de datos.docx",
+    "sourceSha256": "ece9383e398c6fd6d2304c7101ca36bbfe937a1142456cf25338fa4b25e403be",
+    "sourceTextWords": 314,
+    "email": "helauren@yahoo.com"
+  },
+  {
+    "id": "suelos",
+    "title": "Interpretación de análisis de suelo y plan de fertilización",
+    "short": "Suelos y fertilización",
+    "photo": "salita-asesor",
+    "claim": "Del análisis al plan de fertilización.",
+    "summary": "Interpretación de resultados, recomendaciones y mapas de fertilidad.",
+    "monogram": "SF",
+    "x": 28,
+    "y": 55,
+    "bodyFile": "services/suelos.html",
+    "sourceFile": "servicio-2/Servicio Suelos_Servicio de Interpretación de Análisis de Suelo y Plan de Fertilización.docx",
+    "sourceSha256": "af23e2c262316c73ab50cfc31b0ee7a9113e55aed8e3b867b34f64d02bc10058",
+    "sourceTextWords": 402,
+    "email": "helauren@yahoo.com"
+  },
+  {
+    "id": "satelital",
+    "title": "Monitoreo satelital",
+    "short": "Monitoreo satelital",
+    "photo": "salita-asesora",
+    "claim": "Una mirada al cultivo desde el espacio.",
+    "summary": "Imágenes satelitales, pronóstico meteorológico y seguimiento del NDVI.",
+    "monogram": "MS",
+    "x": 91,
+    "y": 58,
+    "bodyFile": "services/satelital.html",
+    "sourceFile": "servicio-3/SERVICIO DE MONITOREO SATELITAL.docx",
+    "sourceSha256": "bc35b1aa371617a0f1d42a719d6323a780107682b8fc380089c57e2404661a84",
+    "sourceTextWords": 1212,
+    "email": null
+  }
+]

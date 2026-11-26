@@ -159,6 +159,8 @@ La serif sostiene la lectura y los títulos; la sans serif mantiene compacta la 
 
 Las placas interiores usan títulos serif de 30px/1.13, 27px en tablet y 23px en salas móviles, con 21px en móvil corto. Los rótulos de puerta usan Public Sans 600 de 18px, 16px en tablet y 14px en móvil; las descripciones se ocultan en móvil. La señalización de la calle académica admite varias líneas para conservar los nombres completos y la separación entre edificios.
 
+Servicios conserva la misma relación serif/sans: la promesa de cada ficha es editorial y el texto completo usa Reading de 16px/1.7, que pasa a 17px en móvil. Identidad, contacto y directorio usan Public Sans subordinada. Las etiquetas del monograma y de cada gráfico declaran su condición de muestra; su pequeña escala sobre la escena no se convierte en una escala general de lectura.
+
 ## Layout
 
 La mesa conserva la cámara y recupera las fotografías anteriores de la propuesta 5. El folio empieza a 47dvh; en retrato hasta 1000px y relación máxima 3:4 empieza ahora a 34dvh para dejar aire al acceso «Explorar la universidad». El valor anterior de 29.4dvh pertenece a la fase previa. El índice del folio se abre por encima de 1000px y se inicia cerrado por debajo. El encabezado queda fuera de los contenedores de lectura; en pantallas de hasta 700px su altura final es 70px y la navegación permanece visible en una segunda fila. El destino académico de la mesa usa el rótulo breve «Académica».
@@ -182,6 +184,8 @@ El acceso de la mesa se sitúa entre los respaldos en escritorio y sobre el foli
 En los interiores de escritorio, la fotografía cubre toda la vista bajo la cabecera fija. Los tablones de papel son menores que la escena y tienen su propio scroll: el directorio departamental se ancla al centro de su pared en (.265, .48), con ancho .22 y alto .37 de la fotografía; las puertas se anclan en x.535 y x.83, a y.61. Los tablones generales usan hasta 500px/40vw y los recursos hasta 550px/43vw. La arquitectura permanece visible alrededor.
 
 Hasta 700px, la escena interior pasa a una etapa fotográfica superior de `max(265px, 44dvh)` y el contenido de papel se dispone debajo, con márgenes laterales de 12px. La vista interior completa desplaza verticalmente; el documento exterior y la cabecera permanecen inmóviles. Las dos puertas siguen dentro de la fotografía, también en 320×568. Los encuadres móviles varían por sala para mostrar arquitectura y mobiliario pertinentes. Hasta 700px y 650px de alto se compactan títulos, señales y pistas; la calle de 190px pertenece únicamente a las alternativas históricas. El documento exterior no debe desbordarse.
+
+Servicios amplía el recorrido físico con un pasillo fotográfico horizontal de siete puertas y un directorio sobre papel. En escritorio el directorio dispone cuatro columnas, tres entre 701 y 1100px; hasta 700px pasa bajo la escena y usa una columna. Las oficinas conservan una ficha desplazable de papel en la zona inferior, con persona, escritorio, monograma y gráfico visibles en la escena. En móvil la etapa fotográfica de oficina mide 390px y la ficha continúa debajo dentro del scroll de la vista. El gráfico sale de la pared y reaparece como inserto de ancho completo dentro de esa ficha: no se elimina ni cubre a la persona. El pasillo móvil conserva un tramo fotográfico de 340px con desplazamiento horizontal manual y directorio legible debajo.
 
 ## Elevation & Depth
 
@@ -222,6 +226,18 @@ Los siete marcadores de `desk_navigation_layout.py` usan estos centros de fachad
 `desk_physical_spaces.py` compone 183 vistas físicas dentro de las 202 vistas preescritas, sin crear nuevas rutas de negocio. La calle usa `assets/calle-academica-inmersiva.webp`; departamentos y vestíbulos de materia comparten `assets/interior-departamento.webp`, una muestra arquitectónica explícita, no una fotografía exclusiva por departamento ni por materia. Deportes, Cultura y Servicios usan sus escenas `interior-deportes.webp`, `interior-cultura.webp` e `interior-servicios.webp`. Estas cinco imágenes nuevas proceden de ImageGen y continúan madera, vidrio, cobre, luz y jardín del campus.
 
 `interior-aula.webp`, `interior-biblioteca.webp`, `interior-auditorio.webp` e `interior-cafeteria.webp` restauran las cuatro fotografías del primer prototipo mediante copia byte a byte, sin retoque. Librería utiliza la fotografía de biblioteca con su propia identidad y opciones de muestra. `interiores-assets.json` y los sidecars conservan prompts exactos, referencias, fuentes, conversiones y hashes de los recursos restaurados. La escena canónica del campus, el RGB original de la mesa, las máscaras y las fotografías de los tres artículos permanecen intactos.
+
+### Salitas de Servicios
+
+`services.css` se añade a los estilos interiores y `desk_service_rooms.py` compone pasillo y siete destinos estáticos. Tres salas contienen las fichas recibidas —análisis de datos, interpretación de suelos y asesoramiento satelital—; las otras cuatro explicitan que falta recibir su ficha. Las puertas azules numeradas se relacionan con el directorio de nombres completos. Los números identifican salas, no establecen un nuevo recurso decorativo para toda la maqueta. Los retornos conservan salita → pasillo → campus.
+
+Las tres fotografías nuevas muestran atención tras un escritorio y jardín, con la misma madera, vidrio y luz del campus. `servicios-assets.json` conserva la procedencia y prompts de los tres fondos ImageGen. Personas, monogramas y gráficos se identifican como muestras y no representan proveedores contratados. Los diagramas son ilustraciones sin datos reales: barras de resultados/cultivo o estratos de suelo, sobre papel y con «Ilustración de muestra». En escritorio permanecen sobre la pared; hasta 700px se muestran dentro de la ficha, tras su introducción. Este traslado conserva su presencia y legibilidad en 390 y 320px sin duplicarlos en escritorio.
+
+Email, LinkedIn y WhatsApp son botones desactivados con su condición de muestra visible; el email recibido se presenta como texto. El desplegable nativo «Qué incluye el servicio» contiene el texto íntegro de cada ficha. No hay contratación, envío ni gestión de proveedores. La ficha satelital conserva las prestaciones repetidas de los planes intermedio y avanzado y señala su diferenciación pendiente.
+
+### Manuales en Librería
+
+`desk_manual_rooms.py` compone la ficha editorial de «Apuntes sobre el manejo de la granja porcina», de Hernán Laurentin Rojas y Juan Luis Laurentin Táriba (2018, 51 páginas). La fila de catálogo combina imagen recibida, título serif, autoría y precio indicado por el autor (US$ 20,00); aparece tanto en Librería como en Biblioteca de Ganadería porcina y lleva a una misma ficha. La ficha del manual usa papel crema liso para que la textura de encuadernación no interfiera con el título largo en móvil. La portada e índice se consultan mediante `details` nativo. Comprar permanece desactivado, sin cobro ni descarga; el PDF completo sigue privado. No se incorpora una tienda ni motor de pagos.
 
 ### Navegación e índices
 
@@ -309,6 +325,42 @@ Resultado: 229 vistas, 244 identificadores únicos y 52 materias. Evidencia de e
 
 Publicación autorizada expresamente por Williams para esta versión. Las futuras modificaciones siguen siendo locales por defecto.
 
+## Artículos recibidos · 26/11/2026
+
+Se incorporan siete lecturas completas de Hernán a la propuesta elegida, además de las tres anteriores: diez artículos. El diseño, las escenas y las cinco propuestas históricas se conservan. Las nuevas lecturas se colocan primero en el folio y la biblioteca, y la primera página de la mesa abre la lectura de Ecología. El ejemplo de búsqueda de Suelos sigue mostrando el artículo de Suelos.
+
+La taxonomía se toma de los correos: una lectura en Ecología y seis en Genética, todas en Ciencias Biológicas. El sexto envío carecía de categoría; Genética es una clasificación inferida y registrada por su contenido. Los nuevos artículos aparecen en sus bibliotecas, en las materias y en las consultas por temas. Solo el primero especificaba Notas técnicas; los otros seis se presentan como artículos. No se inventan fechas de publicación.
+
+Se conservan íntegros los párrafos suministrados, incluidos los que la conversión automática de Word omitía junto a dibujos; la importación compara el texto completo con el HTML generado. Solo cambian entradilla, orden de los elementos para lectura y maquetación. Se conservan también repeticiones y erratas ya presentes en el original. Las figuras se extraen sin modificar, y los tres esquemas vectoriales de Epigenética se renderizan del Word recibido. Hay 25 registros de procedencia de imagen en `client-article-sources.json`. Las lecturas sin portada usan el icono de libro existente, sin fotografías inventadas. Las figuras del cuerpo tienen un acceso a tamaño completo para facilitar su consulta en móvil.
+
+Son 237 vistas estáticas y 52 materias; no se añade CMS ni lógica de contenido al navegador. `client-articles.json` y `articles/*.html` se leen solo durante la autoría. Comentarios, cuentas, pagos y notificaciones siguen inertes; Cafetería continúa reservada para chat de IA v2. La autorización anterior de publicación no se extiende a estos artículos: esta incorporación queda en local.
+
+Evidencia de este alcance: `.impeccable/review/html-proposals/articulos-hernan/`. Comprobaciones en 1440×960, 390×844 y 320×568: diez lecturas con cuerpos completos, imágenes decodificables, fragmentos internos válidos, siete resultados en Genética y uno en Ecología, lectura con regreso sticky, comentarios de muestra y viaje de vuelta a la mesa/campus. La revisión visual se concentra en mesa, biblioteca, listas temáticas, títulos largos y figuras; no constituye una certificación exhaustiva de accesibilidad. El detector se ejecutó una vez con parser degradado y estado antiguo de comp-gate ajeno a esta maqueta HTML. Los originales y correos quedan fuera de la carpeta pública.
+
+## Segunda tanda de artículos · 26/11/2026
+
+Tres lecturas adicionales elevan el total a13 y las vistas estáticas a240. Se conservan textos completos e ilustraciones suministradas, y se normaliza únicamente la correspondencia editorial entre «Comercialización y Marketing Agrícola» del correo y «Comercialización y mercadeo agrícola» del esquema vigente. Las dos lecturas de Ciencias Sociales usan las materias existentes; la de investigación ocupa el acceso General académico, que muestra ahora contenido real del cliente. Los enlaces de contexto resuelven cada departamento y materia, incluyendo este acceso general sin inventar un departamento adicional.
+
+Las lecturas recibidas se ordenan de más reciente a más antigua en la mesa y el catálogo. No se modifica la geometría, las escenas, los comentarios inertes ni los recorridos del campus. Evidencia en `.impeccable/review/html-proposals/articulos-hernan-segunda-tanda/`: rutas, cuerpos completos, imágenes, retornos y geometría en escritorio y móvil. No se publica esta incorporación.
+
+## Tercera tanda de artículos · 26/11/2026
+
+21 lecturas únicas y248 vistas preescritas. Se incorporan8 textos nuevos de9 correos, preservando las firmas originales; el reenvío idéntico del maíz morado solicita una segunda categoría y conserva un único lector/comentarios. Las materias y categorías existentes alojan las nuevas publicaciones sin añadir edificios. Los metadatos separan departamento, materia y categoría; los accesos por producción filtran las vistas estáticas por la clasificación del correo, y los enlaces de contexto incluyen la categoría.
+
+Las tres tablas originales se representan como HTML semántico, conservando cifras, celdas y encabezados. Los datos no se convierten en calculadoras ni lógica de negocio. Las tablas se ajustan al área de lectura de escritorio y tienen desplazamiento horizontal contenido, foco visible y orientación en móvil. scroll-margin-top: 64px conserva el encabezado al situarlas bajo el retorno sticky. Las firmas de las dos lecturas porcinas corresponden a Med. Vet. Hernán J. Laurentin Rojas; no se atribuyen a la firma de los demás textos.
+
+Evidencia local en `.impeccable/review/html-proposals/articulos-hernan-tercera-tanda/`: escritorio, móvil y móvil corto; cuerpos completos, tres tablas, categorías, retorno y doble acceso al mismo maíz morado. No hay cambios en las fotografías del campus, las cinco propuestas históricas ni el repositorio publicado. El detector conserva sus limitaciones históricas de parser y comp-gate ajeno a esta maqueta.
+
+### Servicios, Apps y manual · 26/11/2026
+
+Artículo 21 incorpora «La mosca blanca (Bemisia tabaci) y el ajonjolí», de Hernán E. Laurentin y Carlos Pereira. Entomología y Producción Vegetal / Oleaginosas enlazan la misma lectura y conversación; se conservan 3192 palabras del cuerpo, seis figuras originales y la referencia de portada. Sin cambios de diseño; comprobación de contenido y navegación en escritorio y móvil en `.impeccable/review/html-proposals/articulo-21/`.
+
+La ampliación conserva la identidad de propuesta 5 y suma el pasillo de siete puertas, tres fichas completas y cuatro salas pendientes, junto al artículo «Apps en el agro» en Ingeniería / Agricultura de precisión. El estado actual contiene **23 artículos únicos, 258 vistas estáticas y 52 materias**. Estos recuentos sustituyen los históricos anteriores; no cambian sus decisiones ni la conservación de las cinco propuestas. `desk_service_rooms.py` y `desk_manual_rooms.py` solo actúan en autoría; el navegador conserva navegación y presentación sin CMS, lógica de servicio, backend ni publicación. El contrato específico es `.impeccable/surfaces/servicios-salitas.md`; el PRODUCT.md global sigue describiendo el antiguo LMS y no gobierna este alcance.
+
+La evidencia está en `.impeccable/review/html-proposals/servicios-salitas/final/` y `browser.json`: destinos de Servicios, tres oficinas, sala pendiente, Apps, Librería, manual y Biblioteca porcina en 1440×960, 390×844 y 320×568, con fragmentos válidos, contactos inertes y sin desbordamiento exterior en las comprobaciones registradas. La procedencia documenta **85 rásteres y cero orígenes ausentes**. Los 28 avisos del detector comparan con valores globales históricos de tipografía, paleta y radios; son orientativos y no fallos mecánicos del alcance.
+
+`finish-review.md` pidió únicamente M1: conservar el gráfico de cada oficina en móvil. El inserto dentro de la ficha resuelve esa omisión. `verdict-pass.md` registra **ship**, exclusivamente para revisión local: el revisor reabrió los 18 PNG originales y las seis capturas adicionales de gráficos móviles. El pase cubre M1 y sus regresiones inmediatas sobre esas 24 capturas; no es una nueva auditoría general ni revisión del manual o de Librería. La evidencia adicional de esos destinos no amplía el veredicto independiente. No equivale a aprobación del cliente ni certificación exhaustiva de accesibilidad y no autoriza publicación, despliegue ni push.
+
 ## Do's and Don'ts
 
 ### Do:
@@ -329,6 +381,8 @@ Publicación autorizada expresamente por Williams para esta versión. Las futura
 - **Do** conservar la maqueta inerte salvo navegación y presentación visual.
 - **Do** entrar en escenas fotográficas, conservar el tablón departamental, las agrupaciones de Hernán y las dos puertas de cada materia; mantener visibles los retornos al padre.
 - **Do** tratar el vestíbulo compartido como muestra arquitectónica y mantener los estados de ausencia de material explícitos.
+- **Do** conservar en Servicios persona, jardín, identidad y gráfico de muestra; trasladar el gráfico a la ficha móvil para que siga legible sin invadir la escena.
+- **Do** identificar contactos, personas, monogramas y diagramas de Servicios como muestras; conservar las fichas ausentes y la compra de manual como estados explícitos e inertes.
 
 ### Don't:
 
@@ -344,3 +398,4 @@ Publicación autorizada expresamente por Williams para esta versión. Las futura
 - **Don't** registrar Mixta como una decisión aprobada ni extender esta guía local al diseño global.
 - **Don't** sustituir los interiores por páginas ordinarias de tarjetas ni presentar el vestíbulo compartido como fotografía única de cada departamento.
 - **Don't** afirmar que todas las vistas o todos los estados de conversación se verificaron visualmente o en accesibilidad.
+- **Don't** convertir los tonos puntuales de diagramas, tamaños mínimos de etiquetas escénicas o diferencias pendientes del contenido recibido en nuevos tokens o reglas generales.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "granja-porcina",
+    "title": "Apuntes sobre el manejo de la granja porcina",
+    "authors": [
+      "Hernán Laurentin Rojas",
+      "Juan Luis Laurentin Táriba"
+    ],
+    "year": 2018,
+    "pages": 51,
+    "format": "PDF",
+    "price": 20,
+    "currency": "USD",
+    "department": "sistemas",
+    "subject": "Producción Animal",
+    "contentCategory": "Ganadería porcina",
+    "sourceFile": "Apuntes sobre el manejo de granjas porcinas.pdf",
+    "sourceSha256": "9bebdcf1dbab4e8bb8248a4c613bba3928e43a929a5ae67e508bef9a4cd1e761",
+    "cover": "assets/manuales/granja-porcina-portada.png",
+    "referenceImage": "assets/manuales/granja-porcina-referencia.jpg",
+    "source": "Manual recibido del cliente; ficha e índice de muestra, compra inerte. PDF completo conservado entre originales privados."
+  }
+]

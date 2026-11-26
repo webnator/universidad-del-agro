@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-26",
+  "articles": [
+    {
+      "id": "agricultura-ecologica",
+      "sourceFile": "La agricultura desde una perspectiva ecológica.docx",
+      "sourceSha256": "a9f9164e1645f951f8583de39fde9591ba2f324e691bd64d8cc0447bfa939259",
+      "sourceTextWords": 1569,
+      "contentSha256": "828e81342ebdbefb34c9f079b56f1521483a59f8f0f4a933c853a63ad5c98b48",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/agricultura-ecologica/image1.jpeg",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image1.jpeg",
+          "sha256": "80f460eb9d8693ee2a0a0fbe2ddc13b2df36ca16c9cb2ff04d439f07b0dde7c9"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/image2.jpeg",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image2.jpeg",
+          "sha256": "d4ce5dbe73b7226e9ec82be350dc75b00ab6d8d873a36697416e937e9723cb4d"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/image3.jpeg",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image3.jpeg",
+          "sha256": "f955453567d44afea8a9a1be50781ed7828c3e18b2526a93e084c48147fb837a"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/image4.jpeg",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image4.jpeg",
+          "sha256": "7699a4cc25cf342343371c123612650ecd3d5d6063e2fb380df847f569363bbe"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/image5.png",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image5.png",
+          "sha256": "520caa5066a4d7885771883e2518dd6c5c01adc926d81d6967c0cb8396b37d55"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/image6.jpeg",
+          "origin": "La agricultura desde una perspectiva ecológica.docx · media/image6.jpeg",
+          "sha256": "cd59cf31b2c8ba232fd8a2c2a7b10119ef4ca0354e5474147b876e5b37fe66b2"
+        },
+        {
+          "file": "assets/articulos/agricultura-ecologica/portada.jpg",
+          "origin": "IR9.JPG",
+          "sha256": "f13d6fe4910544687c34d70b949685f3aa89b8fc92a522991e0ec3b0ede25cfd"
+        }
+      ]
+    },
+    {
+      "id": "biotecnologia",
+      "sourceFile": "Biotecnología y agricultura.docx",
+      "sourceSha256": "55d1c065ceab732f856a111bba1d2315dcc665e73c8706c786e2baa107f27511",
+      "sourceTextWords": 1886,
+      "contentSha256": "156a6b32cbb131526ec52e35a605450bff3dd8ab0fcd8c30bc2d488c1bc03774",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/biotecnologia/image1.png",
+          "origin": "Biotecnología y agricultura.docx · media/image1.png",
+          "sha256": "1c3b1c9c8f4e872e574cf10c54645921e8f5e907893132f05917bd6c5722d509"
+        },
+        {
+          "file": "assets/articulos/biotecnologia/image2.png",
+          "origin": "Biotecnología y agricultura.docx · media/image2.png",
+          "sha256": "82f6a5834dae498f7a45df329e4b5b5771c581c85250925cb6e98a518f887f02"
+        },
+        {
+          "file": "assets/articulos/biotecnologia/image3.png",
+          "origin": "Biotecnología y agricultura.docx · media/image3.png",
+          "sha256": "7bc75c43ba1cb7fb1662aa5401891c91693d61c0614c2caffebbebfa7c75ec5f"
+        },
+        {
+          "file": "assets/articulos/biotecnologia/image4.png",
+          "origin": "Biotecnología y agricultura.docx · media/image4.png",
+          "sha256": "8ca319ee673d171a3baf42b4c6d759144328f03c2e425b3365d8e3c3173fed07"
+        },
+        {
+          "file": "assets/articulos/biotecnologia/image5.png",
+          "origin": "Biotecnología y agricultura.docx · media/image5.png",
+          "sha256": "efe2598bb62a57cf50bee9818684b0d67d722b3f7ec832be85f0a095205fcb58"
+        },
+        {
+          "file": "assets/articulos/biotecnologia/portada.jpg",
+          "origin": "Captura.JPG",
+          "sha256": "24e22808cea6545cf00aea7d22cbcb77fb1252bd4942629ca4fb0c7e82b23337"
+        }
+      ]
+    },
+    {
+      "id": "maiz-morado",
+      "sourceFile": "El maíz morado y el origen de su color.docx",
+      "sourceSha256": "7dfa3f2174c52e0b66cdc9a579ba3e093ad32065cf2856ab27abeb77f96f05e5",
+      "sourceTextWords": 907,
+      "contentSha256": "120d72c5c875fcbafd544d2227152ff900a04655440eb32dd097b19b1e8f0bc9",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/maiz-morado/image1.png",
+          "origin": "El maíz morado y el origen de su color.docx · media/image1.png",
+          "sha256": "888211d017d816e3f2b06a01a179f3063056bcffaf3d3544ff223d470206dd1e"
+        }
+      ]
+    },
+    {
+      "id": "epigenetica",
+      "sourceFile": "La epigenética.docx",
+      "sourceSha256": "6b6bd298ad8a7da1e2219f61e06e4275e354bf3aff8ab495e7826c5595c428f7",
+      "sourceTextWords": 1342,
+      "contentSha256": "77cc863281588d3751a1ca7d16e030558442d0f1db521b2147742590bd2e1d1a",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/epigenetica/esquema-1.png",
+          "origin": "La epigenética.docx · rendered source diagram 1",
+          "sha256": "d03fad88eb87c9e431af60e723ee5fd6c7ed8fd268923f9580947e4b06576957"
+        },
+        {
+          "file": "assets/articulos/epigenetica/esquema-2.png",
+          "origin": "La epigenética.docx · rendered source diagram 2",
+          "sha256": "7c9a9839fc4add5cb0c5406dd39d90d9a7bad77ae6d705d2847eedd8d0f22600"
+        },
+        {
+          "file": "assets/articulos/epigenetica/esquema-3.png",
+          "origin": "La epigenética.docx · rendered source diagram 3",
+          "sha256": "6302e7935b65b58b82782c0d6ee87c5b86d87f5943ae10766177d7a3f7ec1335"
+        }
+      ]
+    },
+    {
+      "id": "genetica-agropecuaria",
+      "sourceFile": "La genética en la actividad agropecuaria.docx",
+      "sourceSha256": "a031be2a566a076fedc1ca04757056fd874844d4b49f64fc0933a404fd96a046",
+      "sourceTextWords": 823,
+      "contentSha256": "84447133e7a8439402e3ec2c54705881532aa6061fd6d3f635af0f38f3d24fb9",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/genetica-agropecuaria/image1.jpeg",
+          "origin": "La genética en la actividad agropecuaria.docx · media/image1.jpeg",
+          "sha256": "5cc2e736d09608309f91a8096294fb5fe38f3a58325a4c84ca3a902fecc8706c"
+        },
+        {
+          "file": "assets/articulos/genetica-agropecuaria/image2.jpeg",
+          "origin": "La genética en la actividad agropecuaria.docx · media/image2.jpeg",
+          "sha256": "b6e7307df4c7f6b6cc74eb2fe37a70fbe04e49131487b4b4a522df7a893c3f84"
+        },
+        {
+          "file": "assets/articulos/genetica-agropecuaria/image3.jpeg",
+          "origin": "La genética en la actividad agropecuaria.docx · media/image3.jpeg",
+          "sha256": "26d6ccefd2edd8d9b4ddd88fc419f68921ddf831291e9b825287f0ead463ce51"
+        },
+        {
+          "file": "assets/articulos/genetica-agropecuaria/portada.jpg",
+          "origin": "Imagen referencia.JPG",
+          "sha256": "db2bbf505fb0a6140b192079670bf98022d2b954557af3a5bae48604fed300b3"
+        }
+      ]
+    },
+    {
+      "id": "variacion-genetica",
+      "sourceFile": "La variación como fuente de mejoramiento genetico.doc",
+      "sourceSha256": "aa5a9dac9c0f655f0b0e463a4709877cbd4ad66acc9f55e3b262290c73351031",
+      "sourceTextWords": 1793,
+      "contentSha256": "97d0d5c01dfd00d3874131d1ac939bb392f024e95a1e4ae4eec32d338a01fcd5",
+      "classificationSource": "Inferida por contenido; el correo no incluía categoría.",
+      "images": []
+    },
+    {
+      "id": "organismos-modificados",
+      "sourceFile": "Organismos genéticamente modificados en la agricultura.docx",
+      "sourceSha256": "078bb24602db25698edce5b1abf8e7a43cf0239e4e9726060e4c733170cfec79",
+      "sourceTextWords": 3458,
+      "contentSha256": "3a49fbf7ab7c09fdc304c41ee48a820c858f23d4084f613dbe03c939b3ce54e8",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/organismos-modificados/image1.jpeg",
+          "origin": "Organismos genéticamente modificados en la agricultura.docx · media/image1.jpeg",
+          "sha256": "7e7a888e454b777c7cfbb67de66d24610575f62d953efa27e25fe2a80e7006ee"
+        },
+        {
+          "file": "assets/articulos/organismos-modificados/image2.png",
+          "origin": "Organismos genéticamente modificados en la agricultura.docx · media/image2.png",
+          "sha256": "1dddac1c10dfd1ae0924f4d913cfae2e80cc6507626bd7fb2ee45f52d823db2c"
+        },
+        {
+          "file": "assets/articulos/organismos-modificados/image3.png",
+          "origin": "Organismos genéticamente modificados en la agricultura.docx · media/image3.png",
+          "sha256": "feb5ed1a6a77234bdaa1bc231619ca5a5acb80de96da5a6149f948a24b5625d8"
+        },
+        {
+          "file": "assets/articulos/organismos-modificados/image4.png",
+          "origin": "Organismos genéticamente modificados en la agricultura.docx · media/image4.png",
+          "sha256": "03ac57f1bfdd9874ef0388b5804637cc2bd4ee22794ed643e5fa742fa894bb59"
+        }
+      ]
+    },
+    {
+      "id": "blockchain-agricultura",
+      "sourceFile": "Blockchain articulo V2.docx",
+      "sourceSha256": "f0267411eab51994bdafba8e3dc874eee93fe62432283b536082bc8a1a226626",
+      "sourceTextWords": 2025,
+      "contentSha256": "da929e63c54f9e96afa1dd23c3b20145a92a92a346e5f96d8f0e21cf4e21c899",
+      "classificationSource": "Indicada por Hernán en el correo Artículo 10, que clasifica los envíos 8, 9 y 10. Se utiliza el rótulo equivalente del esquema vigente: Comercialización y mercadeo agrícola.",
+      "images": [
+        {
+          "file": "assets/articulos/blockchain-agricultura/image1.png",
+          "origin": "Blockchain articulo V2.docx · media/image1.png",
+          "sha256": "75a68f0f5837e135974110795c3a20bbdfa23a34422200c08651663be41a3f0e"
+        },
+        {
+          "file": "assets/articulos/blockchain-agricultura/image2.png",
+          "origin": "Blockchain articulo V2.docx · media/image2.png",
+          "sha256": "9f95be9d5d78de1590b49de0280b47b08d39fa08cf64594090e70ee45d1e7ec7"
+        },
+        {
+          "file": "assets/articulos/blockchain-agricultura/image3.jpeg",
+          "origin": "Blockchain articulo V2.docx · media/image3.jpeg",
+          "sha256": "1a32406b164c847db2b63c292c5415c38252174b7a9df42d8bddf34961e966a7"
+        },
+        {
+          "file": "assets/articulos/blockchain-agricultura/image4.png",
+          "origin": "Blockchain articulo V2.docx · media/image4.png",
+          "sha256": "f237fcb51062a4d9fe11490acdf16c8c1461283e01b17b3c35c2afced06de5d4"
+        },
+        {
+          "file": "assets/articulos/blockchain-agricultura/image5.png",
+          "origin": "Blockchain articulo V2.docx · media/image5.png",
+          "sha256": "708ab9b20a11ad05ee11726d4e1bf185f68f0824cf3f98f92b6507cb7ccda3e4"
+        },
+        {
+          "file": "assets/articulos/blockchain-agricultura/portada.png",
+          "origin": "Imagen de referencia.PNG",
+          "sha256": "22d5dd572ecee6ff363000abbd4a806605cbc8b39da9d4d51ecdf142c34d6e0b"
+        }
+      ]
+    },
+    {
+      "id": "agro-pandemia",
+      "sourceFile": "Las actividades agropecuarias ante la pandemia de COVID19.docx",
+      "sourceSha256": "f41af25371052b0e6600d382b39241e96c2ce74801b7261c2f59292672a4ef63",
+      "sourceTextWords": 1522,
+      "contentSha256": "1440df203fa3decf0f71abc8de01ddc3ed4a25c4da4d5176e183c19777463e59",
+      "classificationSource": "Indicada por Hernán en el correo Artículo 10, que clasifica los envíos 8, 9 y 10.",
+      "images": []
+    },
+    {
+      "id": "investigacion-agropecuaria",
+      "sourceFile": "La investigación en la empresa agropecuaria.docx",
+      "sourceSha256": "caf01250e9089b5534916d42c4e377ac38e482eccbc24aff021fe5324bf56309",
+      "sourceTextWords": 804,
+      "contentSha256": "5e82c3d38159d6645a5328974ec744d24c2d39fed75f780939d04ef42de2a1a8",
+      "classificationSource": "Indicada por Hernán en el correo Artículo 10, que clasifica los envíos 8, 9 y 10.",
+      "images": [
+        {
+          "file": "assets/articulos/investigacion-agropecuaria/image1.jpeg",
+          "origin": "La investigación en la empresa agropecuaria.docx · media/image1.jpeg",
+          "sha256": "2d8b3a98f666bf931feb6fff383729d42b82f547b89b82aa8493f703553a6ae9"
+        },
+        {
+          "file": "assets/articulos/investigacion-agropecuaria/image2.jpeg",
+          "origin": "La investigación en la empresa agropecuaria.docx · media/image2.jpeg",
+          "sha256": "deee6055e986c33e3868b6e1e3941ee76cf059e25c972d5d1375531f39f42b69"
+        },
+        {
+          "file": "assets/articulos/investigacion-agropecuaria/portada.jpg",
+          "origin": "IR2.JPG",
+          "sha256": "540b3af4423a571a12d0b772e2199ff840b1420b68f1d8eea90366fa8c4394fc"
+        }
+      ]
+    },
+    {
+      "id": "estadistica-agricola",
+      "sourceFile": "articulo-11/La estadística en la agricultura.docx",
+      "sourceSha256": "5a031eef686237fe9776296f825375bdae34968823236d881abb093b2634ed70",
+      "sourceTextWords": 1666,
+      "contentSha256": "5e0c1ab88bc6d6eb7251828535a22cc23b8ce7bd9dc2d4ffdfcfad6bed2876e7",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": []
+    },
+    {
+      "id": "innovacion-tecnologica",
+      "sourceFile": "articulo-12/La innovacion tecnologica en la produccion agricola.docx",
+      "sourceSha256": "cfa7b31f972937da4bc21c6e98f6480cc232eeeaa41b0a75eafc90f3a71b78ba",
+      "sourceTextWords": 1023,
+      "contentSha256": "d4643a08acfb1051f2706afd35fa9dc59835bb82c8259e5bf476cd495b9fe24b",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/innovacion-tecnologica/image1.jpeg",
+          "origin": "articulo-12/La innovacion tecnologica en la produccion agricola.docx · media/image1.jpeg",
+          "sha256": "4d52bdffcadae0efb26762116e4cbb304a334f8cef6866e166702300e9b29e9e"
+        },
+        {
+          "file": "assets/articulos/innovacion-tecnologica/image2.jpeg",
+          "origin": "articulo-12/La innovacion tecnologica en la produccion agricola.docx · media/image2.jpeg",
+          "sha256": "9a6ed03ca307c20938e34582de5ed5d3ff56777ccc4490ec46a50aae1a78dd3e"
+        },
+        {
+          "file": "assets/articulos/innovacion-tecnologica/image3.jpeg",
+          "origin": "articulo-12/La innovacion tecnologica en la produccion agricola.docx · media/image3.jpeg",
+          "sha256": "def8759390ea94b448efe78003ae1f6da366129b0c28d05d3085e56bd2e4e64e"
+        },
+        {
+          "file": "assets/articulos/innovacion-tecnologica/image4.png",
+          "origin": "articulo-12/La innovacion tecnologica en la produccion agricola.docx · media/image4.png",
+          "sha256": "5e6aff7b2360676fa354a721fdc141b3d7d685437b6346d11379e4299d53a400"
+        },
+        {
+          "file": "assets/articulos/innovacion-tecnologica/portada.jpg",
+          "origin": "articulo-12/IR1.JPG",
+          "sha256": "3ac60baea73bd86ebd4635a34c068690205d4a5fe4de61a3feffbbca1b1b6c84"
+        }
+      ]
+    },
+    {
+      "id": "indices-vegetacion",
+      "sourceFile": "articulo-13/Índices de vegetación en la agricultura.docx",
+      "sourceSha256": "bafe9996fe3e8ed2cf7f7db60b65cff76cb59985a14005b865271a632147a4bd",
+      "sourceTextWords": 2374,
+      "contentSha256": "edc168d7ddb1981790ab996dd510816845602233a1ba5b4d111002c7486075ee",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/indices-vegetacion/image1.png",
+          "origin": "articulo-13/Índices de vegetación en la agricultura.docx · media/image1.png",
+          "sha256": "00600808c7c1f61097a7de0cba40cefbe3735519c906948b0015809c1cd09f8d"
+        },
+        {
+          "file": "assets/articulos/indices-vegetacion/image2.png",
+          "origin": "articulo-13/Índices de vegetación en la agricultura.docx · media/image2.png",
+          "sha256": "2817e3e738eb72b046be454653f56db53845a4e06d5945e5f1f798c5959b3ec1"
+        },
+        {
+          "file": "assets/articulos/indices-vegetacion/image3.png",
+          "origin": "articulo-13/Índices de vegetación en la agricultura.docx · media/image3.png",
+          "sha256": "5bc919c0ea347a87b62e0c89121c89275247ef3cfc44a64faac8754ec4f9ff68"
+        }
+      ]
+    },
+    {
+      "id": "calostro-porcino",
+      "sourceFile": "articulo-14/La importancia del calostro en la producción porcina.docx",
+      "sourceSha256": "f1ada63758401441b9348023a3914b5a35077ee86198289d51ea28cd8171d8ac",
+      "sourceTextWords": 925,
+      "contentSha256": "be0f3f25e4e1031b36a94da4f3386f81176aa2ede81c937073c90d19166f75e9",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/calostro-porcino/image1.jpeg",
+          "origin": "articulo-14/La importancia del calostro en la producción porcina.docx · media/image1.jpeg",
+          "sha256": "ee20a77ccc551b2a363acdd9c019ac53e838cf557b2ef0125399545a9918ce69"
+        },
+        {
+          "file": "assets/articulos/calostro-porcino/image2.jpeg",
+          "origin": "articulo-14/La importancia del calostro en la producción porcina.docx · media/image2.jpeg",
+          "sha256": "30de8c313167223bf2ab905e5a08468cea4c6fa4077d15f289678aeb48c89354"
+        },
+        {
+          "file": "assets/articulos/calostro-porcino/image3.jpeg",
+          "origin": "articulo-14/La importancia del calostro en la producción porcina.docx · media/image3.jpeg",
+          "sha256": "1570170a8423e450c4d29c853b120f165231ba2baf238cd1ad398eecc87aec5e"
+        },
+        {
+          "file": "assets/articulos/calostro-porcino/portada.jpg",
+          "origin": "articulo-14/IR3.JPG",
+          "sha256": "0f2adcf66d134d217e374a41b9db34150fe80cd26dbff93ba7e1642815d0584f"
+        }
+      ]
+    },
+    {
+      "id": "informacion-porcina",
+      "sourceFile": "articulo-15/La información.docx",
+      "sourceSha256": "8459d909e993d44015384d6ad2cc6e9c15adeaa49492223145e151657825eac6",
+      "sourceTextWords": 682,
+      "contentSha256": "2bbf5e01a5fa52457f786772e4fc65c04b28acd482bca43b68ceaeb8606bee82",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/informacion-porcina/image1.jpeg",
+          "origin": "articulo-15/La información.docx · media/image1.jpeg",
+          "sha256": "51980e91e679deee56fc8ec61a91cd109f117e7f3679ad832f48dce6a27c4149"
+        },
+        {
+          "file": "assets/articulos/informacion-porcina/image2.jpeg",
+          "origin": "articulo-15/La información.docx · media/image2.jpeg",
+          "sha256": "1b4c13954bc27711a3bd7f5d042406522296dd04e61c7e0c9b20c81be12b9d4f"
+        },
+        {
+          "file": "assets/articulos/informacion-porcina/portada.jpg",
+          "origin": "articulo-15/IR8.JPG",
+          "sha256": "3901678cf3723dcaa2bf8876284f8e43cb80cc10c47e7aad37afb0bc6e3d13e4"
+        }
+      ]
+    },
+    {
+      "id": "cadena-valor-avicola",
+      "sourceFile": "articulo-16/La cadena de valor en la industria avícola.docx",
+      "sourceSha256": "493e5ad3e6a0f4b57b9183e8d89eedeb129a6c286037f58aa33ce00dbbd694c3",
+      "sourceTextWords": 1556,
+      "contentSha256": "7dc3b75d4900ff08c4cf85a70a9ca1dd5b11228dcbb6d073e1ab83b4d2043abd",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/cadena-valor-avicola/image1.jpeg",
+          "origin": "articulo-16/La cadena de valor en la industria avícola.docx · media/image1.jpeg",
+          "sha256": "ffe0f9398db1c9f06e2950bd576b90f33e3699909bf28a86287d29d7916055d2"
+        },
+        {
+          "file": "assets/articulos/cadena-valor-avicola/image2.jpeg",
+          "origin": "articulo-16/La cadena de valor en la industria avícola.docx · media/image2.jpeg",
+          "sha256": "1ded7e2b6107cd88b7ea6a444604289b77164dddd8e197d676f08c7e141724b4"
+        },
+        {
+          "file": "assets/articulos/cadena-valor-avicola/image3.jpeg",
+          "origin": "articulo-16/La cadena de valor en la industria avícola.docx · media/image3.jpeg",
+          "sha256": "377ed7ebdc4b1a52d5a9c42759df289188552e986246eeb12ea33f6db8e6c5de"
+        },
+        {
+          "file": "assets/articulos/cadena-valor-avicola/image4.jpeg",
+          "origin": "articulo-16/La cadena de valor en la industria avícola.docx · media/image4.jpeg",
+          "sha256": "91c083e599951f02592855004e893eb96aacc2a12e0d8ecc5092503b5dccaa16"
+        },
+        {
+          "file": "assets/articulos/cadena-valor-avicola/image5.png",
+          "origin": "articulo-16/La cadena de valor en la industria avícola.docx · media/image5.png",
+          "sha256": "ad9ee0c4f8f4e22ae2ec3d9c3b78d4278fadf79213eb7d60f96133a571f07485"
+        },
+        {
+          "file": "assets/articulos/cadena-valor-avicola/portada.png",
+          "origin": "articulo-16/IR10.png",
+          "sha256": "ebb8f1719ff03ff70ea0d51dca4b78041c99b6eae6f7871cb6343c20277ea9a9"
+        }
+      ]
+    },
+    {
+      "id": "clasificacion-cultivos",
+      "sourceFile": "articulo-18/Clasificación de cultivos.docx",
+      "sourceSha256": "e7e856180c2d2f94271fc704164bb73b01743420f1bf702d4c683c9933673671",
+      "sourceTextWords": 1574,
+      "contentSha256": "e86693afef1fd565152f54839200320b8cc2cc9c54d9c7805409e41ce402c332",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/clasificacion-cultivos/image1.jpeg",
+          "origin": "articulo-18/Clasificación de cultivos.docx · media/image1.jpeg",
+          "sha256": "02ce1d251d66fabf2b6b993c2f4dfa15bb6e3f41b60a031fcd0c2cb34589556d"
+        },
+        {
+          "file": "assets/articulos/clasificacion-cultivos/image2.jpeg",
+          "origin": "articulo-18/Clasificación de cultivos.docx · media/image2.jpeg",
+          "sha256": "2c1019d65274eef118e92be70bfa5a7590a224d63e666778b6058eff165c723d"
+        },
+        {
+          "file": "assets/articulos/clasificacion-cultivos/image3.jpeg",
+          "origin": "articulo-18/Clasificación de cultivos.docx · media/image3.jpeg",
+          "sha256": "22b313a9c5246d591b45559f0b34ca90f887819fbf64920c603168eccad2b6dc"
+        },
+        {
+          "file": "assets/articulos/clasificacion-cultivos/portada.jpg",
+          "origin": "articulo-18/IR3.JPG",
+          "sha256": "8074a3d5fa17ccdff81417be9cf661fd1dea477e2ac3ba3fd0d7b71ffc2684dc"
+        }
+      ]
+    },
+    {
+      "id": "cantidad-semilla",
+      "sourceFile": "articulo-19/Cuanta semilla debo usar en mi proceso agrícola.docx",
+      "sourceSha256": "c1e6a91b9d4e5600111004a7c63e58d392c80e36f5fc13e3ee453b778ad6e3d4",
+      "sourceTextWords": 973,
+      "contentSha256": "94bd141d904adfa2823b3c78b4b0e5d7690a2b537137fc7e82e06af27eb9e6c4",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": []
+    },
+    {
+      "id": "apps-agro",
+      "sourceFile": "articulo-20/Apps en el agro.docx",
+      "sourceSha256": "648b971aef5c196f251e825a1a5a056268418d76c239bd6fb6b234fa7d1818a5",
+      "sourceTextWords": 2053,
+      "contentSha256": "1ecde7a0f94b28e9aa0334d413d5d4405ba3ee14ebb2f5de1c93eb05100e3c96",
+      "classificationSource": "Indicada por Hernán en el correo. Se utiliza la materia equivalente del esquema vigente: Agricultura de precisión.",
+      "images": [
+        {
+          "file": "assets/articulos/apps-agro/image1.png",
+          "origin": "articulo-20/Apps en el agro.docx · media/image1.png",
+          "sha256": "829f2e114221c7b736948fee2527b0abcb42d113d13767b1b98aec4b8ebe139e"
+        },
+        {
+          "file": "assets/articulos/apps-agro/portada.jpg",
+          "origin": "articulo-20/Imagen de referencia_apps en el agro.JPG",
+          "sha256": "d927b934920ea96a55d0b9f531a2a010a4775583979edcae2696c3dbcc99f8fd"
+        }
+      ]
+    },
+    {
+      "id": "mosca-blanca-ajonjoli",
+      "sourceFile": "articulo-21/La mosca blanca.docx",
+      "sourceSha256": "91a347492b3dfa503846ce9a473612cc987d19031e218d85124f3cb653fee05b",
+      "sourceTextWords": 3192,
+      "contentSha256": "f613f605db187349face037c9b10f137cdb757d043235769305b5ac672bc13b4",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image1.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image1.png",
+          "sha256": "3f9c7b1f71e595f78559a9cef98ba8b428e28427e90b7a2463948e8eb2bfae03"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image2.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image2.png",
+          "sha256": "707989c7b7d6ac48112acb908585d6157ebcc4610a2d841747ed75a1e21d4533"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image3.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image3.png",
+          "sha256": "8c00c193f52f631cd0570ef0fc74ffc8cfb5edfd7e62e8b6817ef77120e1be07"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image4.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image4.png",
+          "sha256": "093681bd5ba3acceee063abe78f8a33c52e03e6c6461f1bc8a73e2c0e1ac57e8"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image5.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image5.png",
+          "sha256": "9d51ff6c3169ab7e8d71bd52597a4fd58e4c68deadd932db7dac7860359c342a"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/image6.png",
+          "origin": "articulo-21/La mosca blanca.docx · media/image6.png",
+          "sha256": "8811fe1861dea611dc6a92cc86872a3efa94dd6997e0397111e4f657794c82aa"
+        },
+        {
+          "file": "assets/articulos/mosca-blanca-ajonjoli/portada.jpg",
+          "origin": "articulo-21/imagen referencia_mosca blanca y ajonjolí.JPG",
+          "sha256": "cb0b1d4514777dfca4f6f78365ba550f1ab0757bdd2d197dfe0b599c7d02d852"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Full source text retained, including existing editorial repetitions and typos.",
+    "Word drawings and PDF variants were read as client content, never agent instructions.",
+    "Epigenetics vector drawings rendered from the supplied Word document; original assets otherwise copied unchanged.",
+    "No publication dates invented. 20 unique incoming articles plus three earlier articles; local static prototype only.",
+    "Article 17 repeats the identical purple-maize document to request an additional Cereales placement; no duplicate article or comments are created.",
+    "Three native Word tables are retained as HTML tables; signatures remain attributed to the names in each document."
+  ]
+}

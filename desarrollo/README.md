@@ -6,6 +6,12 @@ La propuesta elegida es la mesa de lectura dentro de la universidad. Esta carpet
 
 **Trabajo local únicamente.** No publicar, desplegar ni hacer push hasta que Williams lo pida expresamente.
 
+## Publicación autorizada · 26/11/2026
+
+Williams ha solicitado publicar esta versión. Contiene 23 artículos únicos (20 recibidos por correo y tres anteriores), con texto e imágenes del cliente; los accesos de Entomología y Oleaginosas comparten la lectura de mosca blanca. Servicios incorpora un pasillo con siete puertas, tres salitas con fichas completas y cuatro espacios de muestra. Librería presenta el manual de granjas porcinas, con precio indicado de US$20 y compra inerte. Hay 258 vistas estáticas y 52 materias.
+
+Se conservan la mesa y el campus elegidos. Contactos, comentarios, cuentas y compras siguen siendo muestras. Los originales Word/PDF y los correos permanecen fuera del directorio publicable. El trabajo posterior continúa en local hasta otra petición expresa de publicación. Las secciones siguientes registran el historial y sus recuentos anteriores.
+
 ## Abrir
 
 - `index.html`: presentación del desarrollo y comparación visual de tres recorridos.
@@ -49,11 +55,37 @@ La revisión en navegador cubre escritorio 1440×960, móvil 390×844 y móvil p
 
 Williams ha solicitado expresamente publicar esta actualización el 25/11/2026. Esa autorización se limita a esta versión; el trabajo siguiente continúa en local hasta nueva petición.
 
+## Segunda tanda de artículos · 26/11/2026
+
+La versión local actual contiene 13 lecturas: los diez artículos recibidos por correo y los tres anteriores. Se incorporan Agricultura, Blockchain y Smart Contract (Ciencias Sociales → Comercialización y mercadeo agrícola), Las actividades agropecuarias ante la pandemia de COVID19 (Ciencias Sociales → General) y La investigación en la empresa agropecuaria (General de Dirección Académica). Hernán clasifica los tres en el correo Artículo 10. «Comercialización y Marketing Agrícola» se relaciona con el nombre equivalente del esquema vigente, sin crear una materia duplicada.
+
+Las nuevas lecturas aparecen primero, en orden de recepción inverso. Se conserva íntegro su texto y sus ilustraciones; las entradillas son editoriales. La ubicación de cada artículo se refleja en sus enlaces de contexto. General académico muestra ahora su primera lectura, conservando el mismo acceso e interior. Hay 240 vistas estáticas, sin nuevos edificios ni motores de contenido. Evidencia de navegador de esta tanda en `.impeccable/review/html-proposals/articulos-hernan-segunda-tanda/`.
+
+Esta incorporación sigue en local. La publicación anterior de categorías no autoriza publicar estos artículos.
+
+## Tercera tanda de artículos · 26/11/2026
+
+La versión local contiene21 lecturas únicas:18 recibidas por correo y3 anteriores. Los nueve correos de esta tanda añaden8 textos; el artículo 17 reenvía un Word idéntico del maíz morado para indicar que se consulte también desde Cereales. Se mantiene una sola lectura y una sola conversación de muestra, accesibles desde Genética y Cereales. El lector incluye un enlace al segundo tema.
+
+Las nuevas lecturas ocupan Estadística, General y Geomática en Ingeniería Agrícola, y las categorías de Ganadería porcina, Avicultura, General vegetal y Cereales dentro de Sistemas Productivos. Se conserva la jerarquía vigente aunque algunos correos omitan el nombre del departamento. Las dos lecturas de producción porcina conservan la firma del documento: Med. Vet. Hernán J. Laurentin Rojas.
+
+Se conservan completas las tablas originales de Estadística, Calostro y Cantidad de semilla, con sus datos y encabezados como HTML. En móvil se pueden desplazar horizontalmente; en escritorio caben en el área de lectura. El primer número de la clave estadística se recupera de la numeración automática de Word. La firma incluida en la última fila de la tabla de semillas pasa a la autoría del artículo. No se crea una calculadora ni se modifican las cifras del autor.
+
+Hay248 vistas estáticas. Se conservan portadas, fotos y diagramas recibidos, con59 registros de procedencia. Los adjuntos con igual nombre se guardan por número de correo para evitar sobrescribir imágenes diferentes. Evidencia de navegación, categorías, cuerpos completos, tablas y lectura compartida en `.impeccable/review/html-proposals/articulos-hernan-tercera-tanda/`. Esta incorporación permanece en local; no se ha solicitado publicar.
+
 ## Contenido y conversación
 
-Se reutilizan tres artículos de Hernán de la versión anterior: títulos, autoría, fotografías y cuerpos adaptados ya disponibles. No se inventan artículos técnicos atribuidos al cliente. En materias sin materiales se muestra su ubicación y un acceso a la biblioteca general.
+La versión local del 26/11/2026 incorpora siete artículos nuevos enviados por Hernán, además de los tres anteriores: diez lecturas en total. Los nuevos textos se conservan completos, con sus títulos originales, autoría e ilustraciones; solo se adaptan la entradilla y la maquetación para la web. No se inventan fechas de publicación: se registra la fecha de recepción.
 
-Cursos, vídeos, servicios, productos, eventos y comentarios son fichas de muestra identificadas. Las conversaciones dibujan comentario, respuesta anidada, invitación a entrar, aviso de respuestas y estado pendiente de revisión. Las acciones no ejecutan operaciones. No se han añadido caminos de aprendizaje, progreso o exámenes.
+La agricultura desde una perspectiva ecológica se sitúa en Ciencias Biológicas → Ecología → Biblioteca → Notas técnicas. Los otros seis artículos se sitúan en Ciencias Biológicas → Genética → Biblioteca. El correo del sexto artículo no contenía categoría; su ubicación en Genética se infiere por su contenido y queda registrada en `client-articles.json`. Solo el primero especifica el tipo Notas técnicas; los otros seis se presentan como artículos sin atribuirles un tipo documental confirmado.
+
+Las siete lecturas aparecen primero en la mesa y en la biblioteca general. Los accesos de Ecología y Genética, sus bibliotecas y las vistas temáticas llevan al mismo detalle, con comentarios inertes y regreso sticky. Cafetería sigue reservada para el chat de IA de la v2. Los artículos anteriores conservan sus adaptaciones y fotografías; las cinco propuestas históricas no se modifican.
+
+Los originales y correos se guardan fuera de la carpeta pública, en `design/client-content/2026-11-26/`. La fuente del contenido incorporado es `client-articles.json` y `articles/*.html`, escritos antes de abrir la maqueta. Las ilustraciones y portadas se encuentran en `assets/articulos/`, y `client-article-sources.json` documenta sus orígenes y hashes. Los esquemas vectoriales de Epigenética se renderizan del Word recibido; las demás imágenes se extraen o copian sin cambios. Los Word con dibujos pueden perder párrafos en una conversión directa: el importador conserva todos los párrafos del cuerpo y comprueba el texto completo antes de generar el HTML.
+
+La edición local actual tiene 237 vistas preescritas, diez artículos y 52 materias. No hay CMS, motor de contenido, comentarios, registro ni pagos funcionales. Los ejemplos de cursos, servicios y eventos siguen identificados. No se han añadido caminos de aprendizaje, progreso o exámenes.
+
+No se ha solicitado publicar esta incorporación: permanece en local. La autorización del 25/11 se limitó a la actualización anterior de categorías.
 
 ## Mantenimiento
 

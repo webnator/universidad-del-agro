@@ -1,0 +1,25 @@
+{
+  "generated": [
+    {
+      "asset": "assets/pasillo-servicios.webp",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-c5b003e3-44a2-41f5-b3f8-992a68c72750.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed architectural background for a static university prototype. Reference image defines the existing university interior: warm timber pitched roof and beams, glazed garden views with mountains and copper-roof pavilions, stone floor, natural daylight, detailed credible plants. Preserve that same physical place and photographic realism. Landscape 16:10. No UI, text, lettering, signs, numbers, logos, watermarks or montage. Create the adjacent professional-services corridor reached from this reception. View along a spacious gently receding timber corridor. Exactly seven distinct full-height wooden glazed office doors, four along the left and three on right, naturally distributed in perspective. Clear walking space, no desks in corridor, quiet glass garden at far end. Doors occupy middle band, large enough to click. No people. Warm welcoming academic building, not shopping mall.",
+      "tool": "Built-in ImageGen",
+      "conversion": "WebP quality94 format conversion only"
+    },
+    {
+      "asset": "assets/salita-asesora.webp",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-90f7ea0a-e660-4c83-a5db-2196936793ac.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed architectural background for a static university prototype. Reference image defines the existing university interior: warm timber pitched roof and beams, glazed garden views with mountains and copper-roof pavilions, stone floor, natural daylight, detailed credible plants. Preserve that same physical place and photographic realism. Landscape 16:10. No UI, text, lettering, signs, numbers, logos, watermarks or montage. Create one intimate consultant office within this building. Human eye-level viewpoint from visitor entrance. One professional Latin American woman aged 40 seated behind a real timber desk at center-right (x65%,y60%), natural friendly posture, modest sage blouse. Not a portrait closeup. Far LEFT wall has a broad framed blank cream display surface (x22%,y43%) for later HTML diagram. Rear wall above adviser has a smaller blank identity plaque (x66%,y28%). Windows on right with same campus garden. Desk and two visitor chairs visible, balanced space and desk not gigantic. No text on papers/screens. A small sample jar and laptop, not clutter.",
+      "tool": "Built-in ImageGen",
+      "conversion": "WebP quality94 format conversion only"
+    },
+    {
+      "asset": "assets/salita-asesor.webp",
+      "source": "/Users/unalaptop/.codex/generated_images/01a1f784-92d9-7441-9332-997cbef0d605/exec-f4a89891-05ce-4730-ab7f-6ca95d3cee42.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-bleed architectural background for a static university prototype. Reference image defines the existing university interior: warm timber pitched roof and beams, glazed garden views with mountains and copper-roof pavilions, stone floor, natural daylight, detailed credible plants. Preserve that same physical place and photographic realism. Landscape 16:10. No UI, text, lettering, signs, numbers, logos, watermarks or montage. Create another consultant office within this building with the same scale and camera. One professional Latin American man aged 45 seated behind a real timber desk at center-right (x65%,y60%), natural friendly posture, pale blue shirt. Not a portrait closeup. Far LEFT wall has a broad framed blank cream display surface (x22%,y43%) for later HTML soil diagram. Rear wall above adviser has a smaller blank identity plaque (x66%,y28%). Windows on right with same campus garden. Desk and two visitor chairs visible, balanced space and desk not gigantic. Soil sample jars and small seedling on desk. No text.",
+      "tool": "Built-in ImageGen",
+      "conversion": "WebP quality94 format conversion only"
+    }
+  ]
+}
