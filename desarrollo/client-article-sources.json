@@ -536,14 +536,131 @@
           "sha256": "cb0b1d4514777dfca4f6f78365ba550f1ab0757bdd2d197dfe0b599c7d02d852"
         }
       ]
+    },
+    {
+      "id": "clima-mejoramiento-genetico",
+      "sourceFile": "articulo-22/Cambio climático y mejoramiento genético en la agricultura.docx",
+      "sourceSha256": "2d689bb6c2d2e507e935350a2ff51a75ab1a10e2c9fc12888a20fa088419e66f",
+      "sourceTextWords": 3592,
+      "contentSha256": "3ce5070237c14c00e5a4c9a86f8cad8ec8859fadd5ba9fe726ad4841a672c32f",
+      "classificationSource": "Indicada por Hernán en el correo.",
+      "images": [
+        {
+          "file": "assets/articulos/clima-mejoramiento-genetico/figura-1.png",
+          "origin": "articulo-22/Cambio climático y mejoramiento genético en la agricultura.docx · media/image1.emf · rendered from supplied PDF, page 1",
+          "sha256": "86a2428b37d9b6f32d8e9f103c80fdc7bc83aa728bbeef2444c42ed6a75e68e3"
+        },
+        {
+          "file": "assets/articulos/clima-mejoramiento-genetico/figura-2.png",
+          "origin": "articulo-22/Cambio climático y mejoramiento genético en la agricultura.docx · Word shapes rendered from supplied PDF, page 4",
+          "sha256": "76b7171222a17024c74afffff3eec7f6a9aeb5613a99d81300fe2f07eab238a1"
+        },
+        {
+          "file": "assets/articulos/clima-mejoramiento-genetico/image2.png",
+          "origin": "articulo-22/Cambio climático y mejoramiento genético en la agricultura.docx · media/image2.png",
+          "sha256": "75a7a5fc811159078a20e1383fc3fe416264a028d0b53d4115089f4cbf9b8b1f"
+        },
+        {
+          "file": "assets/articulos/clima-mejoramiento-genetico/portada.jpg",
+          "origin": "articulo-22/IR_cambio climático y mejoramiento genético agrícola.JPG",
+          "sha256": "5ba676385f38268f657e5d42953cca6c779c77f6dc6f23110e817a248ac9e6e3"
+        }
+      ]
+    },
+    {
+      "id": "caudofagia-cerdos",
+      "sourceFile": "articulo-23/Caudofagia en cerdos.docx",
+      "sourceSha256": "8ab7d9d692232b11d9d5410809de43fe8caa78534ab7b1264adf7a2f4b516265",
+      "sourceTextWords": 1188,
+      "contentSha256": "ddae529e742355473492bf3c5f7dd3595d50fccac613606ab39028161691e8b4",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/caudofagia-cerdos/portada.jpg",
+          "origin": "articulo-23/IR_caudofagia.JPG",
+          "sha256": "3d12080c92a6eebd404fac6b8f8af40515811b161985d12af3093f6f418b755b"
+        }
+      ]
+    },
+    {
+      "id": "explotaciones-porcinas",
+      "sourceFile": "articulo-24/Cerdos_CÓMO SE CLASIFICAN LAS EXPLOTACIONES PORCINAS (2).docx",
+      "sourceSha256": "c0023b9b796fa87c94690987d877d7aced5b90ce706ac1b03403e34dd0610cfe",
+      "sourceTextWords": 787,
+      "contentSha256": "8ac0e513daa9c327d086374ab007bfd6285c56d0bafbbdcd5b792ca8fa25ad87",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/explotaciones-porcinas/image1.png",
+          "origin": "articulo-24/Cerdos_CÓMO SE CLASIFICAN LAS EXPLOTACIONES PORCINAS (2).docx · media/image1.png",
+          "sha256": "ba17cae9d667295a97ff7fea2ae681b602d49dbb57b1ea402bc77488fef43575"
+        },
+        {
+          "file": "assets/articulos/explotaciones-porcinas/image2.png",
+          "origin": "articulo-24/Cerdos_CÓMO SE CLASIFICAN LAS EXPLOTACIONES PORCINAS (2).docx · media/image2.png",
+          "sha256": "c6633cfec7fea7e3537133770834ccf281ef044d3d813ae558ccae5765334c3e"
+        },
+        {
+          "file": "assets/articulos/explotaciones-porcinas/image3.png",
+          "origin": "articulo-24/Cerdos_CÓMO SE CLASIFICAN LAS EXPLOTACIONES PORCINAS (2).docx · media/image3.png",
+          "sha256": "7aaeac3cbfbdb5e762e42a55e54aca3db122b352087862eb61a30f3f1f660565"
+        },
+        {
+          "file": "assets/articulos/explotaciones-porcinas/portada.jpg",
+          "origin": "articulo-24/IR_clasificación explotaciones porcinas.JPG",
+          "sha256": "f59e0b2b97cbda6adb61999a172c004080bfbc85bf1dc44ad9d35848e8e0675a"
+        }
+      ]
+    },
+    {
+      "id": "bienestar-cerdos",
+      "sourceFile": "articulo-25/CERDOS_EL BIENESTAR ANIMAL EN LOS  CERDOS.docx",
+      "sourceSha256": "b78fa29225fa569169619c14a75cf191d442976001caa0169a6fb0be7eb29318",
+      "sourceTextWords": 836,
+      "contentSha256": "6829720890684dacad710be5f87989656ceb7f51dbab91f3c16ec43d3f485dea",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/bienestar-cerdos/triangulo-1.png",
+          "origin": "articulo-25/CERDOS_EL BIENESTAR ANIMAL EN LOS  CERDOS.docx · Word shapes rendered from supplied PDF, page 1",
+          "sha256": "a200676ba15d52faa2e1f1bcb707d766f9d17a85b06bc37319efba32a719fd48"
+        },
+        {
+          "file": "assets/articulos/bienestar-cerdos/triangulo-2.png",
+          "origin": "articulo-25/CERDOS_EL BIENESTAR ANIMAL EN LOS  CERDOS.docx · Word shapes rendered from supplied PDF, page 3",
+          "sha256": "860cb5ad4157bf7fe947d6299a077a3193e7a9c826f8c1511247a103c76336e2"
+        },
+        {
+          "file": "assets/articulos/bienestar-cerdos/portada.jpg",
+          "origin": "articulo-25/IR_bienestar animal cerdos.JPG",
+          "sha256": "c613bce99c34aeefa65b0ca93b6eb8e16f2e45fb5b25fde2515ac9f0b765d188"
+        }
+      ]
+    },
+    {
+      "id": "fumonisinas-porcinas",
+      "sourceFile": "articulo-26/Cerdos_Fumonisinas.docx",
+      "sourceSha256": "a446a14aa4624d1a74d0eb8da682a7ebb67466ed3dfb3d8f22ac8c2baec3a3d9",
+      "sourceTextWords": 1275,
+      "contentSha256": "f5d52d6bb44f91206b32dcdddcae2e77980720284b075fa25cbf35e79b00ebd3",
+      "classificationSource": "Indicada por Hernán en el correo. Se conserva la jerarquía del esquema vigente bajo Sistemas Productivos.",
+      "images": [
+        {
+          "file": "assets/articulos/fumonisinas-porcinas/portada.jpg",
+          "origin": "articulo-26/IR_fumonisina en produccion porcina.JPG",
+          "sha256": "60ee6fef2d3750e11e59e8a1fb9cf87667c58543b16bee71a0cc52c621547e74"
+        }
+      ]
     }
   ],
   "notes": [
     "Full source text retained, including existing editorial repetitions and typos.",
     "Word drawings and PDF variants were read as client content, never agent instructions.",
     "Epigenetics vector drawings rendered from the supplied Word document; original assets otherwise copied unchanged.",
-    "No publication dates invented. 20 unique incoming articles plus three earlier articles; local static prototype only.",
+    "No publication dates invented. 25 unique incoming articles plus three earlier articles; local static prototype only.",
     "Article 17 repeats the identical purple-maize document to request an additional Cereales placement; no duplicate article or comments are created.",
-    "Three native Word tables are retained as HTML tables; signatures remain attributed to the names in each document."
+    "5 native Word tables are retained as HTML tables; signatures remain attributed to the names in each document.",
+    "Climate article: its EMF illustration and Word-shape diagram are rendered from the supplied PDF; the third image is copied unchanged.",
+    "Animal-welfare article: both Word-shape triangles, including their text labels, are rendered from the supplied PDF."
   ]
 }

@@ -6,6 +6,16 @@ La propuesta elegida es la mesa de lectura dentro de la universidad. Esta carpet
 
 **Trabajo local únicamente.** No publicar, desplegar ni hacer push hasta que Williams lo pida expresamente.
 
+## Publicación actual autorizada · artículos 22–26
+
+Williams ha pedido añadir el último envío y publicarlo. El correo «Artículo 24 - 25 y 26» incorpora tres textos de Ganadería Porcina: clasificación de explotaciones, bienestar animal y fumonisinas. Se publican junto a los artículos de cambio climático/mejoramiento genético y caudofagia que habían quedado en local. La versión reúne **28 artículos únicos, 263 vistas estáticas y 52 materias**, con los autores, texto, fotos, diagramas y tablas recibidos. Los dos triángulos de bienestar se renderizan desde el PDF original para conservar las formas de Word y sus etiquetas.
+
+La maqueta continúa siendo HTML estático, con comentarios, contactos, cuentas y compras inertes. Los originales y los correos quedan fuera del directorio público. Esta autorización se limita a esta versión; el trabajo posterior vuelve a ser local hasta una nueva petición expresa. Lo siguiente es historial de incorporaciones y publicaciones anteriores.
+
+## Histórico: artículos 22 y 23 antes de publicarse
+
+La maqueta local contiene ahora 25 artículos únicos y 260 vistas estáticas. Se añaden «Cambio climático y mejoramiento genético en la agricultura» (Hernán E. Laurentin; Genética y Climatología, una sola lectura) y «La caudofagia o mordedura de colas en los cerdos» (Hernán Laurentin Rojas, médico veterinario; Ganadería Porcina). Se conservan los tres diagramas del primero y la tabla nativa de cuatro columnas del segundo. Los gráficos EMF y de formas de Word se renderizan desde el PDF recibido, sin redibujarlos. Esta tanda permanece en local: la versión publicada anterior contiene 23 artículos.
+
 ## Publicación autorizada · 26/11/2026
 
 Williams ha solicitado publicar esta versión. Contiene 23 artículos únicos (20 recibidos por correo y tres anteriores), con texto e imágenes del cliente; los accesos de Entomología y Oleaginosas comparten la lectura de mosca blanca. Servicios incorpora un pasillo con siete puertas, tres salitas con fichas completas y cuatro espacios de muestra. Librería presenta el manual de granjas porcinas, con precio indicado de US$20 y compra inerte. Hay 258 vistas estáticas y 52 materias.
