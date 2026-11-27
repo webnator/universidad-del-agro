@@ -1,6 +1,6 @@
 ---
 name: "Universidad Virtual del Agro · Mesa y campus"
-description: "Desarrollo HTML estático y local de la propuesta 5: mesa, campus, calle académica e interiores físicos con consulta por temas."
+description: "Desarrollo HTML estático y local de la propuesta 5: mesa, campus, departamentos y catálogo compartido."
 colors:
   blue: "#c4d8e7"
   ink: "#12314b"
@@ -43,6 +43,17 @@ typography:
     fontFamily: "Editorial, Georgia, serif"
     fontSize: "30px"
     lineHeight: 1.13
+  gallery-door:
+    fontFamily: "Public, Arial, sans-serif"
+    fontSize: "clamp(13px, 1.05vw, 16px)"
+    fontWeight: 600
+    lineHeight: 1.35
+  gallery-number:
+    fontFamily: "Public, Arial, sans-serif"
+    fontSize: "11px"
+    fontWeight: 500
+    lineHeight: 1.4
+    letterSpacing: ".04em"
   physical-door:
     fontFamily: "Public, Arial, sans-serif"
     fontSize: "18px"
@@ -57,7 +68,25 @@ rounded:
   grounds-label: "9px"
   paper-door: "10px"
   panel: "12px"
+  gallery-control: "6px"
+  gallery-marker: "4px"
 components:
+  gallery-door:
+    backgroundColor: "{colors.blue}"
+    textColor: "{colors.ink}"
+    typography: "{typography.gallery-door}"
+    rounded: "{rounded.gallery-control}"
+    padding: "13px 14px"
+  gallery-door-available:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.brown}"
+    rounded: "{rounded.gallery-control}"
+    padding: "13px 14px"
+  gallery-control:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.brown}"
+    rounded: "{rounded.gallery-control}"
+    padding: "12px 13px"
   physical-door:
     backgroundColor: "{colors.blue}"
     textColor: "{colors.ink}"
@@ -116,7 +145,9 @@ La mesa, los artículos y la consulta temática corresponden al modo Read. El re
 
 La revisión local del 24/11/2026 conserva la terraza original, el anuncio ficticio y el recorrido reversible de mesa a campus. La corrección de pabellones sustituyó la banda fotográfica demasiado cercana: recupera **los diseños de los edificios del antiguo panorama lineal**, redistribuidos en un campus ajardinado a media distancia, con siete pabellones completos y separados, profundidades variadas, huecos de jardín y caminos curvos. Deportes y Cultura tienen cada uno un edificio sustancial e independiente. La antigua disposición en fila sigue rechazada; su arquitectura vuelve a ser la referencia expresamente elegida. La primera ampliación espaciosa aporta paisaje y distribución, sin autoridad sobre los diseños de edificios.
 
-La corrección fotográfica anterior gira la arquitectura central en perspectiva real y varía sus tamaños aparentes: el Auditorio es mayor y más largo, Cultura y Librería quedan algo menores y más atrás, Servicios es más bajo y la pérgola entra en diagonal. La misma fotografía `assets/campus-pabellones-perspectiva.webp` aparece detrás de la mesa y en el campus. Las cuatro señales de la mesa son atajos a Académica, Librería, Auditorio y Cafetería. Librería mantiene la misma identidad y destino antes y después del viaje; Biblioteca general es un acceso textual separado. El contrato vigente es `.impeccable/surfaces/campus-interiores.md`, que conserva las aprobaciones fotográficas de `campus-perspectiva.md` y `campus-pabellones.md`. `PRODUCT.md` y el diseño global conservan el contexto histórico de Next/LMS rechazado y no gobiernan esta maqueta. La extensión física ya materializa las ocho ramas académicas, las agrupaciones de Hernán, las 56 materias y sus 112 aulas/bibliotecas como escenas estáticas para revisión local; no presupone aprobación del cliente de esta arquitectura de información. **Trabajo exclusivamente local: no publicar, desplegar ni hacer push sin una petición expresa y específica de Williams.**
+La corrección fotográfica anterior gira la arquitectura central en perspectiva real y varía sus tamaños aparentes: el Auditorio es mayor y más largo, Cultura y Librería quedan algo menores y más atrás, Servicios es más bajo y la pérgola entra en diagonal. La misma fotografía `assets/campus-pabellones-perspectiva.webp` aparece detrás de la mesa y en el campus. Las cuatro señales de la mesa son atajos a Académica, Librería, Auditorio y Cafetería. Librería mantiene la misma identidad y destino antes y después del viaje; Biblioteca general es un acceso textual separado. El contrato vigente es `.impeccable/surfaces/campus-interiores.md`, que conserva las aprobaciones fotográficas de `campus-perspectiva.md` y `campus-pabellones.md`. `PRODUCT.md` y el diseño global conservan el contexto histórico de Next/LMS rechazado y no gobiernan esta maqueta. La extensión física ya materializa las ocho ramas académicas, las agrupaciones de Hernán, las 52 materias y sus aulas/bibliotecas, incluidas categorías de producción, como escenas estáticas para revisión local; no presupone aprobación del cliente de esta arquitectura de información. **Trabajo exclusivamente local: no publicar, desplegar ni hacer push sin una petición expresa y específica de Williams.**
+
+La extensión de Servicios conserva galerías fotográficas cortas de cuatro puertas, vacantes y retorno a la misma galería, las tres oficinas recibidas y toda la identidad anterior. El artefacto actual reúne **63 vistas estáticas, 52 opciones de materia y 28 artículos únicos**. La revisión de navegación del 27/11/2026, bajo `.impeccable/surfaces/unified-experience.md`, sustituye las descripciones anteriores de atajos de mesa, consulta temática, vestíbulos por materia y salas duplicadas: se conservan aquí como historia. La sección vigente al final de Components concreta el recorrido actual; los recuentos de cierres anteriores son históricos.
 
 **Key Characteristics:**
 
@@ -124,7 +155,7 @@ La corrección fotográfica anterior gira la arquitectura central en perspectiva
 - Lectura editorial con navegación sans serif subordinada.
 - Calle académica con siete departamentos y Biblioteca; dos puertas físicas por materia: Aula y Biblioteca.
 - Recorrido espacial manual y consulta temática llevan a las mismas lecturas canónicas.
-- Maqueta HTML siempre ficticia: solo funciona la navegación visual.
+- Maqueta HTML siempre ficticia: navegación visual y simulación de ocupación en memoria, separada del recorrido habitual.
 
 ## Colors
 
@@ -159,6 +190,8 @@ La serif sostiene la lectura y los títulos; la sans serif mantiene compacta la 
 
 Las placas interiores usan títulos serif de 30px/1.13, 27px en tablet y 23px en salas móviles, con 21px en móvil corto. Los rótulos de puerta usan Public Sans 600 de 18px, 16px en tablet y 14px en móvil; las descripciones se ocultan en móvil. La señalización de la calle académica admite varias líneas para conservar los nombres completos y la separación entre edificios.
 
+Las galerías de Servicios añaden una variante sans serif compacta, registrada en el frontmatter: el nombre de puerta va de 13 a 16px, el número identifica la sala y en móvil queda como marcador de 12px con área mínima de 44×44px. La lista inferior recupera los cuatro nombres a 13px/1.4 y peso 600; la placa serif usa 29px en escritorio, 25px en tablet y 24px en móvil. Son variantes de señalización de esta superficie, no una nueva escala global.
+
 Servicios conserva la misma relación serif/sans: la promesa de cada ficha es editorial y el texto completo usa Reading de 16px/1.7, que pasa a 17px en móvil. Identidad, contacto y directorio usan Public Sans subordinada. Las etiquetas del monograma y de cada gráfico declaran su condición de muestra; su pequeña escala sobre la escena no se convierte en una escala general de lectura.
 
 ## Layout
@@ -185,7 +218,9 @@ En los interiores de escritorio, la fotografía cubre toda la vista bajo la cabe
 
 Hasta 700px, la escena interior pasa a una etapa fotográfica superior de `max(265px, 44dvh)` y el contenido de papel se dispone debajo, con márgenes laterales de 12px. La vista interior completa desplaza verticalmente; el documento exterior y la cabecera permanecen inmóviles. Las dos puertas siguen dentro de la fotografía, también en 320×568. Los encuadres móviles varían por sala para mostrar arquitectura y mobiliario pertinentes. Hasta 700px y 650px de alto se compactan títulos, señales y pistas; la calle de 190px pertenece únicamente a las alternativas históricas. El documento exterior no debe desbordarse.
 
-Servicios amplía el recorrido físico con un pasillo fotográfico horizontal de siete puertas y un directorio sobre papel. En escritorio el directorio dispone cuatro columnas, tres entre 701 y 1100px; hasta 700px pasa bajo la escena y usa una columna. Las oficinas conservan una ficha desplazable de papel en la zona inferior, con persona, escritorio, monograma y gráfico visibles en la escena. En móvil la etapa fotográfica de oficina mide 390px y la ficha continúa debajo dentro del scroll de la vista. El gráfico sale de la pared y reaparece como inserto de ancho completo dentro de esa ficha: no se elimina ni cubre a la persona. El pasillo móvil conserva un tramo fotográfico de 340px con desplazamiento horizontal manual y directorio legible debajo.
+Servicios muestra cuatro puertas por galería, con fotografía de proporción 1.6:1, rótulos anclados a las cuatro puertas y placa de orientación pequeña. En escritorio la foto cubre la vista bajo la cabecera; selector y directorio desplegable permanecen arriba. Entre 701 y 1100px se compactan placa, directorio y etiquetas. Hasta 700px, la vista desplaza internamente bajo la cabecera fija: placa, controles, fotografía completa, cuatro enlaces nombrados en dos columnas y ocupación. La foto tiene altura `100vw / 1.6` y mínimo de 200px; los cuatro marcadores numéricos siguen sobre sus puertas. El documento exterior permanece inmóvil, también en 320×568. El antiguo pasillo horizontal de siete puertas, su directorio de cuatro/tres/una columnas y su franja móvil de 340px son referencias históricas sustituidas.
+
+Las oficinas conservan una ficha desplazable de papel en la zona inferior, con persona, escritorio, monograma y gráfico visibles en la escena. En móvil la etapa fotográfica de oficina mide 390px y la ficha continúa debajo dentro del scroll de la vista. El gráfico sale de la pared y reaparece como inserto de ancho completo dentro de esa ficha: no se elimina ni cubre a la persona.
 
 ## Elevation & Depth
 
@@ -201,9 +236,13 @@ Las calles interiores y la nueva panorámica conservan el desplazamiento horizon
 
 La entrada y salida entre escenas físicas usan animación nativa de zoom/fundido de 580ms con `cubic-bezier(.16,1,.3,1)`. La entrada parte del centro de la fachada o puerta activada; el retorno al padre usa una retirada visual. Una nueva navegación cancela las animaciones anteriores antes de resolver el destino. Con movimiento reducido se sustituye por opacidad de 140ms. Este gesto amplía los espacios físicos y conserva el viaje mesa ↔ campus de 900ms. Volver directamente de una sala o lectura a la mesa, y redimensionar estando en ella, restablece la cámara del fondo al centro CSS para evitar zonas vacías.
 
+El cambio entre galerías usa salida de 160ms con `ease-in` y entrada de 360ms con `cubic-bezier(.16,1,.3,1)`, con fundido y zoom leve de la escena. El estado predeterminado es visible; nuevas navegaciones cancelan las animaciones anteriores. Con movimiento reducido cambia de galería inmediatamente, sin animación de cámara. Las puertas de galería usan sombra suave `0 5px 14px #12314b40`, ampliada a `0 7px 18px #12314b50` en hover; el directorio desplegado usa `0 8px 22px #482c2038`.
+
 ## Shapes
 
 El acceso «Explorar la universidad» y el regreso son texto transparente, sin caja ni borde de presentación; su sombra clara ayuda a separarlos de la fotografía. El contorno de foco visible por teclado sigue disponible. Los tablones de habitación tienen 5px de radio, el directorio sobre pared 2px y el papel móvil 3px. Las señales de fachada y puerta usan 8px. Las esquinas son suaves y discretas: controles, señalética y paneles usan los radios registrados arriba. El panel general baja a 8px en móvil. El folio y las puertas conservan la silueta de papel; los avatares y flechas son circulares. Los iconos son SVG de línea con geometría consistente. Los índices y las materias se presentan como filas, sin elevar cada elemento como una tarjeta independiente.
+
+Las galerías usan controles y rótulos de esquinas discretas (6px); en móvil los marcadores numéricos pasan a 4px. Son variantes locales de señalización. El azul/tinta indica una sala ocupada y el papel/marrón una disponible; ambos mantienen foco cobre visible y la misma posición arquitectónica.
 
 ## Components
 
@@ -223,13 +262,17 @@ Los siete marcadores de `desk_navigation_layout.py` usan estos centros de fachad
 
 ### Interiores fotográficos
 
-`desk_physical_spaces.py` compone 183 vistas físicas dentro de las 202 vistas preescritas, sin crear nuevas rutas de negocio. La calle usa `assets/calle-academica-inmersiva.webp`; departamentos y vestíbulos de materia comparten `assets/interior-departamento.webp`, una muestra arquitectónica explícita, no una fotografía exclusiva por departamento ni por materia. Deportes, Cultura y Servicios usan sus escenas `interior-deportes.webp`, `interior-cultura.webp` e `interior-servicios.webp`. Estas cinco imágenes nuevas proceden de ImageGen y continúan madera, vidrio, cobre, luz y jardín del campus.
+`desk_physical_spaces.py` compone las escenas físicas dentro del HTML preescrito, sin crear nuevas rutas de negocio. El cierre inicial registraba 183 físicas y 202 vistas totales; aquella ampliación llegó a 265 vistas estáticas; la consolidación vigente deja 63, como se documenta al final de Components. La calle usa `assets/calle-academica-inmersiva.webp`; departamentos y vestíbulos de materia comparten `assets/interior-departamento.webp`, una muestra arquitectónica explícita, no una fotografía exclusiva por departamento ni por materia. Deportes, Cultura y Servicios usan sus escenas `interior-deportes.webp`, `interior-cultura.webp` e `interior-servicios.webp`. Estas cinco imágenes nuevas proceden de ImageGen y continúan madera, vidrio, cobre, luz y jardín del campus.
 
 `interior-aula.webp`, `interior-biblioteca.webp`, `interior-auditorio.webp` e `interior-cafeteria.webp` restauran las cuatro fotografías del primer prototipo mediante copia byte a byte, sin retoque. Librería utiliza la fotografía de biblioteca con su propia identidad y opciones de muestra. `interiores-assets.json` y los sidecars conservan prompts exactos, referencias, fuentes, conversiones y hashes de los recursos restaurados. La escena canónica del campus, el RGB original de la mesa, las máscaras y las fotografías de los tres artículos permanecen intactos.
 
 ### Salitas de Servicios
 
-`services.css` se añade a los estilos interiores y `desk_service_rooms.py` compone pasillo y siete destinos estáticos. Tres salas contienen las fichas recibidas —análisis de datos, interpretación de suelos y asesoramiento satelital—; las otras cuatro explicitan que falta recibir su ficha. Las puertas azules numeradas se relacionan con el directorio de nombres completos. Los números identifican salas, no establecen un nuevo recurso decorativo para toda la maqueta. Los retornos conservan salita → pasillo → campus.
+`services.css` conserva las oficinas; `service-galleries.css` y `service-galleries.js` concretan la entrada actual. `desk_service_rooms.py`, integrado mediante `desk_physical_spaces.py` y `build-desk-development.py`, genera la galería y sus destinos en `campus.html`. Tres fichas recibidas ocupan las salas 01–03 —monitoreo satelital, suelos y fertilización, análisis de datos— y cinco salas quedan disponibles. Los otros cuatro servicios previstos sin ficha mantienen sus rutas en «Otros servicios previstos» del directorio; no ocupan salas. El anterior pasillo de siete puertas pertenece a la fase histórica.
+
+La capacidad mínima es ocho salas, repartidas en dos galerías de cuatro. La ocupación llena primero las vacantes; solo al estar todas ocupadas añade otra galería de cuatro. Retirar un ocupante libera su sala y conserva toda la capacidad. El número de galerías no exige nuevas fotografías: `assets/galeria-servicios-continuacion.webp` muestra un giro sin puertas remotas; solo la última usa `assets/galeria-servicios-final.webp`, con cristalera fija al jardín. Ambas mantienen cámara y posiciones de puerta. `galerias-servicios-assets.json` y los JSON adyacentes registran prompts, fuentes y conversión; las nuevas placas no cambian mesa, campus ni decoración de oficinas.
+
+Los números identifican salas; el nombre completo aparece en el rótulo de escritorio, el directorio y los cuatro enlaces bajo la foto móvil. Selector, anterior/siguiente, directorio y flechas de teclado permiten recorrer las galerías. Entrar en una sala ocupada, disponible o de ejemplo y volver conserva su galería de origen, también desde el directorio. Las vacantes llevan a «Tu servicio aquí», con solicitud explícitamente inerte. El modo separado `?demo=galerias` permite añadir/retirar ejemplos, probar veinte ocupantes y restablecer el estado inicial exclusivamente en memoria; los servicios de ejemplo se identifican como ficticios. No es autogestión persistente ni configuración de oficinas.
 
 Las tres fotografías nuevas muestran atención tras un escritorio y jardín, con la misma madera, vidrio y luz del campus. `servicios-assets.json` conserva la procedencia y prompts de los tres fondos ImageGen. Personas, monogramas y gráficos se identifican como muestras y no representan proveedores contratados. Los diagramas son ilustraciones sin datos reales: barras de resultados/cultivo o estratos de suelo, sobre papel y con «Ilustración de muestra». En escritorio permanecen sobre la pared; hasta 700px se muestran dentro de la ficha, tras su introducción. Este traslado conserva su presencia y legibilidad en 390 y 320px sin duplicarlos en escritorio.
 
@@ -247,17 +290,17 @@ La panorámica admite flechas de teclado, Inicio y Fin cuando su contenedor tien
 
 ### Puertas y recursos
 
-Cada una de las 56 materias tiene un vestíbulo y dos salas separadas, Aula y Biblioteca. Los enlaces azules se sitúan sobre puertas físicas reconocibles e incluyen icono, título y explicación breve en escritorio. Sus destinos son escenas estáticas reales dentro de la maqueta, sin reproducción, matrícula ni gestión de recursos funcionales. Los recursos se presentan como filas o fichas editoriales, con etiqueta de ejemplo cuando corresponde. Se conservan tres artículos reales de Hernán con los títulos, autoría, fotografías originales y cuerpos adaptados de la propuesta anterior; no se atribuyen nuevos artículos técnicos al cliente.
+Cada una de las 52 materias actuales tiene un vestíbulo y dos salas separadas, Aula y Biblioteca. Los enlaces azules se sitúan sobre puertas físicas reconocibles e incluyen icono, título y explicación breve en escritorio. Sus destinos son escenas estáticas reales dentro de la maqueta, sin reproducción, matrícula ni gestión de recursos funcionales. Los recursos se presentan como filas o fichas editoriales, con etiqueta de ejemplo cuando corresponde. Se conservan los tres artículos iniciales y las incorporaciones recibidas, hasta 28 artículos únicos, con atribuciones y figuras documentadas; no se atribuyen textos inventados al cliente.
 
 ### Conversación y cuenta
 
 La conversación está integrada bajo la lectura: comentarios, respuesta anidada, invitación de acceso, área de escritura ilustrativa, aviso de respuestas y ejemplo desplegable de moderación pendiente. Las acciones Responder, Me resulta útil, Reportar, Editar y Eliminar son etiquetas de muestra. No ejecutan operaciones.
 
-Los botones de negocio están desactivados; los campos de texto son de solo lectura y las casillas están desactivadas. No existen elementos `form`, envíos, cuentas, autenticación, persistencia, API, pagos ni notificaciones funcionales. Perfil, guardados, resultados de búsqueda, cursos, productos y eventos son estados de ejemplo. La búsqueda anterior sigue siendo una muestra de solo lectura. El único script del navegador realiza presentación: fragmentos, foco, índice responsivo, movimiento horizontal y el viaje reversible de escena. `design/scripts/build-desk-development.py`, `design/scripts/desk_navigation_layout.py` y `design/scripts/desk_physical_spaces.py` generan el HTML al preparar la maqueta local, sin ejecutarse en el navegador.
+Los botones de negocio están desactivados; los campos de texto son de solo lectura y las casillas están desactivadas. No existen elementos `form`, envíos, cuentas, autenticación, persistencia, API, pagos ni notificaciones funcionales. Perfil, guardados, resultados de búsqueda, cursos, productos y eventos son estados de ejemplo. La búsqueda anterior sigue siendo una muestra de solo lectura. Los scripts del navegador realizan presentación: fragmentos, foco, índice responsivo, movimiento horizontal, viaje reversible y composición de las galerías. La simulación separada de Servicios mantiene ocupación únicamente en memoria. `design/scripts/build-desk-development.py`, `design/scripts/desk_navigation_layout.py` y `design/scripts/desk_physical_spaces.py` generan el HTML al preparar la maqueta local, sin ejecutarse en el navegador.
 
 ### Estado documentado y evidencia
 
-La transcripción en `estructura.json` conserva siete espacios principales, ocho ramas académicas y 56 materias terminales, con Producción Vegetal, Producción Animal y Avicultura explícitas. Biblioteca es un agregador común sin materias inventadas. «Cultivos» y «Otras producciones» son agrupaciones visuales. Las normalizaciones y la repetición de Aula/Biblioteca según los mensajes del cliente quedan registradas allí y en el README.
+La transcripción vigente en `estructura.json` conserva siete espacios principales, ocho ramas académicas y 52 materias, con Producción Vegetal, Producción Animal y Avicultura explícitas. Biblioteca es un agregador común sin materias inventadas. «Cultivos» y «Otras producciones» son agrupaciones visuales. Las normalizaciones y la repetición de Aula/Biblioteca según los mensajes del cliente quedan registradas allí y en el README.
 
 La revisión histórica anterior, conservada en `.impeccable/review/html-proposals/desarrollo/finish-review.md`, registró **SHIP**, sin cambios de producto requeridos para aquella fase. En esa fase se inspeccionaron 36 capturas finales: escritorio/móvil de mesa, calle, índice, mixta, materia, comentarios, departamento, auditorio, campus, lectura, aula, acceso y perfil; guía completa en ambos tamaños; y mesa, calle, mixta y comentarios en tablet y móvil corto. Las resoluciones base son 1440×960, 390×844, 1024×768 y 320×568.
 
@@ -307,9 +350,9 @@ Aquella fase conservó **202 vistas estáticas, 219 identificadores únicos, sie
 
 La evidencia actual está en `campus-perspectiva/final/`, `motion-checks.json` y `facade-check.json`: cámara alineada, dos regresos limpios, siete lugares, 202 vistas, 219 identificadores, nueva fotografía cargada y ausencia de desbordamiento exterior. Se conservan las 56 materias y los tres artículos originales. La procedencia registra **diez rásteres y ningún origen ausente**; los 26 avisos heredados del detector mantienen su carácter orientativo global. El cierre no amplía la revisión a contenidos o interiores académicos ni autoriza publicar, desplegar o hacer push.
 
-### Revisión vigente: entradas e interiores físicos
+### Revisión anterior: entradas e interiores físicos
 
-La evidencia actual está en `.impeccable/review/html-proposals/campus-interiores/`. `finish-review.md` inspeccionó individualmente 45 capturas válidas: 41 extremos en cinco tamaños y cuatro fotogramas intermedios reales de animación nativa pausada. Solicitó únicamente M1, el solapamiento de dos rótulos en la calle a 1280×720. Una corrección acotada de ancho responsivo y ajuste de líneas conserva nombres, flechas y asociación con fachadas. `verdict-pass.md` registra **ship**, con M1 resuelto: separación positiva de **17.89px** y preservación responsiva en las capturas revisadas. El pase se limita a esa corrección, sin una nueva auditoría general.
+La evidencia de aquella fase está en `.impeccable/review/html-proposals/campus-interiores/`. `finish-review.md` inspeccionó individualmente 45 capturas válidas: 41 extremos en cinco tamaños y cuatro fotogramas intermedios reales de animación nativa pausada. Solicitó únicamente M1, el solapamiento de dos rótulos en la calle a 1280×720. Una corrección acotada de ancho responsivo y ajuste de líneas conserva nombres, flechas y asociación con fachadas. `verdict-pass.md` registra **ship**, con M1 resuelto: separación positiva de **17.89px** y preservación responsiva en las capturas revisadas. El pase se limita a esa corrección, sin una nueva auditoría general.
 
 `behavior.json` registra todas las parejas de las 56 materias, las ocho ramas y siete departamentos, recorridos/retornos, comentarios, regreso sticky y controles inertes en escritorio y móvil. `entry-motion.json` conserva cuatro puntos intermedios, teclado Inicio/Fin y 12 rutas con movimiento reducido. Se mantienen **202 vistas, 183 físicas, 219 identificadores únicos, 56 materias, 112 salas y tres artículos originales**. La procedencia registra **19 rásteres y ningún origen ausente**; los 43 avisos del detector comparan tipografía, paleta y radios con el sistema global heredado y siguen siendo orientativos. Este cierre permite la revisión local de la extensión, sin afirmar aprobación del cliente, aprobación de su arquitectura de información, publicación o certificación exhaustiva de accesibilidad/rendimiento.
 
@@ -359,11 +402,39 @@ Artículos 22 y 23 amplían el contenido local con cambio climático/mejoramient
 
 Artículo 21 incorpora «La mosca blanca (Bemisia tabaci) y el ajonjolí», de Hernán E. Laurentin y Carlos Pereira. Entomología y Producción Vegetal / Oleaginosas enlazan la misma lectura y conversación; se conservan 3192 palabras del cuerpo, seis figuras originales y la referencia de portada. Sin cambios de diseño; comprobación de contenido y navegación en escritorio y móvil en `.impeccable/review/html-proposals/articulo-21/`.
 
-La ampliación conserva la identidad de propuesta 5 y suma el pasillo de siete puertas, tres fichas completas y cuatro salas pendientes, junto al artículo «Apps en el agro» en Ingeniería / Agricultura de precisión. El estado actual contiene **28 artículos únicos, 263 vistas estáticas y 52 materias**. Estos recuentos sustituyen los históricos anteriores; no cambian sus decisiones ni la conservación de las cinco propuestas. `desk_service_rooms.py` y `desk_manual_rooms.py` solo actúan en autoría; el navegador conserva navegación y presentación sin CMS, lógica de servicio, backend ni publicación. El contrato específico es `.impeccable/surfaces/servicios-salitas.md`; el PRODUCT.md global sigue describiendo el antiguo LMS y no gobierna este alcance.
+Aquella ampliación conservó la identidad de propuesta 5 y sumó el pasillo de siete puertas, tres fichas completas y cuatro salas pendientes, junto al artículo «Apps en el agro» en Ingeniería / Agricultura de precisión. Su estado contenía **28 artículos únicos, 263 vistas estáticas y 52 materias**. Estos recuentos corresponden a esa fase histórica; no cambian sus decisiones ni la conservación de las cinco propuestas. `desk_service_rooms.py` y `desk_manual_rooms.py` solo actúan en autoría; el navegador conserva navegación y presentación sin CMS, lógica de servicio, backend ni publicación. El contrato específico es `.impeccable/surfaces/servicios-salitas.md`; el PRODUCT.md global sigue describiendo el antiguo LMS y no gobierna este alcance.
 
 La evidencia está en `.impeccable/review/html-proposals/servicios-salitas/final/` y `browser.json`: destinos de Servicios, tres oficinas, sala pendiente, Apps, Librería, manual y Biblioteca porcina en 1440×960, 390×844 y 320×568, con fragmentos válidos, contactos inertes y sin desbordamiento exterior en las comprobaciones registradas. La procedencia documenta **85 rásteres y cero orígenes ausentes**. Los 28 avisos del detector comparan con valores globales históricos de tipografía, paleta y radios; son orientativos y no fallos mecánicos del alcance.
 
 `finish-review.md` pidió únicamente M1: conservar el gráfico de cada oficina en móvil. El inserto dentro de la ficha resuelve esa omisión. `verdict-pass.md` registra **ship**, exclusivamente para revisión local: el revisor reabrió los 18 PNG originales y las seis capturas adicionales de gráficos móviles. El pase cubre M1 y sus regresiones inmediatas sobre esas 24 capturas; no es una nueva auditoría general ni revisión del manual o de Librería. La evidencia adicional de esos destinos no amplía el veredicto independiente. No equivale a aprobación del cliente ni certificación exhaustiva de accesibilidad y no autoriza publicación, despliegue ni push.
+
+### Revisión anterior: galerías de Servicios · 27/11/2026
+
+`.impeccable/review/html-proposals/servicios-galerias/finish-review.md` registra **ship**, sin correcciones materiales pendientes, para esta extensión local precisa del mundo aprobado. No hubo nueva identidad, torneo ni comp separada; el contrato vigente es `.impeccable/surfaces/servicios-galerias.md` y el gate histórico del LMS rechazado queda fuera del alcance.
+
+Estado de aquella fase: **265 vistas estáticas, 52 materias y 28 artículos únicos**. La evidencia suministrada en `final/` reúne 28 PNG (siete estados en 1440×960, 1024×768, 390×844 y 320×568) y `browser.json`; `accessibility.json` registra teclado, movimiento reducido y procedencia de **107 rásteres, cero orígenes ausentes**. Las comprobaciones de capacidad cubren 8→12→20→24, vacantes tras retirar ocupantes, directorio, selector, retorno a la misma galería, terminación correcta y cabecera fija con scroll interior móvil. El revisor inspeccionó la evidencia existente, sin repetir navegador ni detector. Los avisos de colores literales, tipografía y radios son orientativos para esta variante acotada; no justifican refactorizar la identidad heredada.
+
+La aprobación conserva las fotografías nuevas, cuatro puertas visibles, dos terminaciones compatibles, oficinas intactas y simulación ficticia en memoria. No constituye revisión de todos los interiores ni certificación exhaustiva de accesibilidad, y no autoriza publicar, desplegar ni hacer push.
+
+### Revisión vigente: navegación unificada · 27/11/2026
+
+El contrato `.impeccable/surfaces/unified-experience.md` rige este refinamiento preciso de la propuesta 5. Conserva fotografías, mobiliario, papel, azul mineral y fuentes locales; Auditorio y Cafetería no cambian. `experience.css` y `experience.js`, junto a `desk_unified_experience.py`, consolidan el HTML generado: **63 vistas estáticas, 150 identificadores únicos, 52 opciones de materia y 28 lectores canónicos**. Las antiguas rutas de materia, Biblioteca y Aula se resuelven como alias; no son salas duplicadas. Las reglas históricas de navegación anteriores quedan subordinadas a esta sección, incluidas sus entradas conservadas en Do's and Don'ts y en el sidecar. El PRODUCT y gate globales pertenecen al LMS rechazado.
+
+**The Same Folio Rule.** Artículos, Vídeos y Guardados comparten la misma composición de índice lateral y detalle grande dentro de la mesa: cada pestaña usa `.folio-sheet`, con índice del 34.5% y lectura en el espacio restante, y el mismo índice desplegable en móvil. Elegir en cada índice actualiza el detalle y conserva pestaña y selección en memoria; solo «Leer artículo completo» abre la lectura completa. Al regresar desde un guardado se restaura ese guardado seleccionado. El retorno sticky es transparente, sin caja blanca. Guardados y los dos vídeos existentes están identificados como muestras, sin persistencia ni reproducción real. La mesa retira los botones de edificios y conserva «Explorar la universidad», también accesible desde el paisaje. Campus conserva una sola entrada «Ir a un lugar», los accesos sobre edificios y el regreso; desaparecen «Consultar por temas» y la barra inferior de destinos.
+
+**The Shared Catalogue Rule.** Cada departamento selecciona materia y, cuando procede, categoría dentro de la misma escena. La fila seleccionada usa cobre, peso fuerte y un fondo de papel más oscuro; las categorías se anidan bajo ella. Las dos puertas parten cerradas: Biblioteca se activa al elegir materia; Aula solo cuando hay un vídeo de muestra correspondiente. Las flechas de puerta apuntan arriba. Las flechas de la placa recorren los siete departamentos y restablecen la selección. Una Biblioteca y una Aula comparten filtros de departamento, materia, categoría, tipo y acceso, modificables y limpiables; Notas técnicas, Manuales, Libros y Vídeos actúan como filtros. Librería / `#libreria` es el mismo catálogo filtrado por pago. El único manual recibido conserva autoría y precio (US$ 20,00), con compra inerte. Deportes y Cultura permiten un desplegable abierto por grupo; los criterios de recursos y escenario pendientes de Hernán constan en el inicio de revisión, sin mensajes enviados.
+
+El catálogo conserva filas editoriales sobre papel y foco cobre. Los selectores y pestañas de tipo tienen un mínimo de 44px; los filtros usan tres columnas, dos si hay categoría y dos hasta 700px. En móvil la escena fotográfica mide 230px y el folio fluye debajo. La corrección de legibilidad mantiene **el mismo** `../assets/desk-page-material.png` como `border-image` de grosor fijo: `40 45 fill / 24px 12px 20px / 0 stretch`, bordes superior/lateral/inferior de 24/12/20px y padding interior `16px 8px 22px`. El inicio del contenido queda a 40px del borde superior, independiente del número de resultados; el estado de 31 recursos conserva ese margen. No estirar el ráster de encuadernación a la altura completa de listas largas ni convertir este arreglo local en un nuevo material global.
+
+Servicios conserva mínimo ocho salas, cuatro por galería, crecimiento por cuatro, vacantes físicas y oficinas intactas. El directorio reúne una sola entrada «Disponible». Se retiran selector de galería, contador de ocupación y letrero de final. La indicación central de avance lleva flecha arriba; el regreso queda debajo con flecha abajo. El fondo translúcido y difuminado es una petición expresa: `#fff8eb80`, `blur(9px)` y sombra `0 8px 25px #482c2020`; el avance usa 18px de radio y 190px de ancho, reducidos a 12px y 148px hasta 700px. Esta excepción funcional de pasillo no sustituye el resto de materiales. La simulación sigue separada y únicamente en memoria.
+
+Evidencia en `.impeccable/review/html-proposals/unified-experience/`: `finish-review.md` inspeccionó las 44 capturas iniciales y señaló solo M1, rótulos móviles sobre el borde oscuro del libro. `verdict-pass.md` marca **ship**, con M1 resuelto tras inspeccionar diez PNG de recaptura de catálogo en 390×844 y 320×568; se añadieron tres estados pequeños a la evidencia final. El pase puntúa esa corrección y sus regresiones inmediatas, sin nueva auditoría general. `functional.json` registra recorridos de escritorio/móvil, alias, 28 lectores, identificadores únicos, fragmentos válidos, cabecera sin desplazamiento, controles inertes y ausencia de overflow exterior o errores del navegador; `keyboard-reduced-motion.json` pasa. Los 18 avisos del detector sobre tipografía, color y radios siguen siendo orientativos, sin fallos duros; no se repitió el detector. No se introducen rásteres, CMS, almacenamiento ni backend. **Cierre solo local: no publicar, desplegar ni hacer push; el checkout publicado permanece en `bdd9552`.**
+
+### Ajuste vigente: tres pestañas con índice y detalle · 27/11/2026
+
+El contrato `.impeccable/surfaces/mesa-three-tabs.md` completa la regla del mismo folio: Vídeos y Guardados reutilizan el índice lateral y el detalle grande de Artículos, sin rediseñar esta última pestaña. La vista previa de vídeo amplía su imagen existente y conserva reproducción desactivada y leyenda de muestra. `desk_unified_experience.py`, `experience.js`, `experience.css` y `navigation.js` mantienen tres índices responsivos, selección por pestaña solo en memoria y los guardados de muestra de `payload.savedArticles`. No se añaden motores ni recursos gráficos; siguen vigentes **63 vistas, 52 opciones de materia y 28 lectores**.
+
+La evidencia `.impeccable/review/html-proposals/mesa-three-tabs/` reúne 16 PNG en cuatro tamaños y `functional.json`, con selección de dos vídeos y dos guardados, conservación de pestaña y regreso al guardado seleccionado. `finish-review.md` registra **ship**, sin correcciones; los 16 avisos del detector son orientativos, sin fallos duros. Williams autorizó expresamente publicar este estado el 27/11/2026: «vale de resto perfecto. Publica y dime cuando esté». Esa publicación queda pendiente de ejecución; esta actualización documental no la realiza ni afirma su finalización. La autorización es específica para este estado y no sustituye la preferencia local para cambios posteriores.
 
 ## Do's and Don'ts
 
@@ -387,6 +458,8 @@ La evidencia está en `.impeccable/review/html-proposals/servicios-salitas/final
 - **Do** tratar el vestíbulo compartido como muestra arquitectónica y mantener los estados de ausencia de material explícitos.
 - **Do** conservar en Servicios persona, jardín, identidad y gráfico de muestra; trasladar el gráfico a la ficha móvil para que siga legible sin invadir la escena.
 - **Do** identificar contactos, personas, monogramas y diagramas de Servicios como muestras; conservar las fichas ausentes y la compra de manual como estados explícitos e inertes.
+- **Do** conservar cuatro puertas por galería, las vacantes y la capacidad al retirar ocupantes; reservar la cristalera para la última galería.
+- **Do** mantener la fotografía completa y los cuatro marcadores móviles junto a sus cuatro enlaces nombrados, bajo cabecera fija con scroll interior.
 
 ### Don't:
 
@@ -398,6 +471,7 @@ La evidencia está en `.impeccable/review/html-proposals/servicios-salitas/final
 - **Don't** interpretar «SHIP FOR LOCAL REVIEW» como autorización para publicar.
 - **Don't** convertir comentarios, cuenta, guardados, búsqueda, pagos o notificaciones en funciones reales.
 - **Don't** añadir CMS, servicios de datos, formularios de envío o almacenamiento del navegador.
+- **Don't** presentar los servicios de ejemplo como proveedores reales ni convertir `?demo=galerias` en gestión persistente; veinte es un escenario de prueba, no un límite de capacidad.
 - **Don't** incorporar caminos de aprendizaje, progreso o exámenes a este desarrollo.
 - **Don't** registrar Mixta como una decisión aprobada ni extender esta guía local al diseño global.
 - **Don't** sustituir los interiores por páginas ordinarias de tarjetas ni presentar el vestíbulo compartido como fotografía única de cada departamento.

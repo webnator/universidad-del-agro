@@ -34,7 +34,7 @@
  }
  function focusView(view,anchor){
   if(anchor==='comentarios'){const c=view.querySelector('.comments');c?.scrollIntoView({block:'start'});c?.querySelector('h2')?.setAttribute('tabindex','-1');c?.querySelector('h2')?.focus({preventScroll:true});}
-  else (usingKeyboard&&view.id==='campus'?view.querySelector('.return-to-desk'):usingKeyboard&&view.id==='mesa'?view.querySelector('.explore-campus'):view.querySelector('h1'))?.focus({preventScroll:true});
+  else (usingKeyboard&&view.id==='campus'?view.querySelector('.return-to-desk'):usingKeyboard&&view.id==='mesa'?view.querySelector('.explore-campus'):(view.querySelector('[data-desk-panel]:not([hidden]) h1')||view.querySelector('h1')))?.focus({preventScroll:true});
   updateStreet(view);
   updatePanorama();
   updateAcademicWalk();
@@ -72,10 +72,13 @@
   Promise.all(spaceAnimations.map(a=>a.finished)).then(()=>{if(epoch===spaceEpoch){spaceAnimations=[];settle(view,anchor);}}).catch(()=>{});
  }
  function show(){
-  const raw=decodeURIComponent(location.hash.slice(1)||'mesa');
+  let raw=decodeURIComponent(location.hash.slice(1)||'mesa');
+  const canonical=window.agroExperience.resolve(raw);if(canonical!==raw){history.replaceState(null,'','#'+canonical);raw=canonical;}
   if(raw==='main-content'){document.querySelector('.view:not([hidden]) h1')?.focus();return;}
-  const [requested,anchor]=raw.split('--');
+  const [requested,...parts]=raw.split('--'),anchor=parts[0];
   const view=document.getElementById(requested)?.classList.contains('view')?document.getElementById(requested):document.getElementById('mesa');
+  window.agroExperience.prepare(view,parts);
+  if(initialized&&destination===view.id&&!world.classList.contains('is-travelling')&&!world.classList.contains('is-entering-space')){document.title=((view.querySelector('[data-desk-panel]:not([hidden]) h1')||view.querySelector('h1'))?.textContent||'Mesa de lectura')+' · Universidad Virtual del Agro';return;}
   const previous=destination,previousView=document.getElementById(previous),pair=initialized&&((previous==='mesa'&&view.id==='campus')||(previous==='campus'&&view.id==='mesa'));
   const spatialPair=initialized&&!pair&&((previous==='campus'&&view.dataset.physical)||(previousView?.dataset.physical&&(view.dataset.physical||view.id==='campus')));
   spaceEpoch++;spaceAnimations.forEach(a=>a.cancel());spaceAnimations=[];world.classList.remove('is-entering-space');
@@ -86,7 +89,7 @@
   if(view.id==='campus'&&previous==='mesa'&&travel===0)centerPanorama();
   document.querySelectorAll('.site-header a').forEach(a=>{a.removeAttribute('aria-current');if(a.getAttribute('href')==='#'+view.id)a.setAttribute('aria-current','page');});
   if(!(previous==='campus'&&view.id==='mesa'))view.querySelectorAll('.paper-panel,.reading-sheet,.folio-sheet,.folio-reading,.folio-index').forEach(e=>e.scrollTop=0);
-  document.title=(view.querySelector('h1')?.textContent||'Mesa de lectura')+' · Universidad Virtual del Agro';
+  document.title=((view.querySelector('[data-desk-panel]:not([hidden]) h1')||view.querySelector('h1'))?.textContent||'Mesa de lectura')+' · Universidad Virtual del Agro';
   if(view.id==='academica-mixta'){const index=view.querySelector('.dept-index'),chosen=index.querySelector('.selected'),street=view.querySelector('.street-scroll'),house=street.querySelector('a[href="#depto-suelos"]');index.scrollLeft=chosen.offsetLeft-index.offsetLeft-(index.clientWidth-chosen.clientWidth)/2;street.scrollLeft=house.offsetLeft-street.clientWidth/2;}
   if(pair&&!reduced.matches)journey(view,anchor);
   else{
@@ -103,9 +106,10 @@
  document.addEventListener('keydown',e=>{if(['Tab','ArrowLeft','ArrowRight','Enter',' '].includes(e.key))usingKeyboard=true;});
  document.addEventListener('pointerdown',()=>usingKeyboard=false);
  document.addEventListener('click',e=>{
-  const facade=e.target.closest('.panorama-place,.walk-building,.physical-door');
+  const facade=e.target.closest('.panorama-place,.walk-building,.physical-door,.gallery-room-door');
   if(facade){const b=facade.getBoundingClientRect(),w=world.getBoundingClientRect();entryOrigin=(b.left+b.width/2-w.left)/w.width*100+'% '+(b.top+b.height/2-w.top)/w.height*100+'%';}
   else entryOrigin='50% 55%';
+  e.target.closest('.panorama-directory a')?.closest('details').removeAttribute('open');
   e.target.closest('.walk-directory a')?.closest('details').removeAttribute('open');
   const walkStep=e.target.closest('[data-walk-step]');
   if(walkStep){academicWalk.scrollBy({left:Number(walkStep.dataset.walkStep)*academicWalk.clientWidth*.72,behavior:reduced.matches?'instant':'smooth'});return;}
@@ -128,7 +132,7 @@
  academicWalk?.addEventListener('focusin',e=>{const place=e.target.closest('.walk-building');if(place){const edge=place.offsetLeft-place.offsetWidth/2;if(edge<academicWalk.scrollLeft||edge+place.offsetWidth>academicWalk.scrollLeft+academicWalk.clientWidth)academicWalk.scrollTo({left:place.offsetLeft-academicWalk.clientWidth/2,behavior:reduced.matches?'instant':'smooth'});}});
  addEventListener('hashchange',show);addEventListener('resize',()=>{updateStreet(document.getElementById(destination));if(destination==='campus')centerPanorama();if(destination==='mesa'&&!world.classList.contains('is-travelling'))world.style.removeProperty('--campus-camera-x');updatePanorama();updateAcademicWalk();});
  reduced.addEventListener('change',()=>{if(frame||spaceAnimations.length){cancelAnimationFrame(frame);frame=0;spaceEpoch++;spaceAnimations.forEach(a=>a.cancel());spaceAnimations=[];const target=document.getElementById(destination);progress(destination==='campus'||target.dataset.physical?1:0);settle(target);}});
- const index=document.querySelector('.home-view .folio-index');index.open=innerWidth>1000;matchMedia('(min-width:1001px)').addEventListener('change',e=>index.open=e.matches);
+ const indexes=[...document.querySelectorAll('.home-view .folio-index')];indexes.forEach(index=>index.open=innerWidth>1000);matchMedia('(min-width:1001px)').addEventListener('change',e=>indexes.forEach(index=>index.open=e.matches));
  show();
  const scenery=['../assets/reading-terrace.webp','assets/terraza-original-mobile.webp','assets/mesa-foreground-desktop.png','assets/mesa-foreground-mobile.png','assets/campus-pabellones-perspectiva.webp','assets/terraza-marco-desktop.png','assets/terraza-marco-mobile.png','assets/calle-academica-inmersiva.webp','assets/interior-departamento.webp','assets/interior-deportes.webp','assets/interior-cultura.webp','assets/interior-servicios.webp','assets/interior-auditorio.webp','assets/interior-biblioteca.webp','assets/interior-cafeteria.webp','assets/interior-aula.webp'];
  Promise.all([document.fonts.ready,...scenery.map(src=>{const i=new Image();i.src=src;return i.decode().catch(()=>{});})]).then(()=>document.documentElement.dataset.ready='true');

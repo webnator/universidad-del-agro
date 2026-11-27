@@ -6,7 +6,17 @@ La propuesta elegida es la mesa de lectura dentro de la universidad. Esta carpet
 
 **Trabajo local únicamente.** No publicar, desplegar ni hacer push hasta que Williams lo pida expresamente.
 
-## Publicación actual autorizada · artículos 22–26
+## Galerías de Servicios · revisión local del 27/11/2026
+
+El recorrido de Servicios usa galerías cortas de cuatro puertas y dos fotografías reutilizables del mismo encuadre: continuidad tras un giro y cierre con cristalera al jardín. Ocho salas como mínimo; las tres fichas recibidas ocupan tres y las otras cinco están disponibles. Los servicios previstos sin ficha conservan sus rutas bajo el directorio. La decoración de oficinas permanece como estaba.
+
+La ocupación se compone a partir del listado incorporado al HTML. La vista normal se abre en `campus.html#servicios`; `campus.html?demo=galerias#servicios` habilita controles de muestra para añadir, retirar, probar veinte servicios y restablecer. Se ocupan primero las salas libres y, al agotarlas, se añade una galería de cuatro. Retirar un servicio libera su sala y conserva la capacidad. Solo la última galería tiene cierre: la anterior cambia automáticamente a continuidad.
+
+La simulación vive exclusivamente en memoria y se reinicia al recargar. No hay CMS, backend, almacenamiento ni solicitudes reales. Los 28 artículos, sus comentarios de muestra, el manual, el campus y la mesa se conservan. 265 vistas estáticas más la composición visual del pasillo. Esta revisión no se ha publicado; las autorizaciones de artículos anteriores no se extienden a ella. El trabajo posterior continúa en local salvo nueva petición expresa.
+
+La revisión independiente de las galerías quedó en **ship**, limitada a revisión local, sin correcciones materiales. Evidencia y 28 capturas en `.impeccable/review/html-proposals/servicios-galerias/` desde la raíz; dictamen en `finish-review.md`. Comprobados ocho, doce, veinte y veinticuatro espacios, regreso a la misma galería, plazas vacías, movimiento reducido y cuatro tamaños de pantalla.
+
+## Publicación anterior autorizada · artículos 22–26
 
 Williams ha pedido añadir el último envío y publicarlo. El correo «Artículo 24 - 25 y 26» incorpora tres textos de Ganadería Porcina: clasificación de explotaciones, bienestar animal y fumonisinas. Se publican junto a los artículos de cambio climático/mejoramiento genético y caudofagia que habían quedado en local. La versión reúne **28 artículos únicos, 263 vistas estáticas y 52 materias**, con los autores, texto, fotos, diagramas y tablas recibidos. Los dos triángulos de bienestar se renderizan desde el PDF original para conservar las formas de Word y sus etiquetas.
 
@@ -152,3 +162,17 @@ La entrada y salida de los espacios se acompaña de zoom y fundido de580ms; la m
 Revisión local actual: `http://127.0.0.1:49212/desarrollo/campus.html?rev=interiores3#campus`. Solo HTML estático: no se han creado motores de comentarios, cuentas, pagos ni servicios. Las alternativas académicas anteriores se conservan como historia de revisión y no son la entrada actual. Fuentes de autoría: `../../scripts/desk_physical_spaces.py` y los scripts existentes. Evidencia: `.impeccable/review/html-proposals/campus-interiores/`.
 
 Verificación del recorrido físico:202vistas estáticas,219identificadores únicos y183vistas con calle/interior, sin enlaces rotos. Se comprueban las56materias y sus dos puertas, agrupaciones, recorrido completo y retornos, comentarios de muestra, formas inertes y vuelta a la mesa en escritorio/móvil. Hay41capturas de extremos en cinco tamaños y4puntos medios reales de animación. Teclado Home/End y12recorridos con movimiento reducido también pasan. Revisión independiente: `finish-review.md` pidió separar dos rótulos en portátil; `verdict-pass.md` deja M1 resuelto con17,89px de separación y disposición **ship**, limitada a la corrección y la revisión local.
+
+## Revisión local de navegación · 27/11/2026
+
+Mesa única con avances de artículos, vídeos y guardados; selección inline de materia/categoría en el departamento y puertas condicionadas al contenido de muestra; flechas entre departamentos; Biblioteca y Aula compartidas con filtros modificables; Librería abre la Biblioteca filtrada por pago. Las rutas antiguas se conservan como alias. Deportes y Cultura tienen acordeones exclusivos; quedan pendientes los criterios editoriales de Hernán anotados en la página de revisión. Campus y Servicios eliminan controles redundantes según feedback. Volver a la mesa conserva su posición sticky en el detalle y pierde el fondo blanco.
+
+Todo permanece en HTML local. Los vídeos, guardados y altas/bajas de salas son ejemplos visuales sin persistencia. No se ha publicado esta revisión. Evidencia: `.impeccable/review/html-proposals/unified-experience/`.
+
+La versión unificada genera 63 vistas estáticas; las 52 materias y categorías se seleccionan dentro de las escenas compartidas. Se conservan 28 lecturas completas y el manual recibido. La revisión independiente pidió corregir el borde del catálogo en móvil; `unified-experience/verdict-pass.md` registra esa corrección como resuelta. El dictamen es para revisión local y no autoriza publicación.
+
+## Publicación autorizada · navegación y tres pestañas · 27/11/2026
+
+Williams autoriza publicar la versión revisada completa. Vídeos y Guardados conservan ahora la misma barra lateral y detalle grande de Artículos; seleccionar una entrada actualiza el detalle dentro de su pestaña. En móvil, las tres pestañas comparten el índice desplegable. El artículo completo abierto desde Guardados regresa a esa selección. Los dos vídeos y los dos guardados siguen siendo muestras sin reproducción ni almacenamiento.
+
+La validación específica cubre las tres composiciones en cuatro tamaños, selección de las dos entradas, apertura/regreso al artículo y ausencia de errores o desbordamiento exterior. Evidencia local: `.impeccable/review/html-proposals/mesa-three-tabs/`. Esta autorización se aplica a esta publicación; las siguientes iteraciones vuelven a revisarse en local.
